@@ -54,6 +54,7 @@ class Toplayici(osmium.SimpleHandler):
         self.fab = osmium.geom.GeoJSONFactory()
         self.il, self.ilce = [], []
         self.hatali = []
+        self.eski = []
 
     def area(self, a):
         t = a.tags
@@ -61,6 +62,10 @@ class Toplayici(osmium.SimpleHandler):
             return
         lvl = t.get("admin_level")
         if lvl not in ("4", "6"):
+            return
+        # kullanımdan kalkmış / tarihî kayıtlar
+        if any(k.k.startswith(("disused:", "was:", "abandoned:", "old_boundary")) for k in t) or "end_date" in t:
+            self.eski.append({"osm_id": a.orig_id(), "ad": t.get("name", "")})
             return
         try:
             g = shape(json.loads(self.fab.create_multipolygon(a)))
@@ -74,6 +79,7 @@ class Toplayici(osmium.SimpleHandler):
             "ad": t.get("name:tr") or t.get("name") or "",
             "wikidata": t.get("wikidata", ""),
             "iso": t.get("ISO3166-2", ""),
+            "etiket_sayisi": len(t),
             "geom": g,
         }
         (self.il if lvl == "4" else self.ilce).append(kayit)
@@ -164,6 +170,47 @@ def main():
             k["geom"] = kirp(k["geom"], agac, parcalar)
         kirpildi = True
 
+    # --- İlçe çakışmaları: mükerrer/eski kayıtları ayıkla, kısmi çakışmaları raporla ---
+    # Aynı ildeki iki ilçe kesişiyorsa kesişim alanı küçük olanın alanına oranlanır.
+    #  >= %90 : küçük olan, büyüğün içinde kalan mükerrer ya da eski bir ilişkidir; çıkarılır.
+    #  >  0,5 km² ya da > %1 : kısmi çakışma; yayın durdurulur (yayinla.mjs).
+    cikarilan, cakisma = [], []
+    ag = STRtree([k["geom"] for k in ilceler])
+    sil = set()
+    for i, k in enumerate(ilceler):
+        if i in sil or k["geom"].is_empty:
+            continue
+        for j in ag.query(k["geom"]):
+            j = int(j)
+            if j <= i or j in sil or ilceler[j]["il_kodu"] != k["il_kodu"]:
+                continue
+            m = ilceler[j]
+            kes = k["geom"].intersection(m["geom"])
+            if kes.is_empty or kes.area == 0:
+                continue
+            kes = poligonlar(kes)
+            if kes.is_empty:
+                continue
+            kucuk, buyuk, ki, bi = (k, m, i, j) if k["geom"].area <= m["geom"].area else (m, k, j, i)
+            oran = kes.area / kucuk["geom"].area
+            kes_km2 = jeodezik_alan_km2(kes)
+            if oran >= 0.9:
+                # Neredeyse aynı büyüklükteyse (eşdeğer kayıtlar) hangisinin güncel olduğuna etiketlerle karar ver:
+                # Wikidata bağlantısı olan, sonra etiketi çok olan tutulur; karar verilemezse çakışma sayılır.
+                ayni = kucuk["geom"].area / buyuk["geom"].area > 0.95
+                if ayni:
+                    pk = (bool(kucuk["wikidata"]), kucuk["etiket_sayisi"]); pb = (bool(buyuk["wikidata"]), buyuk["etiket_sayisi"])
+                    if pk == pb:
+                        cakisma.append({"il_kodu": k["il_kodu"], "ilce_1": k["ad"], "ilce_2": m["ad"], "kesisim_km2": round(kes_km2, 3), "oran": round(oran, 4), "not": "eşdeğer iki kayıt; hangisinin güncel olduğu belirlenemedi"})
+                        continue
+                    if pk > pb:  # küçük görünen daha güvenilir: büyüğü çıkar
+                        kucuk, buyuk, ki, bi = buyuk, kucuk, bi, ki
+                sil.add(ki)
+                cikarilan.append({"il_kodu": k["il_kodu"], "ilce": kucuk["ad"], "osm_id": kucuk["osm_id"], "icinde_kaldigi": buyuk["ad"], "icinde_kaldigi_osm_id": buyuk["osm_id"], "oran": round(oran, 4)})
+            elif kes_km2 > 0.5 or oran > 0.01:
+                cakisma.append({"il_kodu": k["il_kodu"], "ilce_1": k["ad"], "ilce_2": m["ad"], "kesisim_km2": round(kes_km2, 3), "oran": round(oran, 4)})
+    ilceler = [k for i, k in enumerate(ilceler) if i not in sil]
+
     # --- Alanlar ve denetim ---
     for k in iller + ilceler:
         k["alan_km2"] = round(jeodezik_alan_km2(k["geom"]), 3) if not k["geom"].is_empty else 0.0
@@ -196,12 +243,17 @@ def main():
         "il_disinda_kalan_ilce": disarida, "bos_kalan_ilce": bos,
         "kirik_iliski": t.hatali[:50], "kirik_iliski_sayisi": len(t.hatali),
         "kiyidan_kirpildi": kirpildi, "kapsama_uyumsuz": kapsama,
+        "cikarilan_mukerrer_ilce": cikarilan, "ilce_cakismasi": cakisma, "eski_kayit_suzuldu": t.eski[:50],
         "kaynak": "© OpenStreetMap katkıcıları, ODbL 1.0",
     }
     with open(os.path.join(a.cikti, "derleme.json"), "w", encoding="utf-8") as f:
         json.dump(rapor, f, ensure_ascii=False, indent=1)
     print(json.dumps({k: rapor[k] for k in ("veri_tarihi", "il_sayisi", "ilce_sayisi", "il_disinda_kalan_ilce", "kirik_iliski_sayisi", "kiyidan_kirpildi")}, ensure_ascii=False))
     print("Kapsama uyumsuz il:", len(kapsama))
+    for c in cikarilan:
+        print("Mükerrer ilçe çıkarıldı:", c["il_kodu"], c["ilce"], "osm", c["osm_id"], "→", c["icinde_kaldigi"], "içinde (%{:.1f})".format(c["oran"] * 100))
+    for c in cakisma:
+        print("İlçe çakışması:", c["il_kodu"], c["ilce_1"], "/", c["ilce_2"], c["kesisim_km2"], "km²")
 
 
 if __name__ == "__main__":

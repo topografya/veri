@@ -29,6 +29,7 @@ const hatalar = [];
 if (rapor.il_sayisi !== ESIK.il) hatalar.push(`İl sayısı ${rapor.il_sayisi} (beklenen ${ESIK.il})`);
 if (rapor.ilce_sayisi < ESIK.ilceMin || rapor.ilce_sayisi > ESIK.ilceMax) hatalar.push(`İlçe sayısı ${rapor.ilce_sayisi} (beklenen ${ESIK.ilceMin}–${ESIK.ilceMax})`);
 if ((rapor.kapsama_uyumsuz || []).length) hatalar.push('İlçeleri ilin alanını karşılamayan iller: ' + rapor.kapsama_uyumsuz.map((k) => `${k.il_kodu} ${k.il_adi} (${(k.oran * 100).toFixed(2)}%)`).join(', '));
+if ((rapor.ilce_cakismasi || []).length) hatalar.push('Kısmi çakışan ilçeler: ' + rapor.ilce_cakismasi.map((c) => `${c.il_kodu} ${c.ilce_1}/${c.ilce_2} (${c.kesisim_km2} km²)`).join(', '));
 const adsiz = ilceHam.features.filter((f) => !f.properties.ilce_adi).length;
 if (adsiz) hatalar.push(`${adsiz} ilçenin adı yok`);
 if (hatalar.length && !process.env.ESIK_YOKSAY) { console.error('YAYIN DURDURULDU:\n- ' + hatalar.join('\n- ')); process.exit(1); }
@@ -63,6 +64,12 @@ function ilOzellik(topo) {
 
 const ayrintili = await seviye(30, '');
 const sade = await seviye(500, '-sade');
+for (const [ad, katman] of [['ayrıntılı', ayrintili.ilce], ['sade', sade.ilce]]) {
+  const obj = katman.objects[Object.keys(katman.objects)[0]];
+  const var_ = new Set(obj.geometries.filter((g) => g.type).map((g) => String(g.properties.osm_id)));
+  const kayip = ilceHam.features.filter((f) => !var_.has(String(f.properties.osm_id))).map((f) => `${f.properties.il_kodu} ${f.properties.ilce_adi} (osm ${f.properties.osm_id})`);
+  if (kayip.length && !process.env.ESIK_YOKSAY) { console.error(`YAYIN DURDURULDU: ${ad} katmanda geometrisi kaybolan ilçe: ${kayip.join(', ')}`); process.exit(1); }
+}
 yazJson('il.topo.json', ilOzellik(ayrintili.il));
 yazJson('il-sade.topo.json', ilOzellik(sade.il));
 yazJson('ilce-sade.topo.json', sade.ilce);

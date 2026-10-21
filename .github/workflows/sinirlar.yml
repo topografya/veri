@@ -85,12 +85,14 @@ jobs:
         run: node scripts/sinirlar/test/denetle.mjs build/sinirlar
 
       - name: Derleme raporunu sakla
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: sinirlar-${{ github.run_id }}
           path: |
             build/ham/derleme.json
             build/sinirlar/ozet.json
+          if-no-files-found: ignore
           retention-days: 90
 
       - name: Yayınla (yayin dalı + sürüm etiketi)

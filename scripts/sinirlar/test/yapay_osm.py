@@ -62,7 +62,12 @@ for gy in range(9):
             for sx in range(4):
                 i, j = gx * 4 + sx, gy * 3 + sy
                 rid[0] += 1
-                rels.append((rid[0], hucre_yollari(i, j, i + 1, j + 1), {'boundary': 'administrative', 'admin_level': '6', 'type': 'boundary', 'name': 'İlçe %s-%d%d' % (kod, sx, sy)}))
+                rels.append((rid[0], hucre_yollari(i, j, i + 1, j + 1), {'boundary': 'administrative', 'admin_level': '6', 'type': 'boundary', 'name': 'İlçe %s-%d%d' % (kod, sx, sy), 'wikidata': 'Q%d' % (500000 + il_no * 100 + sx * 10 + sy)}))
+# mükerrer (eski) ilçe ilişkisi: 48 nolu ilin ilk ilçesiyle aynı sınır (ayıklanmalı)
+eski = [r for r in rels if r[2].get('name') == 'İlçe 48-00'][0]
+rid[0] += 1; rels.append((rid[0], list(eski[1]), {'boundary': 'administrative', 'admin_level': '6', 'type': 'boundary', 'name': 'Eski ilçe 48'}))
+# kullanımdan kalkmış işaretli ilişki (en baştan süzülmeli)
+rid[0] += 1; rels.append((rid[0], list(eski[1]), {'boundary': 'administrative', 'admin_level': '6', 'type': 'boundary', 'name': 'Kapanmış ilçe', 'end_date': '2012'}))
 # komşu ülke birimi (süzülmeli) ve il dışında ilçe (süzülmeli)
 ga = yeni_nokta(20.0, 39.0); gb = yeni_nokta(21.0, 39.0); gc = yeni_nokta(21.0, 40.0); gd = yeni_nokta(20.0, 40.0)
 wid[0] += 1; ways.append((wid[0], [ga, gb, gc, gd, ga]))
