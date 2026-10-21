@@ -1,0 +1,35 @@
+# Hat betiklerinin denetimi: her değişiklikte yapay veriyle uçtan uca çalıştırılır (gerçek veri indirilmez).
+name: Denetim
+
+on:
+  push:
+    paths: ["scripts/**", ".github/workflows/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  yapay-veri:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: |
+          pip install -q osmium==4.0.2 shapely==2.0.6 pyproj==3.7.0 pyshp==2.3.1
+          npm ci --prefix scripts/sinirlar
+      - name: Yapay OSM verisi üret
+        run: python scripts/sinirlar/test/yapay_osm.py /tmp/yapay.osm /tmp/kara
+      - name: Derle
+        run: python scripts/sinirlar/derle.py /tmp/yapay.osm /tmp/ham --kara /tmp/kara.shp --tarih 2026-01-01
+      - name: Yayın dosyaları
+        run: node scripts/sinirlar/yayinla.mjs /tmp/ham /tmp/sinirlar
+      - name: Denetle
+        run: node scripts/sinirlar/test/denetle.mjs /tmp/sinirlar --yapay

@@ -1,0 +1,17 @@
+{
+  "name": "topografya-sinirlar",
+  "private": true,
+  "type": "module",
+  "description": "Türkiye il ve ilçe sınırları yayın hattı (OSM, ODbL)",
+  "dependencies": {
+    "mapshaper": "0.6.102"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@turf/area": "^7.2.0",
+    "@turf/helpers": "^7.2.0",
+    "@turf/intersect": "^7.2.0",
+    "@turf/union": "^7.2.0",
+    "topojson-client": "^3.1.0"
+  }
+}

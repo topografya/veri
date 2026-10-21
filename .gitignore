@@ -1,0 +1,7 @@
+node_modules/
+build/
+girdi/
+kara/
+yayin/
+__pycache__/
+*.pyc

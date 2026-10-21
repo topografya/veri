@@ -1,0 +1,133 @@
+# Türkiye il ve ilçe sınırları: OpenStreetMap'ten aylık derleme ve yayın
+# Veri yayın dalına (yayin) yazılır ve sürüm etiketiyle (vYYYY.A.N) işaretlenir.
+# Siteler dosyaları jsDelivr üzerinden çeker:
+#   https://cdn.jsdelivr.net/gh/topografya/veri@latest/sinirlar/ozet.json
+name: Sınırlar (aylık)
+
+on:
+  schedule:
+    - cron: "17 3 3 * *"   # her ayın 3'ü, 03:17 UTC
+  workflow_dispatch:
+    inputs:
+      esik_yoksay:
+        description: "Kalite eşiklerini yok say (yalnız inceleme için; yayın yapılmaz)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sinirlar
+  cancel-in-progress: false
+
+jobs:
+  derle:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      UA: "topografya-veri/1.0 (+https://github.com/topografya/veri)"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Araçları kur
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q osmium-tool
+          pip install -q osmium==4.0.2 shapely==2.0.6 pyproj==3.7.0 pyshp==2.3.1
+          npm ci --prefix scripts/sinirlar
+
+      - name: Kara poligonları (önbellek, aylık)
+        id: kara
+        uses: actions/cache@v4
+        with:
+          path: kara
+          key: kara-${{ github.run_id }}
+          restore-keys: kara-
+
+      - name: Kara poligonlarını indir (önbellekte yoksa ya da 60 günden eskiyse)
+        run: |
+          if [ ! -f kara/land-polygons-split-4326/land_polygons.shp ] || [ $(( ( $(date +%s) - $(stat -c %Y kara/land-polygons-split-4326/land_polygons.shp) ) / 86400 )) -gt 60 ]; then
+            rm -rf kara && mkdir -p kara
+            curl -fsSL -A "$UA" -o kara/kara.zip https://osmdata.openstreetmap.de/download/land-polygons-split-4326.zip
+            unzip -q kara/kara.zip -d kara && rm kara/kara.zip
+          fi
+          ls -la kara/land-polygons-split-4326/
+
+      - name: OSM Türkiye verisini indir ve doğrula
+        run: |
+          mkdir -p girdi
+          curl -fsSL -A "$UA" -o girdi/turkey.osm.pbf https://download.geofabrik.de/europe/turkey-latest.osm.pbf
+          curl -fsSL -A "$UA" -o girdi/turkey.osm.pbf.md5 https://download.geofabrik.de/europe/turkey-latest.osm.pbf.md5
+          (cd girdi && sed 's/turkey-latest.osm.pbf/turkey.osm.pbf/' turkey.osm.pbf.md5 | md5sum -c -)
+          osmium fileinfo -g header.option.osmosis_replication_timestamp girdi/turkey.osm.pbf | tee girdi/zaman.txt
+
+      - name: İdari sınırları süz
+        run: osmium tags-filter girdi/turkey.osm.pbf r/boundary=administrative -o girdi/idari.osm.pbf --overwrite
+
+      - name: Derle (il ve ilçe poligonları, kıyıdan kırpma, jeodezik alan)
+        run: |
+          TARIH=$(cut -c1-10 girdi/zaman.txt)
+          python scripts/sinirlar/derle.py girdi/idari.osm.pbf build/ham --kara kara/land-polygons-split-4326/land_polygons.shp --tarih "$TARIH"
+
+      - name: Yayın dosyaları (topoloji korunarak sadeleştirme)
+        env:
+          ESIK_YOKSAY: ${{ inputs.esik_yoksay && '1' || '' }}
+        run: node scripts/sinirlar/yayinla.mjs build/ham build/sinirlar
+
+      - name: Bağımsız denetim
+        run: node scripts/sinirlar/test/denetle.mjs build/sinirlar
+
+      - name: Derleme raporunu sakla
+        uses: actions/upload-artifact@v4
+        with:
+          name: sinirlar-${{ github.run_id }}
+          path: |
+            build/ham/derleme.json
+            build/sinirlar/ozet.json
+          retention-days: 90
+
+      - name: Yayınla (yayin dalı + sürüm etiketi)
+        if: ${{ !inputs.esik_yoksay }}
+        run: |
+          set -e
+          TARIH=$(cut -c1-10 girdi/zaman.txt)
+          Y=$(echo "$TARIH" | cut -c1-4); A=$((10#$(echo "$TARIH" | cut -c6-7)))
+          git fetch --tags --force
+          N=0; while git rev-parse -q --verify "refs/tags/v$Y.$A.$N" >/dev/null; do N=$((N+1)); done
+          SURUM="v$Y.$A.$N"
+          echo "Sürüm: $SURUM"
+
+          rm -rf yayin && mkdir yayin
+          cp -r build/sinirlar yayin/sinirlar
+          cp LISANS.md yayin/LISANS.md
+          cp scripts/sinirlar/YAYIN-BENIOKU.md yayin/README.md
+          sed -i "s/{{SURUM}}/$SURUM/g; s/{{TARIH}}/$TARIH/g" yayin/README.md
+
+          cd yayin
+          git init -q -b yayin
+          git config user.name "topografya-veri[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Sınırlar $SURUM (OSM verisi $TARIH)"
+          git tag -a "$SURUM" -m "Türkiye il ve ilçe sınırları, OSM verisi $TARIH. © OpenStreetMap katkıcıları, ODbL 1.0"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push -q --force origin yayin
+          git push -q origin "$SURUM"
+          cd ..
+
+          # En yeni 6 sürümü tut, eskilerini kaldır (depo boyutu)
+          for t in $(git tag -l 'v*' --sort=-v:refname | tail -n +7); do git push -q origin ":refs/tags/$t" || true; done
+
+          # jsDelivr önbelleğini yenile
+          for f in ozet.json il.topo.json il-sade.topo.json ilce-sade.topo.json; do
+            curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@latest/sinirlar/$f" >/dev/null || true
+          done
+          echo "### Yayınlandı: $SURUM" >> $GITHUB_STEP_SUMMARY
+          echo "OSM verisi $TARIH · https://cdn.jsdelivr.net/gh/${{ github.repository }}@$SURUM/sinirlar/ozet.json" >> $GITHUB_STEP_SUMMARY
