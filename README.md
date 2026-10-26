@@ -50,3 +50,16 @@ Veri: **© OpenStreetMap katkıcıları**, [ODbL 1.0](https://opendatacommons.or
     python scripts/sinirlar/derle.py /tmp/yapay.osm /tmp/ham --kara /tmp/kara.shp
     node scripts/sinirlar/yayinla.mjs /tmp/ham /tmp/sinirlar
     node scripts/sinirlar/test/denetle.mjs /tmp/sinirlar --yapay
+
+## Türkiye nüfus ve demografi göstergeleri (TÜİK)
+
+TÜİK Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) sonuçlarından il ve ilçe göstergeleri; ilçeler yukarıdaki sınırlarla `osm_id` üzerinden eşleştirilmiştir.
+
+| Dosya | İçerik |
+|---|---|
+| `nufus/gostergeler.json` | Türkiye ve 81 il: 2007–2025 nüfus, artış hızı (‰), ortanca yaş (toplam/erkek/kadın), yaş bağımlılık oranları, 0–14 ve 65+ oranı, cinsiyet oranı, 2008–2025 ortalama hanehalkı büyüklüğü, merkez/belde-köy nüfusu; 973 ilçe: 2024–2025 nüfus, merkez/belde-köy nüfusu, artış hızı, OSM alanı. Türkiye için medeni durum. |
+| `nufus/piramit.json` | Türkiye ve 81 il, 2007–2025, 19 yaş grubu × cinsiyet nüfusu |
+
+**Kaynak:** TÜİK Veri Portalı, Toplu Veri Seti İndirme (CSV): DF_ADNKS_T16, T21, T22, T23, T24, T25, T38. TÜİK verileri kaynak gösterilerek izin gerekmeksizin yeniden kullanılabilir (TÜİK Yasal Uyarı). Atıf: "Kaynak: TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi".
+
+**Üretim:** `scripts/nufus/hazirla.py` (girdi klasörü `NUFUS_HAM`). Denetimler: yaş-cinsiyet toplamı = il nüfusu, ilçe toplamı = il nüfusu, merkez + belde/köy = toplam, her ilin ilçe sayısı OSM ile aynı. 10 ilçede OSM adı TÜİK adından farklıdır (ör. OSM "Panos" / TÜİK "Patnos"); eşleştirme betikte elle tanımlıdır, çıktıda TÜİK adı kullanılır. Artış hızı 2024–2025 için TÜİK tablosundan, önceki yıllar ln(Pt/Pt−1)×1000 ile hesaplanır.
