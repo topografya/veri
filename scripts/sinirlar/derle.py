@@ -25,6 +25,18 @@ from pyproj import Geod
 
 GEOD = Geod(ellps="WGS84")
 TR_BBOX = (25.4, 35.6, 45.0, 42.3)  # boylam/enlem kapsamı (kara + kıyı)
+# OSM adı resmî ilçe adından farklı olan ilçeler (OSM yazım hatası ya da "Merkez" ekinin eksikliği).
+# Resmî ad: TÜİK ADNKS il/ilçe tabloları ve İçişleri Bakanlığı ilçe listesi. OSM'deki ad "osm_ad" özniteliğinde korunur.
+# Anahtar OSM ilişki kimliğidir; kimlik değişirse eşleme sessizce boşa düşer ve aşağıdaki denetim uyarır.
+RESMI_AD = {
+    1780615: "Patnos",          # Ağrı — OSM: Panos
+    1829326: "Nazımiye",        # Tunceli — OSM: Nazmiye
+    1251198: "Balışeyh",        # Kırıkkale — OSM: Balışıh
+    1561850: "Sarıkaya",        # Yozgat — OSM: Sarıkaya Deresi
+    3668268: "Yunusemre",       # Manisa — OSM: Yunus Emre
+    1837141: "Amasya Merkez", 1816280: "Çanakkale Merkez", 1246473: "Siirt Merkez",
+    1804178: "Tokat Merkez", 1609669: "Uşak Merkez", 1251330: "Iğdır Merkez",
+}
 ISO_RE = re.compile(r"^TR-(\d{2})$")
 
 
@@ -76,7 +88,8 @@ class Toplayici(osmium.SimpleHandler):
             g = poligonlar(make_valid(g))
         kayit = {
             "osm_id": a.orig_id(),
-            "ad": t.get("name:tr") or t.get("name") or "",
+            "ad": RESMI_AD.get(a.orig_id()) or t.get("name:tr") or t.get("name") or "",
+            "osm_ad": t.get("name:tr") or t.get("name") or "",
             "wikidata": t.get("wikidata", ""),
             "iso": t.get("ISO3166-2", ""),
             "etiket_sayisi": len(t),
@@ -217,6 +230,10 @@ def main():
     bos = [k["ad"] for k in ilceler if k["geom"].is_empty]
     ilceler = [k for k in ilceler if not k["geom"].is_empty]
     ilceler.sort(key=lambda k: (k["il_kodu"], k["ad"]))
+    kimlikler = {k["osm_id"] for k in ilceler}
+    for oid, ad in RESMI_AD.items():
+        if oid not in kimlikler:
+            print("UYARI: resmî ad eşlemesi boşa düştü (OSM kimliği yok):", oid, ad, file=sys.stderr)
 
     kapsama = []
     for il in iller:
