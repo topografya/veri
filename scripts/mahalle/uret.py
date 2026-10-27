@@ -6,7 +6,8 @@ Her TÜİK mahalle/köyü bir özelliktir:
   - OSM'de sınırı varsa çokgen (ilçe sınırıyla kırpılır, ~5 m sadeleştirilir),
   - yalnız noktası varsa nokta,
   - ikisi de yoksa geometrisi boş (null) — tabloda yine görünür.
-Özellikler: k (TÜİK kodu), a (ad), t (m: mahalle, k: köy), b (belediye), i (ilçe), n (2025 nüfusu), g (s: sınır, n: nokta, -: yok), o (OSM kimliği)
+Özellikler: k (TÜİK kodu), a (ad), t (m: mahalle, k: köy), b (belediye), i (ilçe), n (2025 nüfusu), g (s: sınır, n: nokta, -: yok), o (OSM kimliği);
+sınırlılarda ayrıca c (çokgen içinde temsil noktası [boylam, enlem]) ve km2 (jeodezik alan)
 Kalite: aynı ilçedeki sınırların çakışması ve ilçe dışına taşan sınırlar kalite.json'a yazılır.
 
 Kullanım: uret.py <yer.osm.pbf> <ilce-ham.geojson> <eslesme.csv> <osm_zaman.txt> <çıktı klasörü>
@@ -78,9 +79,13 @@ def main():
                     ilce_poligon[k].append((g, r, len(il_ozellik[k])))
             else:
                 g, tip = raw, "n"
-        il_ozellik[k].append({"type": "Feature", "geometry": yuvarla(mapping(g)) if g is not None else None,
-                                "properties": {"k": int(r["tuik_kod"]), "a": r["ad"], "t": "m" if r["tur"] == "mahalle" else "k", "b": r["belediye"],
-                                               "i": r["ilce"], "n": int(r["nufus_2025"]), "g": tip, "o": r["osm"] or None}})
+        pr = {"k": int(r["tuik_kod"]), "a": r["ad"], "t": "m" if r["tur"] == "mahalle" else "k", "b": r["belediye"],
+              "i": r["ilce"], "n": int(r["nufus_2025"]), "g": tip, "o": r["osm"] or None}
+        if tip == "s":
+            rp = g.representative_point()  # nüfus dairesinin konumu (çokgenin içinde)
+            pr["c"] = [round(rp.x, HASSAS), round(rp.y, HASSAS)]
+            pr["km2"] = round(kapsam_alan(g), 3)
+        il_ozellik[k].append({"type": "Feature", "geometry": yuvarla(mapping(g)) if g is not None else None, "properties": pr})
 
     # Kalite: aynı ilçede birbirine %5'ten fazla binen sınırlar
     cakisma, noktaya = [], set()
@@ -106,6 +111,7 @@ def main():
         f = il_ozellik[k][fi]
         f["geometry"] = yuvarla(mapping(g.representative_point()))
         f["properties"]["g"] = "n"
+        f["properties"].pop("c", None); f["properties"].pop("km2", None)
 
     ozet = {"surum": 2, "osm_tarihi": osm_tarih, "tuik": "TÜİK ADNKS 2025 (MEDAS, belediye/köy/mahalle nüfusları)",
             "kaynak": {"sinir_nokta": "© OpenStreetMap katkıcıları, ODbL 1.0", "nufus": "TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi, 2025"},
@@ -134,6 +140,13 @@ def main():
     eb = max(hepsi, key=lambda c: c["bayt"])
     print("ilçe dosyası:", len(hepsi), "toplam boyut: %.1f MB" % (sum(c["bayt"] for c in hepsi) / 1e6), "en büyük:", eb["ad"], eb["bayt"])
     print("çakışan sınır çifti:", len(cakisma), "ilçe dışına taşan:", len(tasan))
+
+
+def kapsam_alan(g):
+    """Jeodezik alan, km² (WGS84)."""
+    from pyproj import Geod
+    a, _ = Geod(ellps="WGS84").geometry_area_perimeter(g)
+    return abs(a) / 1e6
 
 
 def kapsam_poligon(g):
