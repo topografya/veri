@@ -135,11 +135,12 @@ def main():
             disarida += 1
             continue
         o["ilce"] = k
-        osm_ilce[k][norm(o["ad"])].append(o)
+        if norm(o["ad"]):  # yalnız "Mahalle" gibi eklerden oluşan adlar eşleştirmeye girmez
+            osm_ilce[k][norm(o["ad"])].append(o)
 
     # Eşleştirme: aynı ilçede, aynı ad anahtarı. Önce poligon, yoksa nokta. Bir OSM öğesi tek birime verilir.
     kullanildi = set()
-    satirlar = []
+    satirlar, satir_sonuc = [], []
     sayac = collections.defaultdict(lambda: collections.Counter())
     for b in birimler:
         k = b["anahtar"]
@@ -161,6 +162,45 @@ def main():
         s[sonuc] += 1
         s[sonuc + "_nufus"] += b["nufus"]
         satirlar.append([b["tur"], b["kod"], b["il"], b["ilce"], b["belediye"], b["ad"], b["nufus"], sonuc, osm, kaynak])
+        satir_sonuc.append(sonuc)
+
+    # İkinci geçiş (yalnız güvenli ad kuralları, iki yanda da tekil aday): "Kurtuluş (Horsunlu) Mah." → "Kurtuluş" ya da "Horsunlu";
+    # "Ortakent Merkez Mah." → "Ortakent". Önek/sonek benzerliği (Sarımsak/Sarımsaklı, Çiğiltepe/Çiğiltepe Yaylası) yanlış eşleştirdiği için kullanılmaz.
+    def ek_anahtarlar(ad):
+        out = []
+        dis = norm(re.sub(r"\(.*?\)", " ", ad))
+        if "(" in ad and dis:
+            out.append(dis)
+            out += [norm(x) for x in re.findall(r"\((.*?)\)", ad) if norm(x)]
+        mk = norm(re.sub(r"\bmerkez\b", " ", kucuk(ad)))
+        if mk and mk != norm(ad):
+            out.append(mk)
+        return out
+    ikinci = 0
+    bekleyen = collections.defaultdict(list)
+    for i, b in enumerate(birimler):
+        if satir_sonuc[i] == "yok" and b["anahtar"]:
+            for ka in ek_anahtarlar(b["ad"]):
+                bekleyen[(b["anahtar"], ka)].append(i)
+    for (k, ka), idx in bekleyen.items():
+        if len(idx) != 1:
+            continue
+        i = idx[0]
+        if satir_sonuc[i] != "yok":
+            continue
+        adaylar = [o for o in osm_ilce[k].get(ka, []) if o["osm"] not in kullanildi]
+        if len(adaylar) != 1:
+            continue
+        o = adaylar[0]
+        sonuc = "poligon" if o["tip"] == "poligon" else "nokta"
+        kullanildi.add(o["osm"])
+        b = birimler[i]
+        s = sayac[k]
+        s["yok"] -= 1; s["yok_nufus"] -= b["nufus"]; s[sonuc] += 1; s[sonuc + "_nufus"] += b["nufus"]
+        satir_sonuc[i] = sonuc
+        satirlar[i][7:10] = [sonuc, o["osm"], o["kaynak"] + " (ad kuralı)"]
+        ikinci += 1
+    print("ikinci geçişte eşleşen:", ikinci, file=sys.stderr)
 
     # Kullanılmayan OSM öğeleri (ad iyileştirmesi incelemesi için)
     with open(os.path.join(cikti, "osm_kullanilmayan.csv"), "w", newline="", encoding="utf-8") as f:
