@@ -145,6 +145,12 @@ for o in cikti_iller:
 g = d22['Toplam']
 tr = dict(ilseri('TR'), merkez=[g[('İl ve ilçe merkezleri', '2024')], g[('İl ve ilçe merkezleri', '2025')]], koy=[g[('Belde ve köyler', '2024')], g[('Belde ve köyler', '2025')]],
           alan_km2=round(sum(i['alan_km2'] for i in iller), 3))
+# --- T17: Türkiye nüfus yoğunluğu (TÜİK yayını; göl yüzeyleri hariç yüzölçümüyle). İl/ilçede TÜİK yoğunluk tablosu
+# toplu indirmede yok; orada OSM sınır alanı kullanılır (göl ve iç sular dahil, değer TÜİK'ten birkaç % düşük çıkabilir).
+t17, f17 = oku('T17')
+yog = {int(x['Zaman']): sayi(x['Gözlem']) for x in t17 if x['ADNKS Gösterge'] == 'Nüfus yoğunluğu'}
+tr['yogunluk_tuik'] = [round(yog[y], 2) if y in yog else None for y in yillar]
+if abs(tr['yogunluk_tuik'][-1] - 111.96) > 0.01: sys.exit('T17 yoğunluk beklenmedik: %r' % tr['yogunluk_tuik'][-1])
 
 # --- T21: medeni durum (yalnız Türkiye)
 t21, f21 = oku('T21'); medeni = {}
@@ -154,11 +160,11 @@ for x in t21:
 tr['medeni'] = {'yil': yillar[-1], 'deger': medeni}
 
 kaynak = {'kurum': 'Türkiye İstatistik Kurumu (TÜİK)', 'urun': 'Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) Sonuçları', 'portal': 'https://veriportali.tuik.gov.tr/tr/bulk-download',
-          'tablolar': {'T16': f16, 'T21': f21, 'T22': f22, 'T23': f23, 'T24': f24, 'T25': f25, 'T38': f38},
+          'tablolar': {'T16': f16, 'T21': f21, 'T22': f22, 'T23': f23, 'T24': f24, 'T25': f25, 'T38': f38, 'T17': f17},
           'kosul': 'TÜİK verileri kaynak gösterilerek izin gerekmeksizin yeniden kullanılabilir (tuik.gov.tr Yasal Uyarı).',
           'sinir': 'İl ve ilçe sınırları ve alanları: © OpenStreetMap katkıcıları, ODbL 1.0 (topografya/veri). Resmî sınır değildir.',
           'artis_notu': 'Yıllık nüfus artış hızı (‰) = ln(Pt/Pt-1) × 1000. 2024 ve 2025 için TÜİK tablosu (T38) esas alınmıştır; 2008–2023 değerleri il nüfuslarından aynı formülle hesaplanmıştır, sınır değişikliği olan yıllarda TÜİK değerlerinden farklı olabilir.',
-          'alan_notu': 'Yoğunluk, OSM sınırlarından hesaplanan alanla bulunur; TÜİK\'in resmî yüzölçümüyle küçük farklar olabilir.'}
+          'alan_notu': 'Türkiye yoğunluğu TÜİK\'in yayımladığı değerdir (T17; göl yüzeyleri hariç). İl ve ilçe yoğunluğu nüfusun OSM sınır alanına bölünmesiyle bulunur; bu alan göl ve iç suları içerdiğinden değer TÜİK\'in il yoğunluğundan birkaç % düşük çıkabilir.'}
 os.makedirs(CIKTI, exist_ok=True)
 out = {'surum': 1, 'derleme': datetime.date.today().isoformat(), 'kaynak': kaynak, 'yillar': yillar, 'ilce_yillari': [2024, 2025], 'yas_gruplari': YAS, 'tr': tr, 'iller': cikti_iller}
 json.dump(out, open(os.path.join(CIKTI, 'gostergeler.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
