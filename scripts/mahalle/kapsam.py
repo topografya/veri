@@ -162,6 +162,15 @@ def main():
         s[sonuc + "_nufus"] += b["nufus"]
         satirlar.append([b["tur"], b["kod"], b["il"], b["ilce"], b["belediye"], b["ad"], b["nufus"], sonuc, osm, kaynak])
 
+    # Kullanılmayan OSM öğeleri (ad iyileştirmesi incelemesi için)
+    with open(os.path.join(cikti, "osm_kullanilmayan.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["il", "ilce", "tip", "kaynak", "ad", "osm"])
+        for k, d in osm_ilce.items():
+            for lst in d.values():
+                for o in lst:
+                    if o["osm"] not in kullanildi:
+                        w.writerow([k[0], k[1], o["tip"], o["kaynak"], o["ad"], o["osm"]])
     with open(os.path.join(cikti, "eslesme.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["tur", "tuik_kod", "il", "ilce", "belediye", "ad", "nufus_2025", "sonuc", "osm", "osm_kaynak"])
