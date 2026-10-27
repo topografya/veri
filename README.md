@@ -62,4 +62,19 @@ TÜİK Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) sonuçlarından il ve ilçe 
 
 **Kaynak:** TÜİK Veri Portalı, Toplu Veri Seti İndirme (CSV): DF_ADNKS_T16, T21, T22, T23, T24, T25, T38. TÜİK verileri kaynak gösterilerek izin gerekmeksizin yeniden kullanılabilir (TÜİK Yasal Uyarı). Atıf: "Kaynak: TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi".
 
-**Üretim:** `scripts/nufus/hazirla.py`; girdi `scripts/nufus/ham/` (TÜİK Veri Portalı toplu indirmeden alınan özgün CSV dosyaları, 2025 yayını). İlçe adı eşleştirme denetimi: `scripts/nufus/eslestir.py`. Denetimler: yaş-cinsiyet toplamı = il nüfusu, ilçe toplamı = il nüfusu, merkez + belde/köy = toplam, her ilin ilçe sayısı OSM ile aynı. 10 ilçede OSM adı TÜİK adından farklıdır (ör. OSM "Panos" / TÜİK "Patnos"); eşleştirme betikte elle tanımlıdır, çıktıda TÜİK adı kullanılır. Artış hızı 2024–2025 için TÜİK tablosundan, önceki yıllar ln(Pt/Pt−1)×1000 ile hesaplanır.
+**Üretim:** `scripts/nufus/hazirla.py`; girdi `scripts/nufus/ham/` (TÜİK Veri Portalı toplu indirmeden alınan özgün CSV dosyaları, 2025 yayını). İlçe adı eşleştirme denetimi: `scripts/nufus/eslestir.py`. Denetimler: yaş-cinsiyet toplamı = il nüfusu, ilçe toplamı = il nüfusu, merkez + belde/köy = toplam, her ilin ilçe sayısı OSM ile aynı. 10 ilçede adlar otomatik eşleşmez; eşleştirme `hazirla.py` içindeki `ELLE` sözlüğünde elle tanımlıdır, çıktıda TÜİK adı kullanılır:
+
+| İl | TÜİK adı | OSM adı | Neden |
+|---|---|---|---|
+| Amasya | Amasya Merkez | Amasya | "Merkez" eki |
+| Çanakkale | Çanakkale Merkez | Çanakkale | "Merkez" eki |
+| Iğdır | Iğdır Merkez | Iğdır | "Merkez" eki |
+| Siirt | Siirt Merkez | Siirt | "Merkez" eki |
+| Tokat | Tokat Merkez | Tokat | "Merkez" eki |
+| Uşak | Uşak Merkez | Uşak | "Merkez" eki |
+| Ağrı | Patnos | Panos | OSM yazım hatası |
+| Kırıkkale | Balışeyh | Balışıh | OSM yazım farkı |
+| Tunceli | Nazımiye | Nazmiye | OSM yazım farkı |
+| Yozgat | Sarıkaya | Sarıkaya Deresi | OSM sınır adı |
+
+Her eşleşme ilçe sayısı ve ilçe toplamı = il nüfusu denetimleriyle doğrulanır; bir eşleşme bozulursa betik durur. Artış hızı 2024–2025 için TÜİK tablosundan, önceki yıllar ln(Pt/Pt−1)×1000 ile hesaplanır.
