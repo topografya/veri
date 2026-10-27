@@ -1,0 +1,77 @@
+{
+ "cakisan_sinir": [
+  {
+   "il": "Adana",
+   "ilce": "Sarıçam",
+   "a": "Balcalı Mah.",
+   "b": "Remzi Oğuz Arık Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Balcalı Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Kocasinan",
+   "a": "Argıncık Mah.",
+   "b": "Kayabaşı Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Argıncık Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Kocasinan",
+   "a": "Argıncık Mah.",
+   "b": "Fevzioğlu Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Argıncık Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Kocasinan",
+   "a": "Argıncık Mah.",
+   "b": "Talatpaşa Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Argıncık Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Kocasinan",
+   "a": "Argıncık Mah.",
+   "b": "Cırgalan Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Argıncık Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Melikgazi",
+   "a": "Gesi Fatih Mah.",
+   "b": "Gesi Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Gesi Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Pınarbaşı",
+   "a": "Büyükgümüşgün Mah.",
+   "b": "Gümüşgün Mah.",
+   "oran": 1.0,
+   "noktaya_cevrilen": "Gümüşgün Mah."
+  },
+  {
+   "il": "Kayseri",
+   "ilce": "Kocasinan",
+   "a": "Alsancak Mah.",
+   "b": "Argıncık Mah.",
+   "oran": 0.996,
+   "noktaya_cevrilen": "Argıncık Mah."
+  },
+  {
+   "il": "Şanlıurfa",
+   "ilce": "Harran",
+   "a": "Cumhuriyet Mah.",
+   "b": "İbni Teymiye Mah.",
+   "oran": 0.272,
+   "noktaya_cevrilen": null
+  }
+ ],
+ "ilce_disina_tasan": []
+}
