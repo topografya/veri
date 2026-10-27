@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Mahalle ve köy harita verisi: kapsam.py'nin eşleştirmesine (eslesme.csv) göre her il için bir GeoJSON üretir.
+Mahalle ve köy harita verisi: kapsam.py'nin eşleştirmesine (eslesme.csv) göre her ilçe için bir GeoJSON üretir
+(mahalle/<il_kodu>/<ilçe OSM kimliği>.geojson).
 Her TÜİK mahalle/köyü bir özelliktir:
   - OSM'de sınırı varsa çokgen (ilçe sınırıyla kırpılır, ~5 m sadeleştirilir),
   - yalnız noktası varsa nokta,
@@ -40,7 +41,7 @@ def main():
     for f in ilceler:
         p = f["properties"]
         k = (kapsam.norm(p["il_adi"]), kapsam.norm(p["ilce_adi"]))
-        ilce[k] = {"geom": shape(f["geometry"]), "il_kodu": p["il_kodu"], "il_adi": p["il_adi"], "ilce_adi": p["ilce_adi"]}
+        ilce[k] = {"geom": shape(f["geometry"]), "il_kodu": p["il_kodu"], "il_adi": p["il_adi"], "ilce_adi": p["ilce_adi"], "osm_id": p["osm_id"]}
         il_kod[kapsam.norm(p["il_adi"])] = (p["il_kodu"], p["il_adi"])
     il_of = collections.defaultdict(set)
     for k in ilce:
@@ -74,17 +75,15 @@ def main():
                     if kir.area / raw.area < 0.8:
                         tasan.append({"il": r["il"], "ilce": r["ilce"], "ad": r["ad"], "kod": r["tuik_kod"], "osm": r["osm"], "icerde_oran": round(kir.area / raw.area, 3)})
                     g, tip = kir.simplify(SADE, preserve_topology=True), "s"
-                    ilce_poligon[k].append((g, r))
+                    ilce_poligon[k].append((g, r, len(il_ozellik[k])))
             else:
                 g, tip = raw, "n"
-        il_ad = k[0] if k else kapsam.norm(r["il"])
-        kod, ad = il_kod.get(il_ad, ("??", r["il"]))
-        il_ozellik[kod].append({"type": "Feature", "geometry": yuvarla(mapping(g)) if g is not None else None,
+        il_ozellik[k].append({"type": "Feature", "geometry": yuvarla(mapping(g)) if g is not None else None,
                                 "properties": {"k": int(r["tuik_kod"]), "a": r["ad"], "t": "m" if r["tur"] == "mahalle" else "k", "b": r["belediye"],
                                                "i": r["ilce"], "n": int(r["nufus_2025"]), "g": tip, "o": r["osm"] or None}})
 
     # Kalite: aynı ilçede birbirine %5'ten fazla binen sınırlar
-    cakisma = []
+    cakisma, noktaya = [], set()
     for k, lst in ilce_poligon.items():
         gs = [x[0] for x in lst]
         agac = STRtree(gs)
@@ -95,25 +94,45 @@ def main():
                 kes = gi.intersection(gs[j]).area
                 kucuk = min(gi.area, gs[j].area)
                 if kucuk > 0 and kes / kucuk > 0.05:
-                    cakisma.append({"il": lst[i][1]["il"], "ilce": lst[i][1]["ilce"], "a": lst[i][1]["ad"], "b": lst[j][1]["ad"], "oran": round(kes / kucuk, 3)})
+                    buyuk = i if gi.area >= gs[j].area else j
+                    cakisma.append({"il": lst[i][1]["il"], "ilce": lst[i][1]["ilce"], "a": lst[i][1]["ad"], "b": lst[j][1]["ad"], "oran": round(kes / kucuk, 3),
+                                    "noktaya_cevrilen": lst[buyuk][1]["ad"] if kes / kucuk > 0.9 else None})
+                    if kes / kucuk > 0.9:
+                        noktaya.add((k, buyuk))
 
-    ozet = {"surum": 1, "osm_tarihi": osm_tarih, "tuik": "TÜİK ADNKS 2025 (MEDAS, belediye/köy/mahalle nüfusları)",
+    # Başka mahalle sınırlarını içine alan büyük sınır (eski belde/köy sınırı) yerine temsil noktası kullanılır
+    for k, idx in noktaya:
+        g, r, fi = ilce_poligon[k][idx]
+        f = il_ozellik[k][fi]
+        f["geometry"] = yuvarla(mapping(g.representative_point()))
+        f["properties"]["g"] = "n"
+
+    ozet = {"surum": 2, "osm_tarihi": osm_tarih, "tuik": "TÜİK ADNKS 2025 (MEDAS, belediye/köy/mahalle nüfusları)",
             "kaynak": {"sinir_nokta": "© OpenStreetMap katkıcıları, ODbL 1.0", "nufus": "TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi, 2025"},
             "iller": []}
-    for kod in sorted(il_ozellik):
-        fs = il_ozellik[kod]
-        fs.sort(key=lambda f: (f["properties"]["i"], f["properties"]["a"]))
-        yol = os.path.join(cikti, "mahalle", kod + ".geojson")
+    iller = {}
+    for k in sorted(il_ozellik, key=lambda k: (ilce[k]["il_kodu"], ilce[k]["ilce_adi"]) if k in ilce else ("??", str(k))):
+        if k not in ilce:
+            print("UYARI: ilçesi bulunamayan birimler atlandı:", k, len(il_ozellik[k]), file=sys.stderr)
+            continue
+        fs = il_ozellik[k]
+        fs.sort(key=lambda f: f["properties"]["a"])
+        ic = ilce[k]
+        os.makedirs(os.path.join(cikti, "mahalle", ic["il_kodu"]), exist_ok=True)
+        yol = os.path.join(cikti, "mahalle", ic["il_kodu"], str(ic["osm_id"]) + ".geojson")
         with open(yol, "w", encoding="utf-8") as f:
             json.dump({"type": "FeatureCollection", "features": fs}, f, ensure_ascii=False, separators=(",", ":"))
         c = collections.Counter(x["properties"]["g"] for x in fs)
-        ozet["iller"].append({"kod": kod, "ad": next((v[1] for v in il_kod.values() if v[0] == kod), kod), "birim": len(fs), "sinir": c["s"], "nokta": c["n"], "yok": c["-"],
+        il = iller.setdefault(ic["il_kodu"], {"kod": ic["il_kodu"], "ad": ic["il_adi"], "ilceler": []})
+        il["ilceler"].append({"ad": ic["ilce_adi"], "osm_id": ic["osm_id"], "birim": len(fs), "sinir": c["s"], "nokta": c["n"], "yok": c["-"],
                               "nufus": sum(x["properties"]["n"] for x in fs), "bayt": os.path.getsize(yol)})
+    ozet["iller"] = [iller[k] for k in sorted(iller)]
     json.dump(ozet, open(os.path.join(cikti, "mahalle", "ozet.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     kalite = {"cakisan_sinir": sorted(cakisma, key=lambda x: -x["oran"]), "ilce_disina_tasan": sorted(tasan, key=lambda x: x["icerde_oran"])}
     json.dump(kalite, open(os.path.join(cikti, "kalite.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    top = sum(i["bayt"] for i in ozet["iller"])
-    print("iller:", len(ozet["iller"]), "toplam boyut: %.1f MB" % (top / 1e6), "en büyük:", max(ozet["iller"], key=lambda i: i["bayt"])["ad"], max(i["bayt"] for i in ozet["iller"]))
+    hepsi = [c for i in ozet["iller"] for c in i["ilceler"]]
+    eb = max(hepsi, key=lambda c: c["bayt"])
+    print("ilçe dosyası:", len(hepsi), "toplam boyut: %.1f MB" % (sum(c["bayt"] for c in hepsi) / 1e6), "en büyük:", eb["ad"], eb["bayt"])
     print("çakışan sınır çifti:", len(cakisma), "ilçe dışına taşan:", len(tasan))
 
 
