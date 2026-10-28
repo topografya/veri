@@ -128,6 +128,7 @@ jobs:
           cp -r build/sinirlar yayin/sinirlar
           cp -r build/nufus yayin/nufus
           cp -r build/mahalle yayin/mahalle
+          mkdir -p yayin/rapor && cp -r build/rapor yayin/rapor/mahalle && cp girdi/zaman.txt yayin/rapor/mahalle/osm_zaman.txt
           cp LISANS.md yayin/LISANS.md
           cp scripts/sinirlar/YAYIN-BENIOKU.md yayin/README.md
           sed -i "s/{{SURUM}}/$SURUM/g; s/{{TARIH}}/$TARIH/g" yayin/README.md
