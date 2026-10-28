@@ -1,12 +1,15 @@
-# Türkiye il ve ilçe sınırları: OpenStreetMap'ten aylık derleme ve yayın
+# Türkiye il ve ilçe sınırları, nüfus göstergeleri ve mahalle/köy verisi: OpenStreetMap'ten aylık derleme ve yayın.
 # Veri yayın dalına (yayin) yazılır ve sürüm etiketiyle (vYYYY.A.N) işaretlenir.
-# Siteler dosyaları jsDelivr üzerinden çeker:
-#   https://cdn.jsdelivr.net/gh/topografya/veri@latest/sinirlar/ozet.json
-name: Sınırlar (aylık)
+# Araçlar dosyaları denetlenmiş bir sürüm etiketinden jsDelivr üzerinden çeker:
+#   https://cdn.jsdelivr.net/gh/topografya/veri@vYYYY.A.N/sinirlar/ozet.json
+name: Sınırlar ve nüfus (aylık)
 
 on:
   schedule:
     - cron: "17 3 3 * *"   # her ayın 3'ü, 03:17 UTC
+  push:
+    branches: [main]
+    paths: [".github/workflows/sinirlar.yml", "scripts/**"]
   workflow_dispatch:
     inputs:
       esik_yoksay:
@@ -24,7 +27,7 @@ concurrency:
 jobs:
   derle:
     runs-on: ubuntu-24.04
-    timeout-minutes: 90
+    timeout-minutes: 150
     env:
       UA: "topografya-veri/1.0 (+https://github.com/topografya/veri)"
     steps:
@@ -68,8 +71,10 @@ jobs:
           (cd girdi && sed 's/turkey-latest.osm.pbf/turkey.osm.pbf/' turkey.osm.pbf.md5 | md5sum -c -)
           osmium fileinfo -g header.option.osmosis_replication_timestamp girdi/turkey.osm.pbf | tee girdi/zaman.txt
 
-      - name: İdari sınırları süz
-        run: osmium tags-filter girdi/turkey.osm.pbf r/boundary=administrative -o girdi/idari.osm.pbf --overwrite
+      - name: İdari sınırları ve yerleşim yerlerini süz
+        run: |
+          osmium tags-filter girdi/turkey.osm.pbf r/boundary=administrative -o girdi/idari.osm.pbf --overwrite
+          osmium tags-filter girdi/turkey.osm.pbf r/boundary=administrative n/place w/place r/place -o girdi/yer.osm.pbf --overwrite
 
       - name: Derle (il ve ilçe poligonları, kıyıdan kırpma, jeodezik alan)
         run: |
@@ -84,6 +89,18 @@ jobs:
       - name: Bağımsız denetim
         run: node scripts/sinirlar/test/denetle.mjs build/sinirlar
 
+      - name: Nüfus göstergeleri (TÜİK ADNKS; ilçeler yayın sınırlarıyla eşleştirilir)
+        run: SINIR_OZET=build/sinirlar/ozet.json NUFUS_CIKTI=build/nufus python scripts/nufus/hazirla.py
+
+      - name: Mahalle ve köy verisi (TÜİK nüfusu + OSM sınır/nokta)
+        run: |
+          mkdir -p build/rapor
+          python scripts/mahalle/kapsam.py girdi/yer.osm.pbf build/ham/ilce-ham.geojson \
+            scripts/nufus/ham/mahalle/medas_mahalle_2025_toplam.csv scripts/nufus/ham/mahalle/medas_koy_2025_toplam.csv build/rapor
+          python scripts/mahalle/uret.py girdi/yer.osm.pbf build/ham/ilce-ham.geojson build/rapor/eslesme.csv girdi/zaman.txt build
+          mv build/kalite.json build/rapor/kalite.json
+          du -sh build/mahalle build/nufus
+
       - name: Derleme raporunu sakla
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
@@ -92,6 +109,7 @@ jobs:
           path: |
             build/ham/derleme.json
             build/sinirlar/ozet.json
+            build/rapor/
           if-no-files-found: ignore
           retention-days: 90
 
@@ -108,6 +126,8 @@ jobs:
 
           rm -rf yayin && mkdir yayin
           cp -r build/sinirlar yayin/sinirlar
+          cp -r build/nufus yayin/nufus
+          cp -r build/mahalle yayin/mahalle
           cp LISANS.md yayin/LISANS.md
           cp scripts/sinirlar/YAYIN-BENIOKU.md yayin/README.md
           sed -i "s/{{SURUM}}/$SURUM/g; s/{{TARIH}}/$TARIH/g" yayin/README.md
@@ -117,8 +137,8 @@ jobs:
           git config user.name "topografya-veri[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -q -m "Sınırlar $SURUM (OSM verisi $TARIH)"
-          git tag -a "$SURUM" -m "Türkiye il ve ilçe sınırları, OSM verisi $TARIH. © OpenStreetMap katkıcıları, ODbL 1.0"
+          git commit -q -m "Sınırlar, nüfus ve mahalle $SURUM (OSM verisi $TARIH)"
+          git tag -a "$SURUM" -m "Türkiye il ve ilçe sınırları, nüfus ve mahalle verisi, OSM verisi $TARIH. © OpenStreetMap katkıcıları, ODbL 1.0; nüfus: TÜİK ADNKS"
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git push -q --force origin yayin
           git push -q origin "$SURUM"
@@ -128,8 +148,8 @@ jobs:
           for t in $(git tag -l 'v*' --sort=-v:refname | tail -n +7); do git push -q origin ":refs/tags/$t" || true; done
 
           # jsDelivr önbelleğini yenile
-          for f in ozet.json il.topo.json il-sade.topo.json ilce-sade.topo.json; do
-            curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@latest/sinirlar/$f" >/dev/null || true
+          for f in sinirlar/ozet.json sinirlar/il.topo.json sinirlar/il-sade.topo.json sinirlar/ilce-sade.topo.json nufus/gostergeler.json nufus/piramit.json mahalle/ozet.json; do
+            curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@latest/$f" >/dev/null || true
           done
           echo "### Yayınlandı: $SURUM" >> $GITHUB_STEP_SUMMARY
           echo "OSM verisi $TARIH · https://cdn.jsdelivr.net/gh/${{ github.repository }}@$SURUM/sinirlar/ozet.json" >> $GITHUB_STEP_SUMMARY

@@ -19,6 +19,10 @@ Kara poligonları (kıyıdan kırpma için): [osmdata.openstreetmap.de](https://
 
 `nufus/` altındaki nüfus göstergeleri TÜİK Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) sonuçlarından türetilmiştir. **Kaynak: TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi Sonuçları, 2025.** TÜİK verileri, kaynak gösterilerek kullanılabilir ([TÜİK Veri Portalı, Yasal Uyarı](https://veriportali.tuik.gov.tr/)). Türetilmiş oranlar (yoğunluk, yaş grupları, cinsiyet oranı, artış hızı) bize aittir ve TÜİK'in resmî istatistiği değildir; yoğunlukta kullanılan alan OSM sınırından hesaplanır (ODbL). TÜİK verisi ODbL kapsamında değildir; kullanırken TÜİK'i kaynak gösterin.
 
+### Mahalle ve köy verisi (`mahalle/`)
+
+Mahalle ve köy nüfusları TÜİK'tendir (**Kaynak: TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi, 2025**). Sınır ve konum geometrileri OpenStreetMap'ten alınır (**© OpenStreetMap katkıcıları**, ODbL 1.0); birlikte kullanırken iki atfı da gösterin. Sınırlar resmî değildir.
+
 ## Kod
 
 `scripts/` ve `.github/` altındaki betikler MIT lisanslıdır.

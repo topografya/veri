@@ -1,6 +1,6 @@
 # Topografya Açık Veri
 
-[topografya.com.tr](https://topografya.com.tr) araçlarının kullandığı açık coğrafi veriler. Veriler OpenStreetMap'ten otomatik olarak derlenir, denetlenir ve her ay güncellenir.
+[topografya.com.tr](https://topografya.com.tr) araçlarının kullandığı açık coğrafi veriler: il ve ilçe sınırları, nüfus göstergeleri, mahalle ve köy nüfusu. Sınırlar OpenStreetMap'ten, nüfus TÜİK'ten alınır; hepsi her ay `.github/workflows/sinirlar.yml` ile birlikte derlenir, denetlenir ve `yayin` dalına sürüm etiketiyle yazılır.
 
 ## Türkiye il ve ilçe sınırları
 
@@ -21,7 +21,7 @@ Biçim: [TopoJSON](https://github.com/topojson/topojson-specification), WGS84 (E
     https://cdn.jsdelivr.net/gh/topografya/veri@latest/sinirlar/ozet.json
     https://cdn.jsdelivr.net/gh/topografya/veri@v2026.10.0/sinirlar/ilce/06.topo.json
 
-Kalıcı bağlantılar için sürüm etiketini (`@v…`) kullanın; `@latest` en yeni sürümü verir.
+Kalıcı bağlantılar için sürüm etiketini (`@v…`) kullanın; `@latest` en yeni sürümü verir. topografya.com.tr araçları denetlenmiş bir sürüm etiketine bağlıdır; yeni ayın verisi denetlendikten sonra araçlar yeni sürüme geçirilir.
 
 **Öznitelikler:** `il_kodu` (plaka), `il_adi`, `ilce_adi`, `alan_km2` (WGS84 elipsoidi üzerinde jeodezik alan, kıyıdan kırpılmış), `wikidata`, `osm_id`; il katmanında ayrıca `ilce_sayisi`.
 
@@ -78,3 +78,14 @@ TÜİK Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) sonuçlarından il ve ilçe 
 | Yozgat | Sarıkaya | Sarıkaya Deresi | OSM sınır adı |
 
 Her eşleşme ilçe sayısı ve ilçe toplamı = il nüfusu denetimleriyle doğrulanır; bir eşleşme bozulursa betik durur. Artış hızı 2024–2025 için TÜİK tablosundan, önceki yıllar ln(Pt/Pt−1)×1000 ile hesaplanır.
+
+## Mahalle ve köy nüfusu (TÜİK + OpenStreetMap)
+
+| Dosya | İçerik |
+|---|---|
+| `mahalle/ozet.json` | İl ve ilçe listesi; her ilçede birim sayısı, sınırlı/noktalı/geometrisiz birim sayısı, nüfus, dosya boyutu |
+| `mahalle/NN/<ilçe osm_id>.geojson` | Bir ilçenin bütün mahalle ve köyleri: `k` TÜİK kodu, `a` ad, `t` m/k (mahalle/köy), `b` belediye, `i` ilçe, `n` 2025 nüfusu, `g` s/n/- (sınır/nokta/yok), `o` OSM kimliği; sınırlılarda `c` temsil noktası ve `km2` |
+
+**Nüfus:** TÜİK Merkezi Dağıtım Sistemi, ADNKS 2025, belediye, köy ve mahalle nüfusları (32.254 mahalle, 18.183 köy; ham dosyalar `scripts/nufus/ham/mahalle/`). TÜİK mahalle düzeyinde cinsiyet ve yaş yayımlamaz.
+
+**Konum ve sınır:** Her TÜİK birimi aynı ilçe içinde aynı adlı OSM sınırıyla (admin_level 8–10 ya da `place` alanı) eşleştirilir; sınır yoksa OSM noktası, o da yoksa geometrisiz kayıt verilir. Tahmini (Voronoi vb.) sınır üretilmez. Sınırlar resmî değildir. Üretim: `scripts/mahalle/kapsam.py` (eşleştirme ve kapsam raporu), `scripts/mahalle/uret.py` (ilçe dosyaları ve kalite denetimi); raporlar iş akışının çıktı dosyalarında saklanır.
