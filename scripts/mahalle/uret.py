@@ -100,12 +100,16 @@ def main():
                 kucuk = min(gi.area, gs[j].area)
                 if kucuk > 0 and kes / kucuk > 0.05:
                     buyuk = i if gi.area >= gs[j].area else j
+                    tam = kes / kucuk > 0.9
                     cakisma.append({"il": lst[i][1]["il"], "ilce": lst[i][1]["ilce"], "a": lst[i][1]["ad"], "b": lst[j][1]["ad"], "oran": round(kes / kucuk, 3),
-                                    "noktaya_cevrilen": lst[buyuk][1]["ad"] if kes / kucuk > 0.9 else None})
-                    if kes / kucuk > 0.9:
+                                    "noktaya_cevrilen": lst[buyuk][1]["ad"] if tam else lst[i][1]["ad"] + " ve " + lst[j][1]["ad"]})
+                    if tam:
                         noktaya.add((k, buyuk))
+                    else:
+                        # Kısmi bindirme: hangi sınırın doğru olduğu bilinemez; ikisi de temsil noktasıyla gösterilir (Codex denetimi V4-01)
+                        noktaya.add((k, i)); noktaya.add((k, j))
 
-    # Başka mahalle sınırlarını içine alan büyük sınır (eski belde/köy sınırı) yerine temsil noktası kullanılır
+    # Başka mahalle sınırlarını içine alan büyük sınır (eski belde/köy sınırı) ya da kısmen bindiren sınırlar yerine temsil noktası kullanılır
     for k, idx in noktaya:
         g, r, fi = ilce_poligon[k][idx]
         f = il_ozellik[k][fi]
@@ -119,8 +123,7 @@ def main():
     iller = {}
     for k in sorted(il_ozellik, key=lambda k: (ilce[k]["il_kodu"], ilce[k]["ilce_adi"]) if k in ilce else ("??", str(k))):
         if k not in ilce:
-            print("UYARI: ilçesi bulunamayan birimler atlandı:", k, len(il_ozellik[k]), file=sys.stderr)
-            continue
+            sys.exit("HATA: ilçesi bulunamayan %d birim var: %r" % (len(il_ozellik[k]), k))
         fs = il_ozellik[k]
         fs.sort(key=lambda f: f["properties"]["a"])
         ic = ilce[k]

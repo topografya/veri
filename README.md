@@ -21,7 +21,7 @@ Biçim: [TopoJSON](https://github.com/topojson/topojson-specification), WGS84 (E
     https://cdn.jsdelivr.net/gh/topografya/veri@latest/sinirlar/ozet.json
     https://cdn.jsdelivr.net/gh/topografya/veri@v2026.10.0/sinirlar/ilce/06.topo.json
 
-Kalıcı bağlantılar için sürüm etiketini (`@v…`) kullanın; `@latest` en yeni sürümü verir. topografya.com.tr araçları denetlenmiş bir sürüm etiketine bağlıdır; yeni ayın verisi denetlendikten sonra araçlar yeni sürüme geçirilir.
+Kalıcı bağlantılar için sürüm etiketini (`@v…`) kullanın (etiketler silinmez); `@latest` en yeni sürümü verir. topografya.com.tr araçları denetlenmiş bir sürüm etiketine bağlıdır; yeni ayın verisi denetlendikten sonra araçlar yeni sürüme geçirilir.
 
 **Öznitelikler:** `il_kodu` (plaka), `il_adi`, `ilce_adi`, `alan_km2` (WGS84 elipsoidi üzerinde jeodezik alan, kıyıdan kırpılmış), `wikidata`, `osm_id`; il katmanında ayrıca `ilce_sayisi`.
 
@@ -88,4 +88,4 @@ Her eşleşme ilçe sayısı ve ilçe toplamı = il nüfusu denetimleriyle doğr
 
 **Nüfus:** TÜİK Merkezi Dağıtım Sistemi, ADNKS 2025, belediye, köy ve mahalle nüfusları (32.254 mahalle, 18.183 köy; ham dosyalar `scripts/nufus/ham/mahalle/`). TÜİK mahalle düzeyinde cinsiyet ve yaş yayımlamaz.
 
-**Konum ve sınır:** Her TÜİK birimi aynı ilçe içinde aynı adlı OSM sınırıyla (admin_level 8–10 ya da `place` alanı) eşleştirilir; sınır yoksa OSM noktası, o da yoksa geometrisiz kayıt verilir. Tahmini (Voronoi vb.) sınır üretilmez. Sınırlar resmî değildir. Üretim: `scripts/mahalle/kapsam.py` (eşleştirme ve kapsam raporu), `scripts/mahalle/uret.py` (ilçe dosyaları ve kalite denetimi); raporlar iş akışının çıktı dosyalarında saklanır.
+**Konum ve sınır:** Her TÜİK birimi aynı ilçe içinde aynı adlı OSM sınırıyla (admin_level 8–10 ya da `place` alanı) eşleştirilir; sınır yoksa OSM noktası, o da yoksa geometrisiz kayıt verilir. Tahmini (Voronoi vb.) sınır üretilmez. Sınırlar resmî değildir. Birbirine kısmen binen iki sınır (hangisinin doğru olduğu bilinemediğinden) ikisi de temsil noktasıyla gösterilir. Yayından önce `scripts/mahalle/denetle.py` bütünlüğü (her birim TÜİK'teki nüfusuyla), geometriyi, bindirmeyi ve kapsamı (önceki sürüme göre gerileme dahil) denetler; bir eşik aşılırsa yayın yapılmaz. Üretim: `scripts/mahalle/kapsam.py` (eşleştirme ve kapsam raporu), `scripts/mahalle/uret.py` (ilçe dosyaları ve kalite denetimi); raporlar iş akışının çıktı dosyalarında saklanır.

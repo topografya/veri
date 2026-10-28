@@ -101,6 +101,12 @@ jobs:
           mv build/kalite.json build/rapor/kalite.json
           du -sh build/mahalle build/nufus
 
+      - name: Mahalle denetimi (bütünlük, geometri, bindirme, kapsam; başarısızsa yayın yapılmaz)
+        run: |
+          git fetch -q origin yayin 2>/dev/null && git show FETCH_HEAD:mahalle/ozet.json > build/onceki-mahalle-ozet.json 2>/dev/null || rm -f build/onceki-mahalle-ozet.json
+          python scripts/mahalle/denetle.py build/mahalle build/sinirlar/ozet.json \
+            scripts/nufus/ham/mahalle/medas_mahalle_2025_toplam.csv scripts/nufus/ham/mahalle/medas_koy_2025_toplam.csv build/onceki-mahalle-ozet.json
+
       - name: Derleme raporunu sakla
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
@@ -145,8 +151,7 @@ jobs:
           git push -q origin "$SURUM"
           cd ..
 
-          # En yeni 6 sürümü tut, eskilerini kaldır (depo boyutu)
-          for t in $(git tag -l 'v*' --sort=-v:refname | tail -n +7); do git push -q origin ":refs/tags/$t" || true; done
+          # Sürüm etiketleri silinmez: araçlar denetlenmiş bir etikete bağlıdır (Codex denetimi D4-05)
 
           # jsDelivr önbelleğini yenile
           for f in sinirlar/ozet.json sinirlar/il.topo.json sinirlar/il-sade.topo.json sinirlar/ilce-sade.topo.json nufus/gostergeler.json nufus/piramit.json mahalle/ozet.json; do
