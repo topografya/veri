@@ -1,0 +1,36 @@
+{
+ "tuik_birim": 50437,
+ "tuik_nufus": 86080727,
+ "osm_oge": {
+  "poligon": 14240,
+  "nokta": 69399,
+  "ilce_disinda": 440
+ },
+ "sonuc_birim": {
+  "poligon": 13490,
+  "poligon_cok_aday": 37,
+  "nokta": 33999,
+  "nokta_cok_aday": 115,
+  "yok": 2796
+ },
+ "sonuc_nufus": {
+  "poligon": 61433397,
+  "poligon_cok_aday": 70690,
+  "nokta": 21049097,
+  "nokta_cok_aday": 246353,
+  "yok": 3281190
+ },
+ "ilce_sinif": {
+  "sinir_tam": 200,
+  "nokta": 534,
+  "sinir_kismi": 63,
+  "zayif": 176
+ },
+ "ilce_sinif_nufus": {
+  "sinir_tam": 37337841,
+  "nokta": 33574637,
+  "sinir_kismi": 9453414,
+  "zayif": 5714835
+ },
+ "eslesmeyen_tuik_ilce": []
+}

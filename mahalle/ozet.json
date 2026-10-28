@@ -1,0 +1,10227 @@
+{
+ "surum": 2,
+ "osm_tarihi": "2026-10-27",
+ "tuik": "TÜİK ADNKS 2025 (MEDAS, belediye/köy/mahalle nüfusları)",
+ "kaynak": {
+  "sinir_nokta": "© OpenStreetMap katkıcıları, ODbL 1.0",
+  "nufus": "TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi, 2025"
+ },
+ "iller": [
+  {
+   "kod": "01",
+   "ad": "Adana",
+   "ilceler": [
+    {
+     "ad": "Aladağ",
+     "osm_id": 1249246,
+     "birim": 31,
+     "sinir": 31,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 15839,
+     "bayt": 123731
+    },
+    {
+     "ad": "Ceyhan",
+     "osm_id": 1249250,
+     "birim": 112,
+     "sinir": 28,
+     "nokta": 83,
+     "yok": 1,
+     "nufus": 156081,
+     "bayt": 44529
+    },
+    {
+     "ad": "Feke",
+     "osm_id": 1249248,
+     "birim": 48,
+     "sinir": 1,
+     "nokta": 47,
+     "yok": 0,
+     "nufus": 15586,
+     "bayt": 11417
+    },
+    {
+     "ad": "Karaisalı",
+     "osm_id": 1249251,
+     "birim": 62,
+     "sinir": 0,
+     "nokta": 61,
+     "yok": 1,
+     "nufus": 22872,
+     "bayt": 13333
+    },
+    {
+     "ad": "Karataş",
+     "osm_id": 1249254,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 2,
+     "nufus": 24005,
+     "bayt": 8985
+    },
+    {
+     "ad": "Kozan",
+     "osm_id": 1249252,
+     "birim": 103,
+     "sinir": 1,
+     "nokta": 98,
+     "yok": 4,
+     "nufus": 132572,
+     "bayt": 23279
+    },
+    {
+     "ad": "Pozantı",
+     "osm_id": 1249256,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 0,
+     "nufus": 19983,
+     "bayt": 4512
+    },
+    {
+     "ad": "Saimbeyli",
+     "osm_id": 1249249,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 1,
+     "nufus": 13133,
+     "bayt": 5977
+    },
+    {
+     "ad": "Sarıçam",
+     "osm_id": 1249247,
+     "birim": 69,
+     "sinir": 16,
+     "nokta": 52,
+     "yok": 1,
+     "nufus": 262816,
+     "bayt": 37854
+    },
+    {
+     "ad": "Seyhan",
+     "osm_id": 1249257,
+     "birim": 96,
+     "sinir": 96,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 782204,
+     "bayt": 125428
+    },
+    {
+     "ad": "Tufanbeyli",
+     "osm_id": 1249258,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 33,
+     "yok": 0,
+     "nufus": 16027,
+     "bayt": 7174
+    },
+    {
+     "ad": "Yumurtalık",
+     "osm_id": 1249259,
+     "birim": 24,
+     "sinir": 15,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 17806,
+     "bayt": 64526
+    },
+    {
+     "ad": "Yüreğir",
+     "osm_id": 1249255,
+     "birim": 107,
+     "sinir": 40,
+     "nokta": 67,
+     "yok": 0,
+     "nufus": 396572,
+     "bayt": 48018
+    },
+    {
+     "ad": "Çukurova",
+     "osm_id": 1249253,
+     "birim": 27,
+     "sinir": 13,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 380653,
+     "bayt": 41108
+    },
+    {
+     "ad": "İmamoğlu",
+     "osm_id": 1249260,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 0,
+     "nufus": 27196,
+     "bayt": 5860
+    }
+   ]
+  },
+  {
+   "kod": "02",
+   "ad": "Adıyaman",
+   "ilceler": [
+    {
+     "ad": "Adıyaman Merkez",
+     "osm_id": 1825792,
+     "birim": 185,
+     "sinir": 28,
+     "nokta": 153,
+     "yok": 4,
+     "nufus": 296071,
+     "bayt": 54012
+    },
+    {
+     "ad": "Besni",
+     "osm_id": 1825239,
+     "birim": 104,
+     "sinir": 0,
+     "nokta": 93,
+     "yok": 11,
+     "nufus": 74999,
+     "bayt": 20083
+    },
+    {
+     "ad": "Gerger",
+     "osm_id": 1807479,
+     "birim": 49,
+     "sinir": 0,
+     "nokta": 45,
+     "yok": 4,
+     "nufus": 14497,
+     "bayt": 9403
+    },
+    {
+     "ad": "Gölbaşı",
+     "osm_id": 1389197,
+     "birim": 47,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 16,
+     "nufus": 47917,
+     "bayt": 8680
+    },
+    {
+     "ad": "Kâhta",
+     "osm_id": 1825793,
+     "birim": 127,
+     "sinir": 0,
+     "nokta": 119,
+     "yok": 8,
+     "nufus": 136769,
+     "bayt": 24426
+    },
+    {
+     "ad": "Samsat",
+     "osm_id": 1825794,
+     "birim": 20,
+     "sinir": 4,
+     "nokta": 16,
+     "yok": 0,
+     "nufus": 6834,
+     "bayt": 8465
+    },
+    {
+     "ad": "Sincik",
+     "osm_id": 1825795,
+     "birim": 39,
+     "sinir": 0,
+     "nokta": 38,
+     "yok": 1,
+     "nufus": 15801,
+     "bayt": 7733
+    },
+    {
+     "ad": "Tut",
+     "osm_id": 1825241,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 0,
+     "nufus": 9199,
+     "bayt": 4117
+    },
+    {
+     "ad": "Çelikhan",
+     "osm_id": 1825796,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 36,
+     "yok": 1,
+     "nufus": 14530,
+     "bayt": 7537
+    }
+   ]
+  },
+  {
+   "kod": "03",
+   "ad": "Afyonkarahisar",
+   "ilceler": [
+    {
+     "ad": "Afyonkarahisar Merkez",
+     "osm_id": 1263753,
+     "birim": 131,
+     "sinir": 19,
+     "nokta": 68,
+     "yok": 44,
+     "nufus": 331117,
+     "bayt": 32860
+    },
+    {
+     "ad": "Bayat",
+     "osm_id": 1263745,
+     "birim": 16,
+     "sinir": 0,
+     "nokta": 12,
+     "yok": 4,
+     "nufus": 7580,
+     "bayt": 2959
+    },
+    {
+     "ad": "Başmakçı",
+     "osm_id": 1263748,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 13,
+     "yok": 9,
+     "nufus": 9089,
+     "bayt": 4018
+    },
+    {
+     "ad": "Bolvadin",
+     "osm_id": 1263749,
+     "birim": 58,
+     "sinir": 29,
+     "nokta": 15,
+     "yok": 14,
+     "nufus": 45906,
+     "bayt": 46786
+    },
+    {
+     "ad": "Dazkırı",
+     "osm_id": 1263751,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 6,
+     "nufus": 11686,
+     "bayt": 4125
+    },
+    {
+     "ad": "Dinar",
+     "osm_id": 1263741,
+     "birim": 101,
+     "sinir": 0,
+     "nokta": 61,
+     "yok": 40,
+     "nufus": 46878,
+     "bayt": 17553
+    },
+    {
+     "ad": "Emirdağ",
+     "osm_id": 1263757,
+     "birim": 93,
+     "sinir": 3,
+     "nokta": 69,
+     "yok": 21,
+     "nufus": 43350,
+     "bayt": 22967
+    },
+    {
+     "ad": "Evciler",
+     "osm_id": 1263746,
+     "birim": 13,
+     "sinir": 0,
+     "nokta": 7,
+     "yok": 6,
+     "nufus": 7038,
+     "bayt": 2289
+    },
+    {
+     "ad": "Hocalar",
+     "osm_id": 1263744,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 2,
+     "nufus": 8220,
+     "bayt": 3457
+    },
+    {
+     "ad": "Kızılören",
+     "osm_id": 1824754,
+     "birim": 6,
+     "sinir": 0,
+     "nokta": 4,
+     "yok": 2,
+     "nufus": 1977,
+     "bayt": 1159
+    },
+    {
+     "ad": "Sandıklı",
+     "osm_id": 1263755,
+     "birim": 72,
+     "sinir": 0,
+     "nokta": 55,
+     "yok": 17,
+     "nufus": 54376,
+     "bayt": 13507
+    },
+    {
+     "ad": "Sinanpaşa",
+     "osm_id": 1263756,
+     "birim": 81,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 56,
+     "nufus": 38292,
+     "bayt": 13485
+    },
+    {
+     "ad": "Sultandağı",
+     "osm_id": 1263750,
+     "birim": 29,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 11,
+     "nufus": 13641,
+     "bayt": 5484
+    },
+    {
+     "ad": "Çay",
+     "osm_id": 1263743,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 20,
+     "yok": 26,
+     "nufus": 29140,
+     "bayt": 7604
+    },
+    {
+     "ad": "Çobanlar",
+     "osm_id": 1263747,
+     "birim": 16,
+     "sinir": 0,
+     "nokta": 3,
+     "yok": 13,
+     "nufus": 14457,
+     "bayt": 2557
+    },
+    {
+     "ad": "İhsaniye",
+     "osm_id": 1263742,
+     "birim": 49,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 20,
+     "nufus": 27636,
+     "bayt": 8869
+    },
+    {
+     "ad": "İscehisar",
+     "osm_id": 1263752,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 11,
+     "yok": 14,
+     "nufus": 25135,
+     "bayt": 4374
+    },
+    {
+     "ad": "Şuhut",
+     "osm_id": 1263754,
+     "birim": 53,
+     "sinir": 0,
+     "nokta": 36,
+     "yok": 17,
+     "nufus": 35303,
+     "bayt": 9529
+    }
+   ]
+  },
+  {
+   "kod": "04",
+   "ad": "Ağrı",
+   "ilceler": [
+    {
+     "ad": "Ağrı Merkez",
+     "osm_id": 1837704,
+     "birim": 124,
+     "sinir": 18,
+     "nokta": 105,
+     "yok": 1,
+     "nufus": 150035,
+     "bayt": 46099
+    },
+    {
+     "ad": "Diyadin",
+     "osm_id": 1837705,
+     "birim": 69,
+     "sinir": 0,
+     "nokta": 69,
+     "yok": 0,
+     "nufus": 35439,
+     "bayt": 13759
+    },
+    {
+     "ad": "Doğubayazıt",
+     "osm_id": 1837706,
+     "birim": 99,
+     "sinir": 0,
+     "nokta": 87,
+     "yok": 12,
+     "nufus": 113699,
+     "bayt": 19622
+    },
+    {
+     "ad": "Eleşkirt",
+     "osm_id": 1780207,
+     "birim": 75,
+     "sinir": 0,
+     "nokta": 67,
+     "yok": 8,
+     "nufus": 28661,
+     "bayt": 14826
+    },
+    {
+     "ad": "Hamur",
+     "osm_id": 1837707,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 50,
+     "yok": 0,
+     "nufus": 14336,
+     "bayt": 9897
+    },
+    {
+     "ad": "Patnos",
+     "osm_id": 1780615,
+     "birim": 121,
+     "sinir": 2,
+     "nokta": 92,
+     "yok": 27,
+     "nufus": 105968,
+     "bayt": 24863
+    },
+    {
+     "ad": "Taşlıçay",
+     "osm_id": 1837708,
+     "birim": 41,
+     "sinir": 0,
+     "nokta": 38,
+     "yok": 3,
+     "nufus": 17431,
+     "bayt": 8239
+    },
+    {
+     "ad": "Tutak",
+     "osm_id": 1780622,
+     "birim": 85,
+     "sinir": 0,
+     "nokta": 80,
+     "yok": 5,
+     "nufus": 25920,
+     "bayt": 16394
+    }
+   ]
+  },
+  {
+   "kod": "05",
+   "ad": "Amasya",
+   "ilceler": [
+    {
+     "ad": "Amasya Merkez",
+     "osm_id": 1837141,
+     "birim": 140,
+     "sinir": 32,
+     "nokta": 102,
+     "yok": 6,
+     "nufus": 151433,
+     "bayt": 55024
+    },
+    {
+     "ad": "Göynücek",
+     "osm_id": 1837142,
+     "birim": 41,
+     "sinir": 0,
+     "nokta": 40,
+     "yok": 1,
+     "nufus": 10823,
+     "bayt": 8202
+    },
+    {
+     "ad": "Gümüşhacıköy",
+     "osm_id": 1724394,
+     "birim": 56,
+     "sinir": 0,
+     "nokta": 55,
+     "yok": 1,
+     "nufus": 22319,
+     "bayt": 11808
+    },
+    {
+     "ad": "Hamamözü",
+     "osm_id": 1724395,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 0,
+     "nufus": 3628,
+     "bayt": 4295
+    },
+    {
+     "ad": "Merzifon",
+     "osm_id": 1837143,
+     "birim": 90,
+     "sinir": 2,
+     "nokta": 87,
+     "yok": 1,
+     "nufus": 77077,
+     "bayt": 18761
+    },
+    {
+     "ad": "Suluova",
+     "osm_id": 1837144,
+     "birim": 61,
+     "sinir": 5,
+     "nokta": 56,
+     "yok": 0,
+     "nufus": 46928,
+     "bayt": 14680
+    },
+    {
+     "ad": "Taşova",
+     "osm_id": 1837145,
+     "birim": 70,
+     "sinir": 0,
+     "nokta": 68,
+     "yok": 2,
+     "nufus": 30034,
+     "bayt": 13800
+    }
+   ]
+  },
+  {
+   "kod": "06",
+   "ad": "Ankara",
+   "ilceler": [
+    {
+     "ad": "Akyurt",
+     "osm_id": 1667099,
+     "birim": 26,
+     "sinir": 26,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 46956,
+     "bayt": 78466
+    },
+    {
+     "ad": "Altındağ",
+     "osm_id": 1812317,
+     "birim": 26,
+     "sinir": 26,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 418072,
+     "bayt": 47349
+    },
+    {
+     "ad": "Ayaş",
+     "osm_id": 1710801,
+     "birim": 33,
+     "sinir": 31,
+     "nokta": 0,
+     "yok": 2,
+     "nufus": 13136,
+     "bayt": 88164
+    },
+    {
+     "ad": "Balâ",
+     "osm_id": 1809594,
+     "birim": 56,
+     "sinir": 54,
+     "nokta": 2,
+     "yok": 0,
+     "nufus": 20109,
+     "bayt": 155804
+    },
+    {
+     "ad": "Beypazarı",
+     "osm_id": 1738278,
+     "birim": 78,
+     "sinir": 76,
+     "nokta": 2,
+     "yok": 0,
+     "nufus": 48359,
+     "bayt": 272407
+    },
+    {
+     "ad": "Elmadağ",
+     "osm_id": 1809674,
+     "birim": 30,
+     "sinir": 29,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 45644,
+     "bayt": 52331
+    },
+    {
+     "ad": "Etimesgut",
+     "osm_id": 1812354,
+     "birim": 38,
+     "sinir": 38,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 632458,
+     "bayt": 55519
+    },
+    {
+     "ad": "Evren",
+     "osm_id": 1713914,
+     "birim": 13,
+     "sinir": 13,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 2927,
+     "bayt": 61857
+    },
+    {
+     "ad": "Gölbaşı",
+     "osm_id": 1809464,
+     "birim": 54,
+     "sinir": 24,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 172810,
+     "bayt": 67349
+    },
+    {
+     "ad": "Güdül",
+     "osm_id": 1739269,
+     "birim": 31,
+     "sinir": 1,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 8028,
+     "bayt": 14635
+    },
+    {
+     "ad": "Haymana",
+     "osm_id": 1810229,
+     "birim": 78,
+     "sinir": 5,
+     "nokta": 73,
+     "yok": 0,
+     "nufus": 25798,
+     "bayt": 28028
+    },
+    {
+     "ad": "Kahramankazan",
+     "osm_id": 1812355,
+     "birim": 48,
+     "sinir": 30,
+     "nokta": 18,
+     "yok": 0,
+     "nufus": 63142,
+     "bayt": 77076
+    },
+    {
+     "ad": "Kalecik",
+     "osm_id": 1811252,
+     "birim": 57,
+     "sinir": 52,
+     "nokta": 1,
+     "yok": 4,
+     "nufus": 12564,
+     "bayt": 201412
+    },
+    {
+     "ad": "Keçiören",
+     "osm_id": 1811393,
+     "birim": 51,
+     "sinir": 51,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 931722,
+     "bayt": 69289
+    },
+    {
+     "ad": "Kızılcahamam",
+     "osm_id": 1811128,
+     "birim": 109,
+     "sinir": 51,
+     "nokta": 50,
+     "yok": 8,
+     "nufus": 27841,
+     "bayt": 211778
+    },
+    {
+     "ad": "Mamak",
+     "osm_id": 1812319,
+     "birim": 64,
+     "sinir": 64,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 690329,
+     "bayt": 92906
+    },
+    {
+     "ad": "Nallıhan",
+     "osm_id": 1738279,
+     "birim": 84,
+     "sinir": 16,
+     "nokta": 66,
+     "yok": 2,
+     "nufus": 26083,
+     "bayt": 47373
+    },
+    {
+     "ad": "Polatlı",
+     "osm_id": 1799855,
+     "birim": 95,
+     "sinir": 17,
+     "nokta": 76,
+     "yok": 2,
+     "nufus": 131893,
+     "bayt": 51869
+    },
+    {
+     "ad": "Pursaklar",
+     "osm_id": 1811454,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 168881,
+     "bayt": 44929
+    },
+    {
+     "ad": "Sincan",
+     "osm_id": 1811046,
+     "birim": 57,
+     "sinir": 57,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 604508,
+     "bayt": 148406
+    },
+    {
+     "ad": "Yenimahalle",
+     "osm_id": 1812356,
+     "birim": 57,
+     "sinir": 57,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 719111,
+     "bayt": 66169
+    },
+    {
+     "ad": "Çamlıdere",
+     "osm_id": 1811108,
+     "birim": 49,
+     "sinir": 44,
+     "nokta": 5,
+     "yok": 0,
+     "nufus": 10203,
+     "bayt": 119826
+    },
+    {
+     "ad": "Çankaya",
+     "osm_id": 1812321,
+     "birim": 124,
+     "sinir": 122,
+     "nokta": 1,
+     "yok": 1,
+     "nufus": 952198,
+     "bayt": 166185
+    },
+    {
+     "ad": "Çubuk",
+     "osm_id": 1667201,
+     "birim": 84,
+     "sinir": 80,
+     "nokta": 3,
+     "yok": 1,
+     "nufus": 101423,
+     "bayt": 329238
+    },
+    {
+     "ad": "Şereflikoçhisar",
+     "osm_id": 1713916,
+     "birim": 64,
+     "sinir": 19,
+     "nokta": 43,
+     "yok": 2,
+     "nufus": 32831,
+     "bayt": 34064
+    }
+   ]
+  },
+  {
+   "kod": "07",
+   "ad": "Antalya",
+   "ilceler": [
+    {
+     "ad": "Akseki",
+     "osm_id": 1726997,
+     "birim": 51,
+     "sinir": 6,
+     "nokta": 43,
+     "yok": 2,
+     "nufus": 10609,
+     "bayt": 23541
+    },
+    {
+     "ad": "Aksu",
+     "osm_id": 1727534,
+     "birim": 35,
+     "sinir": 15,
+     "nokta": 20,
+     "yok": 0,
+     "nufus": 87070,
+     "bayt": 41009
+    },
+    {
+     "ad": "Alanya",
+     "osm_id": 1726977,
+     "birim": 102,
+     "sinir": 23,
+     "nokta": 76,
+     "yok": 3,
+     "nufus": 371547,
+     "bayt": 61253
+    },
+    {
+     "ad": "Demre",
+     "osm_id": 1727262,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 0,
+     "nufus": 28075,
+     "bayt": 3541
+    },
+    {
+     "ad": "Döşemealtı",
+     "osm_id": 1727454,
+     "birim": 32,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 1,
+     "nufus": 96318,
+     "bayt": 7086
+    },
+    {
+     "ad": "Elmalı",
+     "osm_id": 1727263,
+     "birim": 60,
+     "sinir": 0,
+     "nokta": 58,
+     "yok": 2,
+     "nufus": 41550,
+     "bayt": 12523
+    },
+    {
+     "ad": "Finike",
+     "osm_id": 1727264,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 52436,
+     "bayt": 5421
+    },
+    {
+     "ad": "Gazipaşa",
+     "osm_id": 1443174,
+     "birim": 53,
+     "sinir": 7,
+     "nokta": 45,
+     "yok": 1,
+     "nufus": 55850,
+     "bayt": 22669
+    },
+    {
+     "ad": "Gündoğmuş",
+     "osm_id": 1726981,
+     "birim": 29,
+     "sinir": 1,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 6953,
+     "bayt": 6722
+    },
+    {
+     "ad": "Kaş",
+     "osm_id": 1727265,
+     "birim": 54,
+     "sinir": 0,
+     "nokta": 53,
+     "yok": 1,
+     "nufus": 63957,
+     "bayt": 10998
+    },
+    {
+     "ad": "Kemer",
+     "osm_id": 1727292,
+     "birim": 12,
+     "sinir": 3,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 52339,
+     "bayt": 11029
+    },
+    {
+     "ad": "Kepez",
+     "osm_id": 1727470,
+     "birim": 68,
+     "sinir": 63,
+     "nokta": 5,
+     "yok": 0,
+     "nufus": 649102,
+     "bayt": 74115
+    },
+    {
+     "ad": "Konyaaltı",
+     "osm_id": 1727384,
+     "birim": 39,
+     "sinir": 15,
+     "nokta": 24,
+     "yok": 0,
+     "nufus": 199414,
+     "bayt": 24828
+    },
+    {
+     "ad": "Korkuteli",
+     "osm_id": 1727032,
+     "birim": 58,
+     "sinir": 1,
+     "nokta": 56,
+     "yok": 1,
+     "nufus": 58381,
+     "bayt": 13786
+    },
+    {
+     "ad": "Kumluca",
+     "osm_id": 1727186,
+     "birim": 41,
+     "sinir": 1,
+     "nokta": 39,
+     "yok": 1,
+     "nufus": 75588,
+     "bayt": 9183
+    },
+    {
+     "ad": "Manavgat",
+     "osm_id": 1726993,
+     "birim": 106,
+     "sinir": 2,
+     "nokta": 96,
+     "yok": 8,
+     "nufus": 266480,
+     "bayt": 26469
+    },
+    {
+     "ad": "Muratpaşa",
+     "osm_id": 1727535,
+     "birim": 55,
+     "sinir": 55,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 510887,
+     "bayt": 63494
+    },
+    {
+     "ad": "Serik",
+     "osm_id": 1727536,
+     "birim": 66,
+     "sinir": 20,
+     "nokta": 45,
+     "yok": 1,
+     "nufus": 147062,
+     "bayt": 62668
+    },
+    {
+     "ad": "İbradı",
+     "osm_id": 1726998,
+     "birim": 9,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 3256,
+     "bayt": 1936
+    }
+   ]
+  },
+  {
+   "kod": "08",
+   "ad": "Artvin",
+   "ilceler": [
+    {
+     "ad": "Ardanuç",
+     "osm_id": 1838462,
+     "birim": 50,
+     "sinir": 4,
+     "nokta": 46,
+     "yok": 0,
+     "nufus": 10889,
+     "bayt": 20440
+    },
+    {
+     "ad": "Arhavi",
+     "osm_id": 1838463,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 37,
+     "yok": 0,
+     "nufus": 22025,
+     "bayt": 7391
+    },
+    {
+     "ad": "Artvin Merkez",
+     "osm_id": 1838464,
+     "birim": 43,
+     "sinir": 5,
+     "nokta": 37,
+     "yok": 1,
+     "nufus": 35710,
+     "bayt": 17549
+    },
+    {
+     "ad": "Borçka",
+     "osm_id": 1838465,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 4,
+     "nufus": 21628,
+     "bayt": 8892
+    },
+    {
+     "ad": "Hopa",
+     "osm_id": 1596278,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 0,
+     "nufus": 27844,
+     "bayt": 5002
+    },
+    {
+     "ad": "Kemalpaşa",
+     "osm_id": 8101358,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 9263,
+     "bayt": 3080
+    },
+    {
+     "ad": "Murgul",
+     "osm_id": 1838466,
+     "birim": 13,
+     "sinir": 0,
+     "nokta": 12,
+     "yok": 1,
+     "nufus": 6457,
+     "bayt": 2525
+    },
+    {
+     "ad": "Yusufeli",
+     "osm_id": 1385155,
+     "birim": 68,
+     "sinir": 0,
+     "nokta": 64,
+     "yok": 4,
+     "nufus": 17564,
+     "bayt": 13335
+    },
+    {
+     "ad": "Şavşat",
+     "osm_id": 1838467,
+     "birim": 68,
+     "sinir": 0,
+     "nokta": 62,
+     "yok": 6,
+     "nufus": 16151,
+     "bayt": 13092
+    }
+   ]
+  },
+  {
+   "kod": "09",
+   "ad": "Aydın",
+   "ilceler": [
+    {
+     "ad": "Bozdoğan",
+     "osm_id": 1813255,
+     "birim": 55,
+     "sinir": 6,
+     "nokta": 47,
+     "yok": 2,
+     "nufus": 31624,
+     "bayt": 33707
+    },
+    {
+     "ad": "Buharkent",
+     "osm_id": 1246169,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 13137,
+     "bayt": 3042
+    },
+    {
+     "ad": "Didim",
+     "osm_id": 1814655,
+     "birim": 16,
+     "sinir": 2,
+     "nokta": 13,
+     "yok": 1,
+     "nufus": 103141,
+     "bayt": 9474
+    },
+    {
+     "ad": "Efeler",
+     "osm_id": 1814654,
+     "birim": 83,
+     "sinir": 15,
+     "nokta": 63,
+     "yok": 5,
+     "nufus": 310210,
+     "bayt": 27968
+    },
+    {
+     "ad": "Germencik",
+     "osm_id": 1812965,
+     "birim": 36,
+     "sinir": 0,
+     "nokta": 36,
+     "yok": 0,
+     "nufus": 44697,
+     "bayt": 7756
+    },
+    {
+     "ad": "Karacasu",
+     "osm_id": 1701079,
+     "birim": 38,
+     "sinir": 0,
+     "nokta": 38,
+     "yok": 0,
+     "nufus": 17225,
+     "bayt": 8103
+    },
+    {
+     "ad": "Karpuzlu",
+     "osm_id": 1622039,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 0,
+     "nufus": 10352,
+     "bayt": 4900
+    },
+    {
+     "ad": "Koçarlı",
+     "osm_id": 1812966,
+     "birim": 52,
+     "sinir": 0,
+     "nokta": 51,
+     "yok": 1,
+     "nufus": 22234,
+     "bayt": 11139
+    },
+    {
+     "ad": "Kuyucak",
+     "osm_id": 1246164,
+     "birim": 36,
+     "sinir": 0,
+     "nokta": 34,
+     "yok": 2,
+     "nufus": 26196,
+     "bayt": 7490
+    },
+    {
+     "ad": "Kuşadası",
+     "osm_id": 1814656,
+     "birim": 23,
+     "sinir": 14,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 141431,
+     "bayt": 44197
+    },
+    {
+     "ad": "Köşk",
+     "osm_id": 1813052,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 4,
+     "nufus": 28307,
+     "bayt": 5643
+    },
+    {
+     "ad": "Nazilli",
+     "osm_id": 1813256,
+     "birim": 82,
+     "sinir": 4,
+     "nokta": 75,
+     "yok": 3,
+     "nufus": 162156,
+     "bayt": 18991
+    },
+    {
+     "ad": "Sultanhisar",
+     "osm_id": 1813257,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 0,
+     "nufus": 19791,
+     "bayt": 3969
+    },
+    {
+     "ad": "Söke",
+     "osm_id": 1612669,
+     "birim": 49,
+     "sinir": 10,
+     "nokta": 38,
+     "yok": 1,
+     "nufus": 123835,
+     "bayt": 64880
+    },
+    {
+     "ad": "Yenipazar",
+     "osm_id": 1813273,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 1,
+     "nufus": 11596,
+     "bayt": 3832
+    },
+    {
+     "ad": "Çine",
+     "osm_id": 1812967,
+     "birim": 72,
+     "sinir": 0,
+     "nokta": 71,
+     "yok": 1,
+     "nufus": 47906,
+     "bayt": 14832
+    },
+    {
+     "ad": "İncirliova",
+     "osm_id": 1814657,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 58230,
+     "bayt": 6169
+    }
+   ]
+  },
+  {
+   "kod": "10",
+   "ad": "Balıkesir",
+   "ilceler": [
+    {
+     "ad": "Altıeylül",
+     "osm_id": 1820740,
+     "birim": 94,
+     "sinir": 10,
+     "nokta": 83,
+     "yok": 1,
+     "nufus": 188855,
+     "bayt": 28146
+    },
+    {
+     "ad": "Ayvalık",
+     "osm_id": 1814983,
+     "birim": 34,
+     "sinir": 20,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 75815,
+     "bayt": 116601
+    },
+    {
+     "ad": "Balya",
+     "osm_id": 1588165,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 43,
+     "yok": 3,
+     "nufus": 12296,
+     "bayt": 9336
+    },
+    {
+     "ad": "Bandırma",
+     "osm_id": 1820912,
+     "birim": 55,
+     "sinir": 55,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 169476,
+     "bayt": 179296
+    },
+    {
+     "ad": "Bigadiç",
+     "osm_id": 1820741,
+     "birim": 80,
+     "sinir": 0,
+     "nokta": 79,
+     "yok": 1,
+     "nufus": 49275,
+     "bayt": 16970
+    },
+    {
+     "ad": "Burhaniye",
+     "osm_id": 1820913,
+     "birim": 39,
+     "sinir": 0,
+     "nokta": 39,
+     "yok": 0,
+     "nufus": 68370,
+     "bayt": 8378
+    },
+    {
+     "ad": "Dursunbey",
+     "osm_id": 1820649,
+     "birim": 110,
+     "sinir": 0,
+     "nokta": 105,
+     "yok": 5,
+     "nufus": 32168,
+     "bayt": 23241
+    },
+    {
+     "ad": "Edremit",
+     "osm_id": 1815033,
+     "birim": 47,
+     "sinir": 0,
+     "nokta": 46,
+     "yok": 1,
+     "nufus": 176251,
+     "bayt": 9918
+    },
+    {
+     "ad": "Erdek",
+     "osm_id": 1814782,
+     "birim": 28,
+     "sinir": 26,
+     "nokta": 0,
+     "yok": 2,
+     "nufus": 32080,
+     "bayt": 121577
+    },
+    {
+     "ad": "Gömeç",
+     "osm_id": 1815034,
+     "birim": 13,
+     "sinir": 0,
+     "nokta": 13,
+     "yok": 0,
+     "nufus": 19020,
+     "bayt": 2783
+    },
+    {
+     "ad": "Gönen",
+     "osm_id": 1820914,
+     "birim": 101,
+     "sinir": 97,
+     "nokta": 2,
+     "yok": 2,
+     "nufus": 75730,
+     "bayt": 274996
+    },
+    {
+     "ad": "Havran",
+     "osm_id": 1819456,
+     "birim": 34,
+     "sinir": 1,
+     "nokta": 32,
+     "yok": 1,
+     "nufus": 28152,
+     "bayt": 7380
+    },
+    {
+     "ad": "Karesi",
+     "osm_id": 3666900,
+     "birim": 70,
+     "sinir": 25,
+     "nokta": 45,
+     "yok": 0,
+     "nufus": 189444,
+     "bayt": 33242
+    },
+    {
+     "ad": "Kepsut",
+     "osm_id": 1820708,
+     "birim": 69,
+     "sinir": 0,
+     "nokta": 69,
+     "yok": 0,
+     "nufus": 21386,
+     "bayt": 14345
+    },
+    {
+     "ad": "Manyas",
+     "osm_id": 1820787,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 47,
+     "yok": 3,
+     "nufus": 17650,
+     "bayt": 10202
+    },
+    {
+     "ad": "Marmara",
+     "osm_id": 1814783,
+     "birim": 14,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 11827,
+     "bayt": 91411
+    },
+    {
+     "ad": "Savaştepe",
+     "osm_id": 1819457,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 1,
+     "nufus": 16266,
+     "bayt": 10823
+    },
+    {
+     "ad": "Susurluk",
+     "osm_id": 1820788,
+     "birim": 54,
+     "sinir": 9,
+     "nokta": 42,
+     "yok": 3,
+     "nufus": 37676,
+     "bayt": 31224
+    },
+    {
+     "ad": "Sındırgı",
+     "osm_id": 1821207,
+     "birim": 75,
+     "sinir": 0,
+     "nokta": 72,
+     "yok": 3,
+     "nufus": 31482,
+     "bayt": 16257
+    },
+    {
+     "ad": "İvrindi",
+     "osm_id": 1815035,
+     "birim": 70,
+     "sinir": 0,
+     "nokta": 70,
+     "yok": 0,
+     "nufus": 31295,
+     "bayt": 14933
+    }
+   ]
+  },
+  {
+   "kod": "11",
+   "ad": "Bilecik",
+   "ilceler": [
+    {
+     "ad": "Bilecik Merkez",
+     "osm_id": 1238969,
+     "birim": 66,
+     "sinir": 12,
+     "nokta": 47,
+     "yok": 7,
+     "nufus": 82818,
+     "bayt": 44271
+    },
+    {
+     "ad": "Bozüyük",
+     "osm_id": 1238965,
+     "birim": 59,
+     "sinir": 9,
+     "nokta": 45,
+     "yok": 5,
+     "nufus": 81332,
+     "bayt": 31478
+    },
+    {
+     "ad": "Gölpazarı",
+     "osm_id": 1238964,
+     "birim": 53,
+     "sinir": 0,
+     "nokta": 51,
+     "yok": 2,
+     "nufus": 10049,
+     "bayt": 10654
+    },
+    {
+     "ad": "Osmaneli",
+     "osm_id": 1238963,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 4,
+     "nufus": 22025,
+     "bayt": 5998
+    },
+    {
+     "ad": "Pazaryeri",
+     "osm_id": 1238968,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 7,
+     "nufus": 9652,
+     "bayt": 5674
+    },
+    {
+     "ad": "Söğüt",
+     "osm_id": 1238966,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 5,
+     "nufus": 18284,
+     "bayt": 5328
+    },
+    {
+     "ad": "Yenipazar",
+     "osm_id": 1238962,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 0,
+     "nufus": 2692,
+     "bayt": 5452
+    },
+    {
+     "ad": "İnhisar",
+     "osm_id": 1238967,
+     "birim": 13,
+     "sinir": 0,
+     "nokta": 11,
+     "yok": 2,
+     "nufus": 2079,
+     "bayt": 2521
+    }
+   ]
+  },
+  {
+   "kod": "12",
+   "ad": "Bingöl",
+   "ilceler": [
+    {
+     "ad": "Adaklı",
+     "osm_id": 1836190,
+     "birim": 40,
+     "sinir": 0,
+     "nokta": 37,
+     "yok": 3,
+     "nufus": 7491,
+     "bayt": 7822
+    },
+    {
+     "ad": "Bingöl Merkez",
+     "osm_id": 1836191,
+     "birim": 118,
+     "sinir": 13,
+     "nokta": 96,
+     "yok": 9,
+     "nufus": 175438,
+     "bayt": 37682
+    },
+    {
+     "ad": "Genç",
+     "osm_id": 1836192,
+     "birim": 73,
+     "sinir": 3,
+     "nokta": 68,
+     "yok": 2,
+     "nufus": 31654,
+     "bayt": 16560
+    },
+    {
+     "ad": "Karlıova",
+     "osm_id": 1836193,
+     "birim": 53,
+     "sinir": 0,
+     "nokta": 48,
+     "yok": 5,
+     "nufus": 25265,
+     "bayt": 10390
+    },
+    {
+     "ad": "Kiğı",
+     "osm_id": 1836194,
+     "birim": 29,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 0,
+     "nufus": 4487,
+     "bayt": 5744
+    },
+    {
+     "ad": "Solhan",
+     "osm_id": 1836195,
+     "birim": 34,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 6,
+     "nufus": 33233,
+     "bayt": 6428
+    },
+    {
+     "ad": "Yayladere",
+     "osm_id": 1836196,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 1,
+     "nufus": 1889,
+     "bayt": 5221
+    },
+    {
+     "ad": "Yedisu",
+     "osm_id": 1836197,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 0,
+     "nufus": 2842,
+     "bayt": 3608
+    }
+   ]
+  },
+  {
+   "kod": "13",
+   "ad": "Bitlis",
+   "ilceler": [
+    {
+     "ad": "Adilcevaz",
+     "osm_id": 1836395,
+     "birim": 43,
+     "sinir": 3,
+     "nokta": 30,
+     "yok": 10,
+     "nufus": 28769,
+     "bayt": 13563
+    },
+    {
+     "ad": "Ahlat",
+     "osm_id": 1836396,
+     "birim": 41,
+     "sinir": 0,
+     "nokta": 32,
+     "yok": 9,
+     "nufus": 45637,
+     "bayt": 7674
+    },
+    {
+     "ad": "Bitlis Merkez",
+     "osm_id": 1836397,
+     "birim": 99,
+     "sinir": 14,
+     "nokta": 79,
+     "yok": 6,
+     "nufus": 74904,
+     "bayt": 42001
+    },
+    {
+     "ad": "Güroymak",
+     "osm_id": 1836398,
+     "birim": 55,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 14,
+     "nufus": 49372,
+     "bayt": 10544
+    },
+    {
+     "ad": "Hizan",
+     "osm_id": 1668092,
+     "birim": 89,
+     "sinir": 0,
+     "nokta": 81,
+     "yok": 8,
+     "nufus": 29948,
+     "bayt": 17023
+    },
+    {
+     "ad": "Mutki",
+     "osm_id": 1836399,
+     "birim": 72,
+     "sinir": 0,
+     "nokta": 72,
+     "yok": 0,
+     "nufus": 26748,
+     "bayt": 14244
+    },
+    {
+     "ad": "Tatvan",
+     "osm_id": 1836400,
+     "birim": 79,
+     "sinir": 21,
+     "nokta": 58,
+     "yok": 0,
+     "nufus": 105045,
+     "bayt": 41314
+    }
+   ]
+  },
+  {
+   "kod": "14",
+   "ad": "Bolu",
+   "ilceler": [
+    {
+     "ad": "Bolu Merkez",
+     "osm_id": 1795630,
+     "birim": 156,
+     "sinir": 72,
+     "nokta": 84,
+     "yok": 0,
+     "nufus": 222589,
+     "bayt": 179758
+    },
+    {
+     "ad": "Dörtdivan",
+     "osm_id": 1795631,
+     "birim": 32,
+     "sinir": 9,
+     "nokta": 23,
+     "yok": 0,
+     "nufus": 6214,
+     "bayt": 21151
+    },
+    {
+     "ad": "Gerede",
+     "osm_id": 1795632,
+     "birim": 100,
+     "sinir": 9,
+     "nokta": 90,
+     "yok": 1,
+     "nufus": 37196,
+     "bayt": 33065
+    },
+    {
+     "ad": "Göynük",
+     "osm_id": 1392574,
+     "birim": 72,
+     "sinir": 7,
+     "nokta": 64,
+     "yok": 1,
+     "nufus": 14257,
+     "bayt": 36817
+    },
+    {
+     "ad": "Kıbrıscık",
+     "osm_id": 1795633,
+     "birim": 24,
+     "sinir": 24,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 3783,
+     "bayt": 107486
+    },
+    {
+     "ad": "Mengen",
+     "osm_id": 1795634,
+     "birim": 64,
+     "sinir": 9,
+     "nokta": 55,
+     "yok": 0,
+     "nufus": 14152,
+     "bayt": 29300
+    },
+    {
+     "ad": "Mudurnu",
+     "osm_id": 1392573,
+     "birim": 82,
+     "sinir": 18,
+     "nokta": 63,
+     "yok": 1,
+     "nufus": 18101,
+     "bayt": 65415
+    },
+    {
+     "ad": "Seben",
+     "osm_id": 1795635,
+     "birim": 31,
+     "sinir": 30,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 4438,
+     "bayt": 163519
+    },
+    {
+     "ad": "Yeniçağa",
+     "osm_id": 1795636,
+     "birim": 19,
+     "sinir": 11,
+     "nokta": 8,
+     "yok": 0,
+     "nufus": 6443,
+     "bayt": 29636
+    }
+   ]
+  },
+  {
+   "kod": "15",
+   "ad": "Burdur",
+   "ilceler": [
+    {
+     "ad": "Altınyayla",
+     "osm_id": 1280045,
+     "birim": 9,
+     "sinir": 0,
+     "nokta": 5,
+     "yok": 4,
+     "nufus": 5060,
+     "bayt": 1652
+    },
+    {
+     "ad": "Ağlasun",
+     "osm_id": 1280041,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 6,
+     "nufus": 7347,
+     "bayt": 2699
+    },
+    {
+     "ad": "Bucak",
+     "osm_id": 1280042,
+     "birim": 63,
+     "sinir": 5,
+     "nokta": 38,
+     "yok": 20,
+     "nufus": 68309,
+     "bayt": 15938
+    },
+    {
+     "ad": "Burdur Merkez",
+     "osm_id": 1280048,
+     "birim": 86,
+     "sinir": 34,
+     "nokta": 51,
+     "yok": 1,
+     "nufus": 120832,
+     "bayt": 39835
+    },
+    {
+     "ad": "Gölhisar",
+     "osm_id": 1280047,
+     "birim": 24,
+     "sinir": 0,
+     "nokta": 13,
+     "yok": 11,
+     "nufus": 23969,
+     "bayt": 4277
+    },
+    {
+     "ad": "Karamanlı",
+     "osm_id": 1280051,
+     "birim": 20,
+     "sinir": 0,
+     "nokta": 8,
+     "yok": 12,
+     "nufus": 8097,
+     "bayt": 3444
+    },
+    {
+     "ad": "Kemer",
+     "osm_id": 1280046,
+     "birim": 10,
+     "sinir": 0,
+     "nokta": 7,
+     "yok": 3,
+     "nufus": 2727,
+     "bayt": 1816
+    },
+    {
+     "ad": "Tefenni",
+     "osm_id": 1280049,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 0,
+     "nufus": 9514,
+     "bayt": 4657
+    },
+    {
+     "ad": "Yeşilova",
+     "osm_id": 1280044,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 39,
+     "yok": 4,
+     "nufus": 13915,
+     "bayt": 8398
+    },
+    {
+     "ad": "Çavdır",
+     "osm_id": 1280050,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 12,
+     "nufus": 12539,
+     "bayt": 3577
+    },
+    {
+     "ad": "Çeltikçi",
+     "osm_id": 1280043,
+     "birim": 8,
+     "sinir": 0,
+     "nokta": 6,
+     "yok": 2,
+     "nufus": 4914,
+     "bayt": 1533
+    }
+   ]
+  },
+  {
+   "kod": "16",
+   "ad": "Bursa",
+   "ilceler": [
+    {
+     "ad": "Büyükorhan",
+     "osm_id": 1273944,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 1,
+     "nufus": 9148,
+     "bayt": 9384
+    },
+    {
+     "ad": "Gemlik",
+     "osm_id": 1273958,
+     "birim": 35,
+     "sinir": 16,
+     "nokta": 18,
+     "yok": 1,
+     "nufus": 124393,
+     "bayt": 29125
+    },
+    {
+     "ad": "Gürsu",
+     "osm_id": 1273957,
+     "birim": 15,
+     "sinir": 8,
+     "nokta": 1,
+     "yok": 6,
+     "nufus": 105761,
+     "bayt": 22354
+    },
+    {
+     "ad": "Harmancık",
+     "osm_id": 1273945,
+     "birim": 31,
+     "sinir": 2,
+     "nokta": 28,
+     "yok": 1,
+     "nufus": 6089,
+     "bayt": 13449
+    },
+    {
+     "ad": "Karacabey",
+     "osm_id": 1273950,
+     "birim": 85,
+     "sinir": 28,
+     "nokta": 54,
+     "yok": 3,
+     "nufus": 86543,
+     "bayt": 65328
+    },
+    {
+     "ad": "Keles",
+     "osm_id": 1273941,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 1,
+     "nufus": 10939,
+     "bayt": 8651
+    },
+    {
+     "ad": "Kestel",
+     "osm_id": 1273939,
+     "birim": 35,
+     "sinir": 6,
+     "nokta": 28,
+     "yok": 1,
+     "nufus": 77346,
+     "bayt": 14594
+    },
+    {
+     "ad": "Mudanya",
+     "osm_id": 1273953,
+     "birim": 47,
+     "sinir": 7,
+     "nokta": 39,
+     "yok": 1,
+     "nufus": 112225,
+     "bayt": 50406
+    },
+    {
+     "ad": "Mustafakemalpaşa",
+     "osm_id": 1273947,
+     "birim": 131,
+     "sinir": 1,
+     "nokta": 129,
+     "yok": 1,
+     "nufus": 103652,
+     "bayt": 32074
+    },
+    {
+     "ad": "Nilüfer",
+     "osm_id": 1273952,
+     "birim": 64,
+     "sinir": 33,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 577962,
+     "bayt": 75900
+    },
+    {
+     "ad": "Orhaneli",
+     "osm_id": 1273951,
+     "birim": 61,
+     "sinir": 2,
+     "nokta": 59,
+     "yok": 0,
+     "nufus": 18963,
+     "bayt": 15362
+    },
+    {
+     "ad": "Orhangazi",
+     "osm_id": 1273933,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 81997,
+     "bayt": 6649
+    },
+    {
+     "ad": "Osmangazi",
+     "osm_id": 1273954,
+     "birim": 136,
+     "sinir": 113,
+     "nokta": 21,
+     "yok": 2,
+     "nufus": 886077,
+     "bayt": 167063
+    },
+    {
+     "ad": "Yenişehir",
+     "osm_id": 1273936,
+     "birim": 71,
+     "sinir": 0,
+     "nokta": 70,
+     "yok": 1,
+     "nufus": 55609,
+     "bayt": 15311
+    },
+    {
+     "ad": "Yıldırım",
+     "osm_id": 1273955,
+     "birim": 71,
+     "sinir": 69,
+     "nokta": 2,
+     "yok": 0,
+     "nufus": 654589,
+     "bayt": 86273
+    },
+    {
+     "ad": "İnegöl",
+     "osm_id": 1273938,
+     "birim": 116,
+     "sinir": 17,
+     "nokta": 92,
+     "yok": 7,
+     "nufus": 306003,
+     "bayt": 38595
+    },
+    {
+     "ad": "İznik",
+     "osm_id": 1273931,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 46,
+     "yok": 0,
+     "nufus": 45510,
+     "bayt": 9619
+    }
+   ]
+  },
+  {
+   "kod": "17",
+   "ad": "Çanakkale",
+   "ilceler": [
+    {
+     "ad": "Ayvacık",
+     "osm_id": 1815261,
+     "birim": 70,
+     "sinir": 0,
+     "nokta": 64,
+     "yok": 6,
+     "nufus": 35411,
+     "bayt": 13589
+    },
+    {
+     "ad": "Bayramiç",
+     "osm_id": 1816956,
+     "birim": 79,
+     "sinir": 0,
+     "nokta": 75,
+     "yok": 4,
+     "nufus": 28480,
+     "bayt": 15583
+    },
+    {
+     "ad": "Biga",
+     "osm_id": 1593709,
+     "birim": 123,
+     "sinir": 3,
+     "nokta": 114,
+     "yok": 6,
+     "nufus": 94526,
+     "bayt": 27882
+    },
+    {
+     "ad": "Bozcaada",
+     "osm_id": 1815262,
+     "birim": 2,
+     "sinir": 0,
+     "nokta": 2,
+     "yok": 0,
+     "nufus": 3384,
+     "bayt": 465
+    },
+    {
+     "ad": "Eceabat",
+     "osm_id": 1815219,
+     "birim": 14,
+     "sinir": 6,
+     "nokta": 5,
+     "yok": 3,
+     "nufus": 8746,
+     "bayt": 44361
+    },
+    {
+     "ad": "Ezine",
+     "osm_id": 1816957,
+     "birim": 56,
+     "sinir": 2,
+     "nokta": 49,
+     "yok": 5,
+     "nufus": 31894,
+     "bayt": 15538
+    },
+    {
+     "ad": "Gelibolu",
+     "osm_id": 1815220,
+     "birim": 36,
+     "sinir": 5,
+     "nokta": 25,
+     "yok": 6,
+     "nufus": 44689,
+     "bayt": 22751
+    },
+    {
+     "ad": "Gökçeada",
+     "osm_id": 1815263,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 11331,
+     "bayt": 2919
+    },
+    {
+     "ad": "Lapseki",
+     "osm_id": 1815245,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 4,
+     "nufus": 30654,
+     "bayt": 8913
+    },
+    {
+     "ad": "Yenice",
+     "osm_id": 1589927,
+     "birim": 82,
+     "sinir": 0,
+     "nokta": 77,
+     "yok": 5,
+     "nufus": 29636,
+     "bayt": 15850
+    },
+    {
+     "ad": "Çan",
+     "osm_id": 1816958,
+     "birim": 74,
+     "sinir": 1,
+     "nokta": 64,
+     "yok": 9,
+     "nufus": 46612,
+     "bayt": 15655
+    },
+    {
+     "ad": "Çanakkale Merkez",
+     "osm_id": 1816280,
+     "birim": 62,
+     "sinir": 12,
+     "nokta": 50,
+     "yok": 0,
+     "nufus": 208613,
+     "bayt": 35431
+    }
+   ]
+  },
+  {
+   "kod": "18",
+   "ad": "Çankırı",
+   "ilceler": [
+    {
+     "ad": "Atkaracalar",
+     "osm_id": 1647150,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 3,
+     "nufus": 5063,
+     "bayt": 3839
+    },
+    {
+     "ad": "Bayramören",
+     "osm_id": 1647148,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 2209,
+     "bayt": 6099
+    },
+    {
+     "ad": "Eldivan",
+     "osm_id": 1647153,
+     "birim": 22,
+     "sinir": 5,
+     "nokta": 15,
+     "yok": 2,
+     "nufus": 6198,
+     "bayt": 9277
+    },
+    {
+     "ad": "Ilgaz",
+     "osm_id": 1647151,
+     "birim": 84,
+     "sinir": 1,
+     "nokta": 77,
+     "yok": 6,
+     "nufus": 13948,
+     "bayt": 19353
+    },
+    {
+     "ad": "Korgun",
+     "osm_id": 1647147,
+     "birim": 15,
+     "sinir": 2,
+     "nokta": 12,
+     "yok": 1,
+     "nufus": 4192,
+     "bayt": 7907
+    },
+    {
+     "ad": "Kurşunlu",
+     "osm_id": 1647155,
+     "birim": 38,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 8,
+     "nufus": 9130,
+     "bayt": 7243
+    },
+    {
+     "ad": "Kızılırmak",
+     "osm_id": 1647156,
+     "birim": 29,
+     "sinir": 2,
+     "nokta": 24,
+     "yok": 3,
+     "nufus": 6830,
+     "bayt": 23147
+    },
+    {
+     "ad": "Orta",
+     "osm_id": 1647152,
+     "birim": 38,
+     "sinir": 2,
+     "nokta": 31,
+     "yok": 5,
+     "nufus": 17223,
+     "bayt": 11676
+    },
+    {
+     "ad": "Yapraklı",
+     "osm_id": 1647149,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 39,
+     "yok": 4,
+     "nufus": 7002,
+     "bayt": 8418
+    },
+    {
+     "ad": "Çankırı Merkez",
+     "osm_id": 1647154,
+     "birim": 65,
+     "sinir": 6,
+     "nokta": 59,
+     "yok": 0,
+     "nufus": 99287,
+     "bayt": 25692
+    },
+    {
+     "ad": "Çerkeş",
+     "osm_id": 1647157,
+     "birim": 63,
+     "sinir": 0,
+     "nokta": 52,
+     "yok": 11,
+     "nufus": 16917,
+     "bayt": 11942
+    },
+    {
+     "ad": "Şabanözü",
+     "osm_id": 1647158,
+     "birim": 25,
+     "sinir": 2,
+     "nokta": 17,
+     "yok": 6,
+     "nufus": 12491,
+     "bayt": 12121
+    }
+   ]
+  },
+  {
+   "kod": "19",
+   "ad": "Çorum",
+   "ilceler": [
+    {
+     "ad": "Alaca",
+     "osm_id": 1331281,
+     "birim": 108,
+     "sinir": 0,
+     "nokta": 96,
+     "yok": 12,
+     "nufus": 28989,
+     "bayt": 20484
+    },
+    {
+     "ad": "Bayat",
+     "osm_id": 1331277,
+     "birim": 45,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 4,
+     "nufus": 13312,
+     "bayt": 8612
+    },
+    {
+     "ad": "Boğazkale",
+     "osm_id": 1331282,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 3,
+     "nufus": 3587,
+     "bayt": 3325
+    },
+    {
+     "ad": "Dodurga",
+     "osm_id": 1330571,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 9,
+     "nufus": 5036,
+     "bayt": 3093
+    },
+    {
+     "ad": "Kargı",
+     "osm_id": 1331194,
+     "birim": 64,
+     "sinir": 4,
+     "nokta": 54,
+     "yok": 6,
+     "nufus": 15119,
+     "bayt": 23358
+    },
+    {
+     "ad": "Laçin",
+     "osm_id": 1331275,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 3,
+     "nufus": 4094,
+     "bayt": 3232
+    },
+    {
+     "ad": "Mecitözü",
+     "osm_id": 1331283,
+     "birim": 62,
+     "sinir": 0,
+     "nokta": 56,
+     "yok": 6,
+     "nufus": 12911,
+     "bayt": 12162
+    },
+    {
+     "ad": "Ortaköy",
+     "osm_id": 1331276,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 5,
+     "nufus": 6491,
+     "bayt": 3580
+    },
+    {
+     "ad": "Osmancık",
+     "osm_id": 1331195,
+     "birim": 73,
+     "sinir": 0,
+     "nokta": 55,
+     "yok": 18,
+     "nufus": 42673,
+     "bayt": 13689
+    },
+    {
+     "ad": "Oğuzlar",
+     "osm_id": 1331280,
+     "birim": 13,
+     "sinir": 0,
+     "nokta": 7,
+     "yok": 6,
+     "nufus": 4610,
+     "bayt": 2330
+    },
+    {
+     "ad": "Sungurlu",
+     "osm_id": 1331278,
+     "birim": 125,
+     "sinir": 0,
+     "nokta": 105,
+     "yok": 20,
+     "nufus": 49079,
+     "bayt": 23859
+    },
+    {
+     "ad": "Uğurludağ",
+     "osm_id": 1331284,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 2,
+     "nufus": 5992,
+     "bayt": 5044
+    },
+    {
+     "ad": "Çorum Merkez",
+     "osm_id": 1331279,
+     "birim": 221,
+     "sinir": 13,
+     "nokta": 203,
+     "yok": 5,
+     "nufus": 299482,
+     "bayt": 53712
+    },
+    {
+     "ad": "İskilip",
+     "osm_id": 1331274,
+     "birim": 78,
+     "sinir": 0,
+     "nokta": 64,
+     "yok": 14,
+     "nufus": 28132,
+     "bayt": 14818
+    }
+   ]
+  },
+  {
+   "kod": "20",
+   "ad": "Denizli",
+   "ilceler": [
+    {
+     "ad": "Acıpayam",
+     "osm_id": 1605790,
+     "birim": 56,
+     "sinir": 3,
+     "nokta": 53,
+     "yok": 0,
+     "nufus": 54769,
+     "bayt": 16131
+    },
+    {
+     "ad": "Babadağ",
+     "osm_id": 1606200,
+     "birim": 12,
+     "sinir": 0,
+     "nokta": 12,
+     "yok": 0,
+     "nufus": 6199,
+     "bayt": 2582
+    },
+    {
+     "ad": "Baklan",
+     "osm_id": 1606207,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 5266,
+     "bayt": 2942
+    },
+    {
+     "ad": "Bekilli",
+     "osm_id": 1606203,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 6243,
+     "bayt": 3174
+    },
+    {
+     "ad": "Beyağaç",
+     "osm_id": 1606209,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 1,
+     "nufus": 6011,
+     "bayt": 3178
+    },
+    {
+     "ad": "Bozkurt",
+     "osm_id": 1606199,
+     "birim": 20,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 1,
+     "nufus": 11176,
+     "bayt": 4190
+    },
+    {
+     "ad": "Buldan",
+     "osm_id": 1606204,
+     "birim": 45,
+     "sinir": 0,
+     "nokta": 45,
+     "yok": 0,
+     "nufus": 26231,
+     "bayt": 9423
+    },
+    {
+     "ad": "Güney",
+     "osm_id": 1606208,
+     "birim": 24,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 0,
+     "nufus": 9043,
+     "bayt": 5046
+    },
+    {
+     "ad": "Honaz",
+     "osm_id": 1606206,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 34466,
+     "bayt": 4593
+    },
+    {
+     "ad": "Kale",
+     "osm_id": 1607200,
+     "birim": 32,
+     "sinir": 4,
+     "nokta": 26,
+     "yok": 2,
+     "nufus": 18855,
+     "bayt": 13690
+    },
+    {
+     "ad": "Merkezefendi",
+     "osm_id": 1606211,
+     "birim": 50,
+     "sinir": 49,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 351085,
+     "bayt": 53881
+    },
+    {
+     "ad": "Pamukkale",
+     "osm_id": 1606201,
+     "birim": 61,
+     "sinir": 29,
+     "nokta": 32,
+     "yok": 0,
+     "nufus": 343071,
+     "bayt": 44556
+    },
+    {
+     "ad": "Sarayköy",
+     "osm_id": 1606212,
+     "birim": 32,
+     "sinir": 0,
+     "nokta": 32,
+     "yok": 0,
+     "nufus": 30883,
+     "bayt": 6852
+    },
+    {
+     "ad": "Serinhisar",
+     "osm_id": 3446022,
+     "birim": 11,
+     "sinir": 0,
+     "nokta": 11,
+     "yok": 0,
+     "nufus": 14661,
+     "bayt": 2418
+    },
+    {
+     "ad": "Tavas",
+     "osm_id": 1605440,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 48,
+     "yok": 2,
+     "nufus": 40104,
+     "bayt": 10206
+    },
+    {
+     "ad": "Çal",
+     "osm_id": 1606205,
+     "birim": 34,
+     "sinir": 0,
+     "nokta": 34,
+     "yok": 0,
+     "nufus": 17277,
+     "bayt": 6987
+    },
+    {
+     "ad": "Çameli",
+     "osm_id": 1605791,
+     "birim": 31,
+     "sinir": 1,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 17447,
+     "bayt": 9264
+    },
+    {
+     "ad": "Çardak",
+     "osm_id": 1606202,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 1,
+     "nufus": 8497,
+     "bayt": 3134
+    },
+    {
+     "ad": "Çivril",
+     "osm_id": 1606210,
+     "birim": 77,
+     "sinir": 10,
+     "nokta": 66,
+     "yok": 1,
+     "nufus": 59689,
+     "bayt": 26869
+    }
+   ]
+  },
+  {
+   "kod": "21",
+   "ad": "Diyarbakır",
+   "ilceler": [
+    {
+     "ad": "Bağlar",
+     "osm_id": 1665230,
+     "birim": 49,
+     "sinir": 15,
+     "nokta": 33,
+     "yok": 1,
+     "nufus": 402275,
+     "bayt": 24628
+    },
+    {
+     "ad": "Bismil",
+     "osm_id": 1357023,
+     "birim": 123,
+     "sinir": 12,
+     "nokta": 106,
+     "yok": 5,
+     "nufus": 119815,
+     "bayt": 33146
+    },
+    {
+     "ad": "Dicle",
+     "osm_id": 1846360,
+     "birim": 49,
+     "sinir": 0,
+     "nokta": 46,
+     "yok": 3,
+     "nufus": 35948,
+     "bayt": 9950
+    },
+    {
+     "ad": "Ergani",
+     "osm_id": 1354885,
+     "birim": 107,
+     "sinir": 3,
+     "nokta": 102,
+     "yok": 2,
+     "nufus": 141098,
+     "bayt": 24420
+    },
+    {
+     "ad": "Eğil",
+     "osm_id": 1846361,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 1,
+     "nufus": 21673,
+     "bayt": 6130
+    },
+    {
+     "ad": "Hani",
+     "osm_id": 1846362,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 2,
+     "nufus": 32285,
+     "bayt": 5187
+    },
+    {
+     "ad": "Hazro",
+     "osm_id": 1842158,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 16024,
+     "bayt": 6427
+    },
+    {
+     "ad": "Kayapınar",
+     "osm_id": 1665231,
+     "birim": 34,
+     "sinir": 8,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 454311,
+     "bayt": 12294
+    },
+    {
+     "ad": "Kocaköy",
+     "osm_id": 1354018,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 1,
+     "nufus": 15088,
+     "bayt": 4652
+    },
+    {
+     "ad": "Kulp",
+     "osm_id": 1842159,
+     "birim": 58,
+     "sinir": 0,
+     "nokta": 58,
+     "yok": 0,
+     "nufus": 33973,
+     "bayt": 11824
+    },
+    {
+     "ad": "Lice",
+     "osm_id": 1846363,
+     "birim": 70,
+     "sinir": 2,
+     "nokta": 68,
+     "yok": 0,
+     "nufus": 24060,
+     "bayt": 15694
+    },
+    {
+     "ad": "Silvan",
+     "osm_id": 1842160,
+     "birim": 93,
+     "sinir": 0,
+     "nokta": 93,
+     "yok": 0,
+     "nufus": 86752,
+     "bayt": 19374
+    },
+    {
+     "ad": "Sur",
+     "osm_id": 1664708,
+     "birim": 100,
+     "sinir": 18,
+     "nokta": 82,
+     "yok": 0,
+     "nufus": 97961,
+     "bayt": 32475
+    },
+    {
+     "ad": "Yenişehir",
+     "osm_id": 1665091,
+     "birim": 42,
+     "sinir": 12,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 232622,
+     "bayt": 22450
+    },
+    {
+     "ad": "Çermik",
+     "osm_id": 1665601,
+     "birim": 81,
+     "sinir": 0,
+     "nokta": 80,
+     "yok": 1,
+     "nufus": 49299,
+     "bayt": 16977
+    },
+    {
+     "ad": "Çüngüş",
+     "osm_id": 1665602,
+     "birim": 40,
+     "sinir": 0,
+     "nokta": 40,
+     "yok": 0,
+     "nufus": 10057,
+     "bayt": 8694
+    },
+    {
+     "ad": "Çınar",
+     "osm_id": 1404649,
+     "birim": 101,
+     "sinir": 0,
+     "nokta": 100,
+     "yok": 1,
+     "nufus": 79114,
+     "bayt": 21280
+    }
+   ]
+  },
+  {
+   "kod": "22",
+   "ad": "Edirne",
+   "ilceler": [
+    {
+     "ad": "Edirne Merkez",
+     "osm_id": 1834221,
+     "birim": 65,
+     "sinir": 65,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 200753,
+     "bayt": 238068
+    },
+    {
+     "ad": "Enez",
+     "osm_id": 1834460,
+     "birim": 22,
+     "sinir": 22,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 10399,
+     "bayt": 157722
+    },
+    {
+     "ad": "Havsa",
+     "osm_id": 1834461,
+     "birim": 28,
+     "sinir": 28,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 17302,
+     "bayt": 169409
+    },
+    {
+     "ad": "Keşan",
+     "osm_id": 1277696,
+     "birim": 64,
+     "sinir": 15,
+     "nokta": 44,
+     "yok": 5,
+     "nufus": 85259,
+     "bayt": 64424
+    },
+    {
+     "ad": "Lalapaşa",
+     "osm_id": 1833421,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 5932,
+     "bayt": 5714
+    },
+    {
+     "ad": "Meriç",
+     "osm_id": 1834584,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 6,
+     "nufus": 12329,
+     "bayt": 5099
+    },
+    {
+     "ad": "Süloğlu",
+     "osm_id": 1834222,
+     "birim": 14,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 6101,
+     "bayt": 78696
+    },
+    {
+     "ad": "Uzunköprü",
+     "osm_id": 1834585,
+     "birim": 73,
+     "sinir": 0,
+     "nokta": 67,
+     "yok": 6,
+     "nufus": 59085,
+     "bayt": 14841
+    },
+    {
+     "ad": "İpsala",
+     "osm_id": 1834586,
+     "birim": 32,
+     "sinir": 10,
+     "nokta": 18,
+     "yok": 4,
+     "nufus": 25278,
+     "bayt": 39172
+    }
+   ]
+  },
+  {
+   "kod": "23",
+   "ad": "Elazığ",
+   "ilceler": [
+    {
+     "ad": "Alacakaya",
+     "osm_id": 1829615,
+     "birim": 16,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 0,
+     "nufus": 5336,
+     "bayt": 3342
+    },
+    {
+     "ad": "Arıcak",
+     "osm_id": 1829616,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 6,
+     "nufus": 12340,
+     "bayt": 6505
+    },
+    {
+     "ad": "Ağın",
+     "osm_id": 1830505,
+     "birim": 20,
+     "sinir": 20,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 2532,
+     "bayt": 70399
+    },
+    {
+     "ad": "Baskil",
+     "osm_id": 1830506,
+     "birim": 66,
+     "sinir": 0,
+     "nokta": 63,
+     "yok": 3,
+     "nufus": 13397,
+     "bayt": 13002
+    },
+    {
+     "ad": "Elâzığ Merkez",
+     "osm_id": 1830507,
+     "birim": 200,
+     "sinir": 26,
+     "nokta": 168,
+     "yok": 6,
+     "nufus": 463615,
+     "bayt": 69693
+    },
+    {
+     "ad": "Karakoçan",
+     "osm_id": 1829562,
+     "birim": 97,
+     "sinir": 0,
+     "nokta": 93,
+     "yok": 4,
+     "nufus": 28320,
+     "bayt": 19398
+    },
+    {
+     "ad": "Keban",
+     "osm_id": 1830508,
+     "birim": 34,
+     "sinir": 8,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 7112,
+     "bayt": 34215
+    },
+    {
+     "ad": "Kovancılar",
+     "osm_id": 1829599,
+     "birim": 89,
+     "sinir": 0,
+     "nokta": 80,
+     "yok": 9,
+     "nufus": 37874,
+     "bayt": 17765
+    },
+    {
+     "ad": "Maden",
+     "osm_id": 1830509,
+     "birim": 40,
+     "sinir": 0,
+     "nokta": 33,
+     "yok": 7,
+     "nufus": 9139,
+     "bayt": 7497
+    },
+    {
+     "ad": "Palu",
+     "osm_id": 1829617,
+     "birim": 51,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 10,
+     "nufus": 17872,
+     "bayt": 9529
+    },
+    {
+     "ad": "Sivrice",
+     "osm_id": 1830510,
+     "birim": 57,
+     "sinir": 0,
+     "nokta": 47,
+     "yok": 10,
+     "nufus": 8070,
+     "bayt": 10779
+    }
+   ]
+  },
+  {
+   "kod": "24",
+   "ad": "Erzincan",
+   "ilceler": [
+    {
+     "ad": "Erzincan Merkez",
+     "osm_id": 1754243,
+     "birim": 144,
+     "sinir": 33,
+     "nokta": 106,
+     "yok": 5,
+     "nufus": 169506,
+     "bayt": 48145
+    },
+    {
+     "ad": "Kemah",
+     "osm_id": 1754245,
+     "birim": 83,
+     "sinir": 10,
+     "nokta": 72,
+     "yok": 1,
+     "nufus": 6419,
+     "bayt": 31268
+    },
+    {
+     "ad": "Kemaliye",
+     "osm_id": 1754246,
+     "birim": 72,
+     "sinir": 1,
+     "nokta": 62,
+     "yok": 9,
+     "nufus": 4484,
+     "bayt": 16959
+    },
+    {
+     "ad": "Otlukbeli",
+     "osm_id": 1754247,
+     "birim": 13,
+     "sinir": 0,
+     "nokta": 10,
+     "yok": 3,
+     "nufus": 2123,
+     "bayt": 2509
+    },
+    {
+     "ad": "Refahiye",
+     "osm_id": 1754248,
+     "birim": 126,
+     "sinir": 2,
+     "nokta": 119,
+     "yok": 5,
+     "nufus": 10954,
+     "bayt": 26945
+    },
+    {
+     "ad": "Tercan",
+     "osm_id": 1754249,
+     "birim": 87,
+     "sinir": 0,
+     "nokta": 73,
+     "yok": 14,
+     "nufus": 16145,
+     "bayt": 16473
+    },
+    {
+     "ad": "Çayırlı",
+     "osm_id": 1754250,
+     "birim": 50,
+     "sinir": 1,
+     "nokta": 47,
+     "yok": 2,
+     "nufus": 7491,
+     "bayt": 13421
+    },
+    {
+     "ad": "Üzümlü",
+     "osm_id": 1754251,
+     "birim": 44,
+     "sinir": 0,
+     "nokta": 44,
+     "yok": 0,
+     "nufus": 13960,
+     "bayt": 9174
+    },
+    {
+     "ad": "İliç",
+     "osm_id": 1754244,
+     "birim": 62,
+     "sinir": 0,
+     "nokta": 58,
+     "yok": 4,
+     "nufus": 8543,
+     "bayt": 12015
+    }
+   ]
+  },
+  {
+   "kod": "25",
+   "ad": "Erzurum",
+   "ilceler": [
+    {
+     "ad": "Aziziye",
+     "osm_id": 1832781,
+     "birim": 73,
+     "sinir": 3,
+     "nokta": 69,
+     "yok": 1,
+     "nufus": 71827,
+     "bayt": 19173
+    },
+    {
+     "ad": "Aşkale",
+     "osm_id": 1832853,
+     "birim": 76,
+     "sinir": 1,
+     "nokta": 72,
+     "yok": 3,
+     "nufus": 19983,
+     "bayt": 16317
+    },
+    {
+     "ad": "Horasan",
+     "osm_id": 1832453,
+     "birim": 87,
+     "sinir": 0,
+     "nokta": 86,
+     "yok": 1,
+     "nufus": 34896,
+     "bayt": 18279
+    },
+    {
+     "ad": "Hınıs",
+     "osm_id": 1831341,
+     "birim": 98,
+     "sinir": 0,
+     "nokta": 79,
+     "yok": 19,
+     "nufus": 23011,
+     "bayt": 19412
+    },
+    {
+     "ad": "Karayazı",
+     "osm_id": 1832451,
+     "birim": 75,
+     "sinir": 1,
+     "nokta": 69,
+     "yok": 5,
+     "nufus": 22570,
+     "bayt": 16067
+    },
+    {
+     "ad": "Karaçoban",
+     "osm_id": 1832452,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 0,
+     "nufus": 19922,
+     "bayt": 5859
+    },
+    {
+     "ad": "Köprüköy",
+     "osm_id": 1832469,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 0,
+     "nufus": 12903,
+     "bayt": 9174
+    },
+    {
+     "ad": "Narman",
+     "osm_id": 1832937,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 44,
+     "yok": 2,
+     "nufus": 11119,
+     "bayt": 9458
+    },
+    {
+     "ad": "Oltu",
+     "osm_id": 1832682,
+     "birim": 72,
+     "sinir": 0,
+     "nokta": 63,
+     "yok": 9,
+     "nufus": 29765,
+     "bayt": 14188
+    },
+    {
+     "ad": "Olur",
+     "osm_id": 1832462,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 39,
+     "yok": 4,
+     "nufus": 5985,
+     "bayt": 8580
+    },
+    {
+     "ad": "Palandöken",
+     "osm_id": 1832938,
+     "birim": 26,
+     "sinir": 6,
+     "nokta": 20,
+     "yok": 0,
+     "nufus": 181922,
+     "bayt": 16896
+    },
+    {
+     "ad": "Pasinler",
+     "osm_id": 1832939,
+     "birim": 72,
+     "sinir": 0,
+     "nokta": 71,
+     "yok": 1,
+     "nufus": 25401,
+     "bayt": 15242
+    },
+    {
+     "ad": "Pazaryolu",
+     "osm_id": 1832624,
+     "birim": 43,
+     "sinir": 9,
+     "nokta": 33,
+     "yok": 1,
+     "nufus": 3527,
+     "bayt": 29363
+    },
+    {
+     "ad": "Tekman",
+     "osm_id": 1832940,
+     "birim": 71,
+     "sinir": 0,
+     "nokta": 70,
+     "yok": 1,
+     "nufus": 20826,
+     "bayt": 14720
+    },
+    {
+     "ad": "Tortum",
+     "osm_id": 1832941,
+     "birim": 57,
+     "sinir": 0,
+     "nokta": 51,
+     "yok": 6,
+     "nufus": 12881,
+     "bayt": 11491
+    },
+    {
+     "ad": "Uzundere",
+     "osm_id": 1832683,
+     "birim": 19,
+     "sinir": 10,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 8263,
+     "bayt": 25871
+    },
+    {
+     "ad": "Yakutiye",
+     "osm_id": 1832942,
+     "birim": 44,
+     "sinir": 9,
+     "nokta": 31,
+     "yok": 4,
+     "nufus": 189149,
+     "bayt": 22624
+    },
+    {
+     "ad": "Çat",
+     "osm_id": 1832479,
+     "birim": 45,
+     "sinir": 0,
+     "nokta": 44,
+     "yok": 1,
+     "nufus": 14015,
+     "bayt": 9151
+    },
+    {
+     "ad": "İspir",
+     "osm_id": 1832625,
+     "birim": 101,
+     "sinir": 0,
+     "nokta": 99,
+     "yok": 2,
+     "nufus": 13984,
+     "bayt": 20863
+    },
+    {
+     "ad": "Şenkaya",
+     "osm_id": 1832461,
+     "birim": 71,
+     "sinir": 1,
+     "nokta": 67,
+     "yok": 3,
+     "nufus": 14918,
+     "bayt": 21267
+    }
+   ]
+  },
+  {
+   "kod": "26",
+   "ad": "Eskişehir",
+   "ilceler": [
+    {
+     "ad": "Alpu",
+     "osm_id": 1238927,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 32,
+     "yok": 1,
+     "nufus": 9725,
+     "bayt": 6719
+    },
+    {
+     "ad": "Beylikova",
+     "osm_id": 1238933,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 1,
+     "nufus": 5610,
+     "bayt": 5348
+    },
+    {
+     "ad": "Günyüzü",
+     "osm_id": 1238928,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 5008,
+     "bayt": 4739
+    },
+    {
+     "ad": "Han",
+     "osm_id": 1238925,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 2126,
+     "bayt": 3060
+    },
+    {
+     "ad": "Mahmudiye",
+     "osm_id": 1238923,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 0,
+     "nufus": 7407,
+     "bayt": 4084
+    },
+    {
+     "ad": "Mihalgazi",
+     "osm_id": 1238929,
+     "birim": 9,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 2861,
+     "bayt": 1975
+    },
+    {
+     "ad": "Mihalıççık",
+     "osm_id": 1238921,
+     "birim": 53,
+     "sinir": 0,
+     "nokta": 52,
+     "yok": 1,
+     "nufus": 7605,
+     "bayt": 11770
+    },
+    {
+     "ad": "Odunpazarı",
+     "osm_id": 1238924,
+     "birim": 85,
+     "sinir": 27,
+     "nokta": 58,
+     "yok": 0,
+     "nufus": 431153,
+     "bayt": 41114
+    },
+    {
+     "ad": "Sarıcakaya",
+     "osm_id": 1238926,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 4477,
+     "bayt": 3081
+    },
+    {
+     "ad": "Seyitgazi",
+     "osm_id": 1238930,
+     "birim": 51,
+     "sinir": 0,
+     "nokta": 50,
+     "yok": 1,
+     "nufus": 12565,
+     "bayt": 10892
+    },
+    {
+     "ad": "Sivrihisar",
+     "osm_id": 1238931,
+     "birim": 78,
+     "sinir": 13,
+     "nokta": 61,
+     "yok": 4,
+     "nufus": 20189,
+     "bayt": 45222
+    },
+    {
+     "ad": "Tepebaşı",
+     "osm_id": 1687970,
+     "birim": 92,
+     "sinir": 86,
+     "nokta": 5,
+     "yok": 1,
+     "nufus": 398129,
+     "bayt": 112817
+    },
+    {
+     "ad": "Çifteler",
+     "osm_id": 1238932,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 14487,
+     "bayt": 6024
+    },
+    {
+     "ad": "İnönü",
+     "osm_id": 1238922,
+     "birim": 16,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 0,
+     "nufus": 6114,
+     "bayt": 3453
+    }
+   ]
+  },
+  {
+   "kod": "27",
+   "ad": "Gaziantep",
+   "ilceler": [
+    {
+     "ad": "Araban",
+     "osm_id": 1808031,
+     "birim": 49,
+     "sinir": 49,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 32540,
+     "bayt": 126806
+    },
+    {
+     "ad": "Karkamış",
+     "osm_id": 1808093,
+     "birim": 39,
+     "sinir": 39,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 9087,
+     "bayt": 83417
+    },
+    {
+     "ad": "Nizip",
+     "osm_id": 1808094,
+     "birim": 110,
+     "sinir": 108,
+     "nokta": 0,
+     "yok": 2,
+     "nufus": 152660,
+     "bayt": 265693
+    },
+    {
+     "ad": "Nurdağı",
+     "osm_id": 1808095,
+     "birim": 50,
+     "sinir": 50,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 38269,
+     "bayt": 95430
+    },
+    {
+     "ad": "Oğuzeli",
+     "osm_id": 1808096,
+     "birim": 91,
+     "sinir": 91,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 36495,
+     "bayt": 190237
+    },
+    {
+     "ad": "Yavuzeli",
+     "osm_id": 1808097,
+     "birim": 44,
+     "sinir": 44,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 23436,
+     "bayt": 133945
+    },
+    {
+     "ad": "İslahiye",
+     "osm_id": 1808098,
+     "birim": 71,
+     "sinir": 70,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 66107,
+     "bayt": 236648
+    },
+    {
+     "ad": "Şahinbey",
+     "osm_id": 1808099,
+     "birim": 164,
+     "sinir": 163,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 957792,
+     "bayt": 436047
+    },
+    {
+     "ad": "Şehitkamil",
+     "osm_id": 1808100,
+     "birim": 119,
+     "sinir": 117,
+     "nokta": 1,
+     "yok": 1,
+     "nufus": 905364,
+     "bayt": 430564
+    }
+   ]
+  },
+  {
+   "kod": "28",
+   "ad": "Giresun",
+   "ilceler": [
+    {
+     "ad": "Alucra",
+     "osm_id": 1835980,
+     "birim": 48,
+     "sinir": 0,
+     "nokta": 48,
+     "yok": 0,
+     "nufus": 8473,
+     "bayt": 9616
+    },
+    {
+     "ad": "Bulancak",
+     "osm_id": 1835981,
+     "birim": 88,
+     "sinir": 0,
+     "nokta": 87,
+     "yok": 1,
+     "nufus": 70397,
+     "bayt": 17806
+    },
+    {
+     "ad": "Dereli",
+     "osm_id": 1835982,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 4,
+     "nufus": 20100,
+     "bayt": 8960
+    },
+    {
+     "ad": "Doğankent",
+     "osm_id": 1835983,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 7327,
+     "bayt": 3117
+    },
+    {
+     "ad": "Espiye",
+     "osm_id": 1835984,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 8,
+     "nufus": 39182,
+     "bayt": 8138
+    },
+    {
+     "ad": "Eynesil",
+     "osm_id": 1835985,
+     "birim": 23,
+     "sinir": 6,
+     "nokta": 17,
+     "yok": 0,
+     "nufus": 12548,
+     "bayt": 14114
+    },
+    {
+     "ad": "Giresun Merkez",
+     "osm_id": 1835986,
+     "birim": 86,
+     "sinir": 14,
+     "nokta": 70,
+     "yok": 2,
+     "nufus": 143915,
+     "bayt": 32889
+    },
+    {
+     "ad": "Görele",
+     "osm_id": 1835987,
+     "birim": 83,
+     "sinir": 0,
+     "nokta": 63,
+     "yok": 20,
+     "nufus": 31536,
+     "bayt": 15401
+    },
+    {
+     "ad": "Güce",
+     "osm_id": 1835988,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 1,
+     "nufus": 8194,
+     "bayt": 3760
+    },
+    {
+     "ad": "Keşap",
+     "osm_id": 1835989,
+     "birim": 52,
+     "sinir": 0,
+     "nokta": 48,
+     "yok": 4,
+     "nufus": 20859,
+     "bayt": 10122
+    },
+    {
+     "ad": "Piraziz",
+     "osm_id": 1835990,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 15109,
+     "bayt": 6282
+    },
+    {
+     "ad": "Tirebolu",
+     "osm_id": 1835991,
+     "birim": 57,
+     "sinir": 0,
+     "nokta": 55,
+     "yok": 2,
+     "nufus": 32124,
+     "bayt": 11352
+    },
+    {
+     "ad": "Yağlıdere",
+     "osm_id": 1835992,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 37,
+     "yok": 0,
+     "nufus": 14688,
+     "bayt": 7725
+    },
+    {
+     "ad": "Çamoluk",
+     "osm_id": 1806690,
+     "birim": 35,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 0,
+     "nufus": 5709,
+     "bayt": 7067
+    },
+    {
+     "ad": "Çanakçı",
+     "osm_id": 1835993,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 2,
+     "nufus": 5783,
+     "bayt": 3776
+    },
+    {
+     "ad": "Şebinkarahisar",
+     "osm_id": 1806620,
+     "birim": 77,
+     "sinir": 0,
+     "nokta": 76,
+     "yok": 1,
+     "nufus": 19130,
+     "bayt": 16053
+    }
+   ]
+  },
+  {
+   "kod": "29",
+   "ad": "Gümüşhane",
+   "ilceler": [
+    {
+     "ad": "Gümüşhane Merkez",
+     "osm_id": 1835700,
+     "birim": 115,
+     "sinir": 17,
+     "nokta": 97,
+     "yok": 1,
+     "nufus": 54697,
+     "bayt": 52494
+    },
+    {
+     "ad": "Kelkit",
+     "osm_id": 1835701,
+     "birim": 98,
+     "sinir": 2,
+     "nokta": 93,
+     "yok": 3,
+     "nufus": 38520,
+     "bayt": 21867
+    },
+    {
+     "ad": "Köse",
+     "osm_id": 1835702,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 13,
+     "yok": 6,
+     "nufus": 6107,
+     "bayt": 3415
+    },
+    {
+     "ad": "Kürtün",
+     "osm_id": 1835703,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 0,
+     "nufus": 11327,
+     "bayt": 8523
+    },
+    {
+     "ad": "Torul",
+     "osm_id": 1835646,
+     "birim": 45,
+     "sinir": 0,
+     "nokta": 45,
+     "yok": 0,
+     "nufus": 9779,
+     "bayt": 8878
+    },
+    {
+     "ad": "Şiran",
+     "osm_id": 1835704,
+     "birim": 77,
+     "sinir": 0,
+     "nokta": 68,
+     "yok": 9,
+     "nufus": 18377,
+     "bayt": 14752
+    }
+   ]
+  },
+  {
+   "kod": "30",
+   "ad": "Hakkâri",
+   "ilceler": [
+    {
+     "ad": "Derecik",
+     "osm_id": 9218922,
+     "birim": 14,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 24869,
+     "bayt": 39882
+    },
+    {
+     "ad": "Hakkari Merkez",
+     "osm_id": 1381572,
+     "birim": 58,
+     "sinir": 8,
+     "nokta": 48,
+     "yok": 2,
+     "nufus": 76165,
+     "bayt": 18682
+    },
+    {
+     "ad": "Yüksekova",
+     "osm_id": 1381573,
+     "birim": 78,
+     "sinir": 12,
+     "nokta": 62,
+     "yok": 4,
+     "nufus": 121314,
+     "bayt": 32769
+    },
+    {
+     "ad": "Çukurca",
+     "osm_id": 1776630,
+     "birim": 11,
+     "sinir": 0,
+     "nokta": 11,
+     "yok": 0,
+     "nufus": 14299,
+     "bayt": 2271
+    },
+    {
+     "ad": "Şemdinli",
+     "osm_id": 1381574,
+     "birim": 24,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 0,
+     "nufus": 43034,
+     "bayt": 4913
+    }
+   ]
+  },
+  {
+   "kod": "31",
+   "ad": "Hatay",
+   "ilceler": [
+    {
+     "ad": "Altınözü",
+     "osm_id": 1240897,
+     "birim": 49,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 0,
+     "nufus": 69834,
+     "bayt": 10736
+    },
+    {
+     "ad": "Antakya",
+     "osm_id": 1240898,
+     "birim": 95,
+     "sinir": 35,
+     "nokta": 60,
+     "yok": 0,
+     "nufus": 301855,
+     "bayt": 46127
+    },
+    {
+     "ad": "Arsuz",
+     "osm_id": 3664512,
+     "birim": 38,
+     "sinir": 7,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 115077,
+     "bayt": 28164
+    },
+    {
+     "ad": "Belen",
+     "osm_id": 1240901,
+     "birim": 19,
+     "sinir": 18,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 37876,
+     "bayt": 49038
+    },
+    {
+     "ad": "Defne",
+     "osm_id": 3663389,
+     "birim": 37,
+     "sinir": 36,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 139605,
+     "bayt": 96758
+    },
+    {
+     "ad": "Dörtyol",
+     "osm_id": 1240902,
+     "birim": 15,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 132987,
+     "bayt": 48234
+    },
+    {
+     "ad": "Erzin",
+     "osm_id": 1240894,
+     "birim": 20,
+     "sinir": 20,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 43103,
+     "bayt": 37838
+    },
+    {
+     "ad": "Hassa",
+     "osm_id": 1240899,
+     "birim": 40,
+     "sinir": 0,
+     "nokta": 40,
+     "yok": 0,
+     "nufus": 57457,
+     "bayt": 8312
+    },
+    {
+     "ad": "Kumlu",
+     "osm_id": 1240893,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 16242,
+     "bayt": 27653
+    },
+    {
+     "ad": "Kırıkhan",
+     "osm_id": 1240900,
+     "birim": 73,
+     "sinir": 0,
+     "nokta": 73,
+     "yok": 0,
+     "nufus": 108200,
+     "bayt": 15914
+    },
+    {
+     "ad": "Payas",
+     "osm_id": 3664639,
+     "birim": 13,
+     "sinir": 13,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 44530,
+     "bayt": 27709
+    },
+    {
+     "ad": "Reyhanlı",
+     "osm_id": 1240895,
+     "birim": 49,
+     "sinir": 1,
+     "nokta": 48,
+     "yok": 0,
+     "nufus": 117645,
+     "bayt": 11544
+    },
+    {
+     "ad": "Samandağ",
+     "osm_id": 1240896,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 0,
+     "nufus": 122952,
+     "bayt": 9085
+    },
+    {
+     "ad": "Yayladağı",
+     "osm_id": 1240892,
+     "birim": 47,
+     "sinir": 0,
+     "nokta": 47,
+     "yok": 0,
+     "nufus": 42019,
+     "bayt": 10348
+    },
+    {
+     "ad": "İskenderun",
+     "osm_id": 1240891,
+     "birim": 45,
+     "sinir": 15,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 228149,
+     "bayt": 17814
+    }
+   ]
+  },
+  {
+   "kod": "32",
+   "ad": "Isparta",
+   "ilceler": [
+    {
+     "ad": "Aksu",
+     "osm_id": 1601952,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 4073,
+     "bayt": 4399
+    },
+    {
+     "ad": "Atabey",
+     "osm_id": 1827186,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 6,
+     "yok": 8,
+     "nufus": 6204,
+     "bayt": 2365
+    },
+    {
+     "ad": "Eğirdir",
+     "osm_id": 1827187,
+     "birim": 57,
+     "sinir": 24,
+     "nokta": 30,
+     "yok": 3,
+     "nufus": 29200,
+     "bayt": 36422
+    },
+    {
+     "ad": "Gelendost",
+     "osm_id": 1827188,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 13,
+     "yok": 10,
+     "nufus": 13985,
+     "bayt": 4127
+    },
+    {
+     "ad": "Gönen",
+     "osm_id": 1827189,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 6,
+     "yok": 9,
+     "nufus": 7065,
+     "bayt": 2530
+    },
+    {
+     "ad": "Isparta Merkez",
+     "osm_id": 1827190,
+     "birim": 71,
+     "sinir": 45,
+     "nokta": 20,
+     "yok": 6,
+     "nufus": 273638,
+     "bayt": 42669
+    },
+    {
+     "ad": "Keçiborlu",
+     "osm_id": 1827191,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 14,
+     "nufus": 14033,
+     "bayt": 5361
+    },
+    {
+     "ad": "Senirkent",
+     "osm_id": 1827192,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 7,
+     "yok": 15,
+     "nufus": 10331,
+     "bayt": 3728
+    },
+    {
+     "ad": "Sütçüler",
+     "osm_id": 1827193,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 6,
+     "nufus": 9228,
+     "bayt": 7233
+    },
+    {
+     "ad": "Uluborlu",
+     "osm_id": 1827194,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 3,
+     "yok": 12,
+     "nufus": 6287,
+     "bayt": 2419
+    },
+    {
+     "ad": "Yalvaç",
+     "osm_id": 1827195,
+     "birim": 69,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 20,
+     "nufus": 44596,
+     "bayt": 12886
+    },
+    {
+     "ad": "Yenişarbademli",
+     "osm_id": 10012274,
+     "birim": 5,
+     "sinir": 0,
+     "nokta": 5,
+     "yok": 0,
+     "nufus": 2353,
+     "bayt": 1151
+    },
+    {
+     "ad": "Şarkikaraağaç",
+     "osm_id": 1827196,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 15,
+     "nufus": 24310,
+     "bayt": 8077
+    }
+   ]
+  },
+  {
+   "kod": "33",
+   "ad": "Mersin",
+   "ilceler": [
+    {
+     "ad": "Akdeniz",
+     "osm_id": 1827891,
+     "birim": 65,
+     "sinir": 30,
+     "nokta": 35,
+     "yok": 0,
+     "nufus": 254240,
+     "bayt": 36910
+    },
+    {
+     "ad": "Anamur",
+     "osm_id": 1827892,
+     "birim": 56,
+     "sinir": 0,
+     "nokta": 55,
+     "yok": 1,
+     "nufus": 66952,
+     "bayt": 11683
+    },
+    {
+     "ad": "Aydıncık",
+     "osm_id": 1827893,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 11271,
+     "bayt": 3283
+    },
+    {
+     "ad": "Bozyazı",
+     "osm_id": 1827894,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 26832,
+     "bayt": 5563
+    },
+    {
+     "ad": "Erdemli",
+     "osm_id": 1827895,
+     "birim": 71,
+     "sinir": 0,
+     "nokta": 69,
+     "yok": 2,
+     "nufus": 157566,
+     "bayt": 14831
+    },
+    {
+     "ad": "Gülnar",
+     "osm_id": 1442756,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 50,
+     "yok": 0,
+     "nufus": 32785,
+     "bayt": 10534
+    },
+    {
+     "ad": "Mezitli",
+     "osm_id": 1827896,
+     "birim": 40,
+     "sinir": 7,
+     "nokta": 33,
+     "yok": 0,
+     "nufus": 233140,
+     "bayt": 16843
+    },
+    {
+     "ad": "Mut",
+     "osm_id": 1442351,
+     "birim": 102,
+     "sinir": 0,
+     "nokta": 99,
+     "yok": 3,
+     "nufus": 62758,
+     "bayt": 20472
+    },
+    {
+     "ad": "Silifke",
+     "osm_id": 1442334,
+     "birim": 88,
+     "sinir": 8,
+     "nokta": 78,
+     "yok": 2,
+     "nufus": 139608,
+     "bayt": 81383
+    },
+    {
+     "ad": "Tarsus",
+     "osm_id": 1586057,
+     "birim": 180,
+     "sinir": 46,
+     "nokta": 132,
+     "yok": 2,
+     "nufus": 358510,
+     "bayt": 70859
+    },
+    {
+     "ad": "Toroslar",
+     "osm_id": 1626398,
+     "birim": 67,
+     "sinir": 23,
+     "nokta": 42,
+     "yok": 2,
+     "nufus": 322971,
+     "bayt": 36830
+    },
+    {
+     "ad": "Yenişehir",
+     "osm_id": 1827897,
+     "birim": 32,
+     "sinir": 22,
+     "nokta": 10,
+     "yok": 0,
+     "nufus": 281358,
+     "bayt": 25300
+    },
+    {
+     "ad": "Çamlıyayla",
+     "osm_id": 1626475,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 8383,
+     "bayt": 3127
+    }
+   ]
+  },
+  {
+   "kod": "34",
+   "ad": "İstanbul",
+   "ilceler": [
+    {
+     "ad": "Adalar",
+     "osm_id": 963209,
+     "birim": 5,
+     "sinir": 5,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 17489,
+     "bayt": 28553
+    },
+    {
+     "ad": "Arnavutköy",
+     "osm_id": 1766093,
+     "birim": 38,
+     "sinir": 38,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 358469,
+     "bayt": 143395
+    },
+    {
+     "ad": "Ataşehir",
+     "osm_id": 1276672,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 412125,
+     "bayt": 21545
+    },
+    {
+     "ad": "Avcılar",
+     "osm_id": 1766094,
+     "birim": 10,
+     "sinir": 10,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 440663,
+     "bayt": 21735
+    },
+    {
+     "ad": "Bahçelievler",
+     "osm_id": 1766095,
+     "birim": 11,
+     "sinir": 11,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 539035,
+     "bayt": 13231
+    },
+    {
+     "ad": "Bakırköy",
+     "osm_id": 1766096,
+     "birim": 15,
+     "sinir": 15,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 218204,
+     "bayt": 20531
+    },
+    {
+     "ad": "Bayrampaşa",
+     "osm_id": 1766097,
+     "birim": 11,
+     "sinir": 11,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 272978,
+     "bayt": 10388
+    },
+    {
+     "ad": "Bağcılar",
+     "osm_id": 1766098,
+     "birim": 22,
+     "sinir": 22,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 707635,
+     "bayt": 22123
+    },
+    {
+     "ad": "Başakşehir",
+     "osm_id": 1766099,
+     "birim": 10,
+     "sinir": 10,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 536669,
+     "bayt": 33398
+    },
+    {
+     "ad": "Beykoz",
+     "osm_id": 1276910,
+     "birim": 45,
+     "sinir": 45,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 246833,
+     "bayt": 168282
+    },
+    {
+     "ad": "Beylikdüzü",
+     "osm_id": 1766100,
+     "birim": 10,
+     "sinir": 10,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 422920,
+     "bayt": 24340
+    },
+    {
+     "ad": "Beyoğlu",
+     "osm_id": 1765892,
+     "birim": 45,
+     "sinir": 44,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 215991,
+     "bayt": 39006
+    },
+    {
+     "ad": "Beşiktaş",
+     "osm_id": 1765893,
+     "birim": 23,
+     "sinir": 23,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 165895,
+     "bayt": 28490
+    },
+    {
+     "ad": "Büyükçekmece",
+     "osm_id": 1275387,
+     "birim": 24,
+     "sinir": 24,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 283239,
+     "bayt": 62961
+    },
+    {
+     "ad": "Esenler",
+     "osm_id": 1766101,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 419878,
+     "bayt": 17538
+    },
+    {
+     "ad": "Esenyurt",
+     "osm_id": 1766102,
+     "birim": 43,
+     "sinir": 42,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 1003905,
+     "bayt": 39730
+    },
+    {
+     "ad": "Eyüpsultan",
+     "osm_id": 1766103,
+     "birim": 29,
+     "sinir": 29,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 425216,
+     "bayt": 71938
+    },
+    {
+     "ad": "Fatih",
+     "osm_id": 1766104,
+     "birim": 57,
+     "sinir": 57,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 351786,
+     "bayt": 49607
+    },
+    {
+     "ad": "Gaziosmanpaşa",
+     "osm_id": 1766105,
+     "birim": 16,
+     "sinir": 16,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 478395,
+     "bayt": 18916
+    },
+    {
+     "ad": "Güngören",
+     "osm_id": 1766106,
+     "birim": 11,
+     "sinir": 11,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 251242,
+     "bayt": 10289
+    },
+    {
+     "ad": "Kadıköy",
+     "osm_id": 1276548,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 458573,
+     "bayt": 30387
+    },
+    {
+     "ad": "Kartal",
+     "osm_id": 1276013,
+     "birim": 20,
+     "sinir": 19,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 475630,
+     "bayt": 32097
+    },
+    {
+     "ad": "Kâğıthane",
+     "osm_id": 1765894,
+     "birim": 19,
+     "sinir": 19,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 446420,
+     "bayt": 25787
+    },
+    {
+     "ad": "Küçükçekmece",
+     "osm_id": 7786498,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 785270,
+     "bayt": 36708
+    },
+    {
+     "ad": "Maltepe",
+     "osm_id": 1276407,
+     "birim": 18,
+     "sinir": 18,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 525044,
+     "bayt": 37331
+    },
+    {
+     "ad": "Pendik",
+     "osm_id": 1276011,
+     "birim": 36,
+     "sinir": 36,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 752033,
+     "bayt": 68747
+    },
+    {
+     "ad": "Sancaktepe",
+     "osm_id": 1276014,
+     "birim": 19,
+     "sinir": 19,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 507500,
+     "bayt": 30321
+    },
+    {
+     "ad": "Sarıyer",
+     "osm_id": 1765895,
+     "birim": 38,
+     "sinir": 37,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 344883,
+     "bayt": 121188
+    },
+    {
+     "ad": "Silivri",
+     "osm_id": 1275379,
+     "birim": 35,
+     "sinir": 35,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 240029,
+     "bayt": 192525
+    },
+    {
+     "ad": "Sultanbeyli",
+     "osm_id": 1276012,
+     "birim": 15,
+     "sinir": 15,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 378908,
+     "bayt": 21010
+    },
+    {
+     "ad": "Sultangazi",
+     "osm_id": 1766108,
+     "birim": 15,
+     "sinir": 15,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 529306,
+     "bayt": 17630
+    },
+    {
+     "ad": "Tuzla",
+     "osm_id": 1276010,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 313778,
+     "bayt": 47310
+    },
+    {
+     "ad": "Zeytinburnu",
+     "osm_id": 1766109,
+     "birim": 13,
+     "sinir": 13,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 275471,
+     "bayt": 15247
+    },
+    {
+     "ad": "Çatalca",
+     "osm_id": 1275389,
+     "birim": 39,
+     "sinir": 39,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 81143,
+     "bayt": 241154
+    },
+    {
+     "ad": "Çekmeköy",
+     "osm_id": 1276034,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 315959,
+     "bayt": 68127
+    },
+    {
+     "ad": "Ümraniye",
+     "osm_id": 1276890,
+     "birim": 35,
+     "sinir": 35,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 728783,
+     "bayt": 44822
+    },
+    {
+     "ad": "Üsküdar",
+     "osm_id": 1276889,
+     "birim": 33,
+     "sinir": 33,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 514294,
+     "bayt": 46841
+    },
+    {
+     "ad": "Şile",
+     "osm_id": 1275310,
+     "birim": 62,
+     "sinir": 61,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 50090,
+     "bayt": 262793
+    },
+    {
+     "ad": "Şişli",
+     "osm_id": 1765896,
+     "birim": 25,
+     "sinir": 25,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 261959,
+     "bayt": 20939
+    }
+   ]
+  },
+  {
+   "kod": "35",
+   "ad": "İzmir",
+   "ilceler": [
+    {
+     "ad": "Aliağa",
+     "osm_id": 1268453,
+     "birim": 32,
+     "sinir": 32,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 110892,
+     "bayt": 116475
+    },
+    {
+     "ad": "Balçova",
+     "osm_id": 1269253,
+     "birim": 8,
+     "sinir": 8,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 75743,
+     "bayt": 16387
+    },
+    {
+     "ad": "Bayraklı",
+     "osm_id": 1268481,
+     "birim": 25,
+     "sinir": 25,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 296481,
+     "bayt": 34344
+    },
+    {
+     "ad": "Bayındır",
+     "osm_id": 1841223,
+     "birim": 59,
+     "sinir": 59,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 39971,
+     "bayt": 158091
+    },
+    {
+     "ad": "Bergama",
+     "osm_id": 1819082,
+     "birim": 137,
+     "sinir": 130,
+     "nokta": 2,
+     "yok": 5,
+     "nufus": 107549,
+     "bayt": 429517
+    },
+    {
+     "ad": "Beydağ",
+     "osm_id": 1823316,
+     "birim": 25,
+     "sinir": 25,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 11904,
+     "bayt": 113082
+    },
+    {
+     "ad": "Bornova",
+     "osm_id": 1269252,
+     "birim": 45,
+     "sinir": 45,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 452479,
+     "bayt": 89260
+    },
+    {
+     "ad": "Buca",
+     "osm_id": 1269254,
+     "birim": 47,
+     "sinir": 47,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 520936,
+     "bayt": 77316
+    },
+    {
+     "ad": "Dikili",
+     "osm_id": 1819083,
+     "birim": 30,
+     "sinir": 30,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 49138,
+     "bayt": 130266
+    },
+    {
+     "ad": "Foça",
+     "osm_id": 1268452,
+     "birim": 16,
+     "sinir": 16,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 37711,
+     "bayt": 72286
+    },
+    {
+     "ad": "Gaziemir",
+     "osm_id": 1269251,
+     "birim": 16,
+     "sinir": 16,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 137220,
+     "bayt": 28729
+    },
+    {
+     "ad": "Güzelbahçe",
+     "osm_id": 1269194,
+     "birim": 12,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 39474,
+     "bayt": 36981
+    },
+    {
+     "ad": "Karabağlar",
+     "osm_id": 1269256,
+     "birim": 58,
+     "sinir": 58,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 467572,
+     "bayt": 75528
+    },
+    {
+     "ad": "Karaburun",
+     "osm_id": 1269193,
+     "birim": 16,
+     "sinir": 16,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 13725,
+     "bayt": 126061
+    },
+    {
+     "ad": "Karşıyaka",
+     "osm_id": 1268483,
+     "birim": 27,
+     "sinir": 27,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 339624,
+     "bayt": 38417
+    },
+    {
+     "ad": "Kemalpaşa",
+     "osm_id": 1269520,
+     "birim": 49,
+     "sinir": 39,
+     "nokta": 0,
+     "yok": 10,
+     "nufus": 122690,
+     "bayt": 164388
+    },
+    {
+     "ad": "Kiraz",
+     "osm_id": 1823317,
+     "birim": 56,
+     "sinir": 56,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 43340,
+     "bayt": 254731
+    },
+    {
+     "ad": "Konak",
+     "osm_id": 1269255,
+     "birim": 112,
+     "sinir": 112,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 317399,
+     "bayt": 86814
+    },
+    {
+     "ad": "Kınık",
+     "osm_id": 1820958,
+     "birim": 37,
+     "sinir": 36,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 28603,
+     "bayt": 100794
+    },
+    {
+     "ad": "Menderes",
+     "osm_id": 1269196,
+     "birim": 44,
+     "sinir": 44,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 112842,
+     "bayt": 145248
+    },
+    {
+     "ad": "Menemen",
+     "osm_id": 1268484,
+     "birim": 65,
+     "sinir": 65,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 220509,
+     "bayt": 153746
+    },
+    {
+     "ad": "Narlıdere",
+     "osm_id": 1269257,
+     "birim": 11,
+     "sinir": 11,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 61320,
+     "bayt": 19899
+    },
+    {
+     "ad": "Seferihisar",
+     "osm_id": 1269195,
+     "birim": 23,
+     "sinir": 23,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 63712,
+     "bayt": 94284
+    },
+    {
+     "ad": "Selçuk",
+     "osm_id": 1841225,
+     "birim": 14,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 38578,
+     "bayt": 57740
+    },
+    {
+     "ad": "Tire",
+     "osm_id": 1841226,
+     "birim": 88,
+     "sinir": 88,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 87528,
+     "bayt": 348114
+    },
+    {
+     "ad": "Torbalı",
+     "osm_id": 1269519,
+     "birim": 60,
+     "sinir": 60,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 224133,
+     "bayt": 205236
+    },
+    {
+     "ad": "Urla",
+     "osm_id": 1269192,
+     "birim": 37,
+     "sinir": 37,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 82021,
+     "bayt": 168366
+    },
+    {
+     "ad": "Çeşme",
+     "osm_id": 1268454,
+     "birim": 25,
+     "sinir": 25,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 51902,
+     "bayt": 104025
+    },
+    {
+     "ad": "Çiğli",
+     "osm_id": 1268482,
+     "birim": 26,
+     "sinir": 26,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 216420,
+     "bayt": 50867
+    },
+    {
+     "ad": "Ödemiş",
+     "osm_id": 1823318,
+     "birim": 99,
+     "sinir": 99,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 132548,
+     "bayt": 290267
+    }
+   ]
+  },
+  {
+   "kod": "36",
+   "ad": "Kars",
+   "ilceler": [
+    {
+     "ad": "Akyaka",
+     "osm_id": 1838389,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 5,
+     "nufus": 9382,
+     "bayt": 5703
+    },
+    {
+     "ad": "Arpaçay",
+     "osm_id": 1838390,
+     "birim": 52,
+     "sinir": 1,
+     "nokta": 47,
+     "yok": 4,
+     "nufus": 13770,
+     "bayt": 10681
+    },
+    {
+     "ad": "Digor",
+     "osm_id": 1838391,
+     "birim": 39,
+     "sinir": 0,
+     "nokta": 37,
+     "yok": 2,
+     "nufus": 17557,
+     "bayt": 7574
+    },
+    {
+     "ad": "Kars Merkez",
+     "osm_id": 1838392,
+     "birim": 95,
+     "sinir": 21,
+     "nokta": 71,
+     "yok": 3,
+     "nufus": 121153,
+     "bayt": 33333
+    },
+    {
+     "ad": "Kağızman",
+     "osm_id": 1838393,
+     "birim": 69,
+     "sinir": 0,
+     "nokta": 67,
+     "yok": 2,
+     "nufus": 42717,
+     "bayt": 13928
+    },
+    {
+     "ad": "Sarıkamış",
+     "osm_id": 1838394,
+     "birim": 64,
+     "sinir": 0,
+     "nokta": 55,
+     "yok": 9,
+     "nufus": 35518,
+     "bayt": 12614
+    },
+    {
+     "ad": "Selim",
+     "osm_id": 1838395,
+     "birim": 56,
+     "sinir": 0,
+     "nokta": 53,
+     "yok": 3,
+     "nufus": 20476,
+     "bayt": 10886
+    },
+    {
+     "ad": "Susuz",
+     "osm_id": 1838396,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 4,
+     "nufus": 8417,
+     "bayt": 5941
+    }
+   ]
+  },
+  {
+   "kod": "37",
+   "ad": "Kastamonu",
+   "ilceler": [
+    {
+     "ad": "Abana",
+     "osm_id": 1801985,
+     "birim": 15,
+     "sinir": 4,
+     "nokta": 10,
+     "yok": 1,
+     "nufus": 4474,
+     "bayt": 10825
+    },
+    {
+     "ad": "Araç",
+     "osm_id": 1801986,
+     "birim": 125,
+     "sinir": 0,
+     "nokta": 118,
+     "yok": 7,
+     "nufus": 18121,
+     "bayt": 24115
+    },
+    {
+     "ad": "Azdavay",
+     "osm_id": 1801987,
+     "birim": 53,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 4,
+     "nufus": 7266,
+     "bayt": 10304
+    },
+    {
+     "ad": "Ağlı",
+     "osm_id": 1801988,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 2,
+     "nufus": 3176,
+     "bayt": 4545
+    },
+    {
+     "ad": "Bozkurt",
+     "osm_id": 1801989,
+     "birim": 37,
+     "sinir": 4,
+     "nokta": 33,
+     "yok": 0,
+     "nufus": 9250,
+     "bayt": 14702
+    },
+    {
+     "ad": "Cide",
+     "osm_id": 1801990,
+     "birim": 91,
+     "sinir": 0,
+     "nokta": 90,
+     "yok": 1,
+     "nufus": 22496,
+     "bayt": 17782
+    },
+    {
+     "ad": "Daday",
+     "osm_id": 1801991,
+     "birim": 64,
+     "sinir": 0,
+     "nokta": 61,
+     "yok": 3,
+     "nufus": 7736,
+     "bayt": 12366
+    },
+    {
+     "ad": "Devrekani",
+     "osm_id": 1801992,
+     "birim": 62,
+     "sinir": 0,
+     "nokta": 59,
+     "yok": 3,
+     "nufus": 12033,
+     "bayt": 12393
+    },
+    {
+     "ad": "Doğanyurt",
+     "osm_id": 1801993,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 2,
+     "nufus": 5057,
+     "bayt": 5377
+    },
+    {
+     "ad": "Hanönü",
+     "osm_id": 1426790,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 1,
+     "nufus": 4286,
+     "bayt": 4634
+    },
+    {
+     "ad": "Kastamonu Merkez",
+     "osm_id": 1801994,
+     "birim": 197,
+     "sinir": 19,
+     "nokta": 170,
+     "yok": 8,
+     "nufus": 158953,
+     "bayt": 66328
+    },
+    {
+     "ad": "Küre",
+     "osm_id": 1801995,
+     "birim": 38,
+     "sinir": 0,
+     "nokta": 34,
+     "yok": 4,
+     "nufus": 5108,
+     "bayt": 7242
+    },
+    {
+     "ad": "Pınarbaşı",
+     "osm_id": 1801996,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 3,
+     "nufus": 5782,
+     "bayt": 6622
+    },
+    {
+     "ad": "Seydiler",
+     "osm_id": 1801997,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 3,
+     "nufus": 4639,
+     "bayt": 4948
+    },
+    {
+     "ad": "Taşköprü",
+     "osm_id": 1426789,
+     "birim": 140,
+     "sinir": 0,
+     "nokta": 140,
+     "yok": 0,
+     "nufus": 36544,
+     "bayt": 28657
+    },
+    {
+     "ad": "Tosya",
+     "osm_id": 1781114,
+     "birim": 77,
+     "sinir": 0,
+     "nokta": 60,
+     "yok": 17,
+     "nufus": 39091,
+     "bayt": 14313
+    },
+    {
+     "ad": "Çatalzeytin",
+     "osm_id": 1801998,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 42,
+     "yok": 1,
+     "nufus": 7185,
+     "bayt": 8703
+    },
+    {
+     "ad": "İhsangazi",
+     "osm_id": 1801999,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 5,
+     "nufus": 4976,
+     "bayt": 6468
+    },
+    {
+     "ad": "İnebolu",
+     "osm_id": 1802000,
+     "birim": 91,
+     "sinir": 14,
+     "nokta": 74,
+     "yok": 3,
+     "nufus": 19678,
+     "bayt": 42376
+    },
+    {
+     "ad": "Şenpazar",
+     "osm_id": 1802001,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 1,
+     "nufus": 4083,
+     "bayt": 6040
+    }
+   ]
+  },
+  {
+   "kod": "38",
+   "ad": "Kayseri",
+   "ilceler": [
+    {
+     "ad": "Akkışla",
+     "osm_id": 1798518,
+     "birim": 15,
+     "sinir": 15,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 5440,
+     "bayt": 96132
+    },
+    {
+     "ad": "Bünyan",
+     "osm_id": 1798519,
+     "birim": 46,
+     "sinir": 46,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 30362,
+     "bayt": 339515
+    },
+    {
+     "ad": "Develi",
+     "osm_id": 1798542,
+     "birim": 77,
+     "sinir": 73,
+     "nokta": 0,
+     "yok": 4,
+     "nufus": 67818,
+     "bayt": 307666
+    },
+    {
+     "ad": "Felahiye",
+     "osm_id": 1797399,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 5529,
+     "bayt": 110196
+    },
+    {
+     "ad": "Hacılar",
+     "osm_id": 1797158,
+     "birim": 12,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 13701,
+     "bayt": 44294
+    },
+    {
+     "ad": "Kocasinan",
+     "osm_id": 1797400,
+     "birim": 88,
+     "sinir": 78,
+     "nokta": 7,
+     "yok": 3,
+     "nufus": 421472,
+     "bayt": 406745
+    },
+    {
+     "ad": "Melikgazi",
+     "osm_id": 1797146,
+     "birim": 58,
+     "sinir": 49,
+     "nokta": 4,
+     "yok": 5,
+     "nufus": 593233,
+     "bayt": 117965
+    },
+    {
+     "ad": "Pınarbaşı",
+     "osm_id": 1798306,
+     "birim": 122,
+     "sinir": 118,
+     "nokta": 3,
+     "yok": 1,
+     "nufus": 20598,
+     "bayt": 691452
+    },
+    {
+     "ad": "Sarıoğlan",
+     "osm_id": 1798520,
+     "birim": 28,
+     "sinir": 28,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 13510,
+     "bayt": 199761
+    },
+    {
+     "ad": "Sarız",
+     "osm_id": 1731539,
+     "birim": 44,
+     "sinir": 44,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 9213,
+     "bayt": 152048
+    },
+    {
+     "ad": "Talas",
+     "osm_id": 1797260,
+     "birim": 30,
+     "sinir": 29,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 173657,
+     "bayt": 162818
+    },
+    {
+     "ad": "Tomarza",
+     "osm_id": 1798307,
+     "birim": 54,
+     "sinir": 54,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 20156,
+     "bayt": 271133
+    },
+    {
+     "ad": "Yahyalı",
+     "osm_id": 1798543,
+     "birim": 42,
+     "sinir": 42,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 35207,
+     "bayt": 152029
+    },
+    {
+     "ad": "Yeşilhisar",
+     "osm_id": 1798544,
+     "birim": 35,
+     "sinir": 35,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 15409,
+     "bayt": 145982
+    },
+    {
+     "ad": "Özvatan",
+     "osm_id": 1798521,
+     "birim": 13,
+     "sinir": 13,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 3877,
+     "bayt": 61524
+    },
+    {
+     "ad": "İncesu",
+     "osm_id": 1797157,
+     "birim": 30,
+     "sinir": 30,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 29780,
+     "bayt": 146900
+    }
+   ]
+  },
+  {
+   "kod": "39",
+   "ad": "Kırklareli",
+   "ilceler": [
+    {
+     "ad": "Babaeski",
+     "osm_id": 1835616,
+     "birim": 52,
+     "sinir": 52,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 46355,
+     "bayt": 250709
+    },
+    {
+     "ad": "Demirköy",
+     "osm_id": 1835617,
+     "birim": 20,
+     "sinir": 20,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 9364,
+     "bayt": 174681
+    },
+    {
+     "ad": "Kofçaz",
+     "osm_id": 1834226,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 2291,
+     "bayt": 111978
+    },
+    {
+     "ad": "Kırklareli Merkez",
+     "osm_id": 1834227,
+     "birim": 66,
+     "sinir": 66,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 114710,
+     "bayt": 365132
+    },
+    {
+     "ad": "Lüleburgaz",
+     "osm_id": 1835618,
+     "birim": 64,
+     "sinir": 64,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 157136,
+     "bayt": 290626
+    },
+    {
+     "ad": "Pehlivanköy",
+     "osm_id": 1835619,
+     "birim": 11,
+     "sinir": 11,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 3276,
+     "bayt": 65435
+    },
+    {
+     "ad": "Pınarhisar",
+     "osm_id": 1835620,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 17694,
+     "bayt": 108697
+    },
+    {
+     "ad": "Vize",
+     "osm_id": 1835621,
+     "birim": 36,
+     "sinir": 36,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 28769,
+     "bayt": 227304
+    }
+   ]
+  },
+  {
+   "kod": "40",
+   "ad": "Kırşehir",
+   "ilceler": [
+    {
+     "ad": "Akpınar",
+     "osm_id": 1830534,
+     "birim": 32,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 6,
+     "nufus": 6435,
+     "bayt": 6168
+    },
+    {
+     "ad": "Akçakent",
+     "osm_id": 1830535,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 2,
+     "nufus": 3301,
+     "bayt": 4582
+    },
+    {
+     "ad": "Boztepe",
+     "osm_id": 1830536,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 3,
+     "nufus": 5049,
+     "bayt": 3261
+    },
+    {
+     "ad": "Kaman",
+     "osm_id": 1830537,
+     "birim": 65,
+     "sinir": 2,
+     "nokta": 52,
+     "yok": 11,
+     "nufus": 33354,
+     "bayt": 14356
+    },
+    {
+     "ad": "Kırşehir Merkez",
+     "osm_id": 1830538,
+     "birim": 74,
+     "sinir": 3,
+     "nokta": 64,
+     "yok": 7,
+     "nufus": 163368,
+     "bayt": 18455
+    },
+    {
+     "ad": "Mucur",
+     "osm_id": 1721351,
+     "birim": 51,
+     "sinir": 8,
+     "nokta": 41,
+     "yok": 2,
+     "nufus": 17920,
+     "bayt": 33030
+    },
+    {
+     "ad": "Çiçekdağı",
+     "osm_id": 1830539,
+     "birim": 57,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 8,
+     "nufus": 13350,
+     "bayt": 11390
+    }
+   ]
+  },
+  {
+   "kod": "41",
+   "ad": "Kocaeli",
+   "ilceler": [
+    {
+     "ad": "Başiskele",
+     "osm_id": 1211497,
+     "birim": 37,
+     "sinir": 37,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 131387,
+     "bayt": 76484
+    },
+    {
+     "ad": "Darıca",
+     "osm_id": 1211490,
+     "birim": 14,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 235632,
+     "bayt": 24734
+    },
+    {
+     "ad": "Derince",
+     "osm_id": 1211495,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 147892,
+     "bayt": 61944
+    },
+    {
+     "ad": "Dilovası",
+     "osm_id": 1211488,
+     "birim": 12,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 55141,
+     "bayt": 28955
+    },
+    {
+     "ad": "Gebze",
+     "osm_id": 1211496,
+     "birim": 40,
+     "sinir": 39,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 414910,
+     "bayt": 109573
+    },
+    {
+     "ad": "Gölcük",
+     "osm_id": 1211494,
+     "birim": 50,
+     "sinir": 50,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 181227,
+     "bayt": 94161
+    },
+    {
+     "ad": "Kandıra",
+     "osm_id": 1211491,
+     "birim": 96,
+     "sinir": 96,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 54260,
+     "bayt": 378121
+    },
+    {
+     "ad": "Karamürsel",
+     "osm_id": 1211489,
+     "birim": 27,
+     "sinir": 27,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 59488,
+     "bayt": 111166
+    },
+    {
+     "ad": "Kartepe",
+     "osm_id": 1211033,
+     "birim": 32,
+     "sinir": 32,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 154369,
+     "bayt": 86681
+    },
+    {
+     "ad": "Körfez",
+     "osm_id": 1211492,
+     "birim": 36,
+     "sinir": 36,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 183077,
+     "bayt": 94888
+    },
+    {
+     "ad": "Çayırova",
+     "osm_id": 1211204,
+     "birim": 9,
+     "sinir": 9,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 162262,
+     "bayt": 15220
+    },
+    {
+     "ad": "İzmit",
+     "osm_id": 1211493,
+     "birim": 102,
+     "sinir": 101,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 381254,
+     "bayt": 204772
+    }
+   ]
+  },
+  {
+   "kod": "42",
+   "ad": "Konya",
+   "ilceler": [
+    {
+     "ad": "Ahırlı",
+     "osm_id": 1250964,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 11,
+     "yok": 4,
+     "nufus": 4536,
+     "bayt": 2953
+    },
+    {
+     "ad": "Akören",
+     "osm_id": 1250957,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 12,
+     "yok": 2,
+     "nufus": 5744,
+     "bayt": 2828
+    },
+    {
+     "ad": "Akşehir",
+     "osm_id": 1250956,
+     "birim": 55,
+     "sinir": 9,
+     "nokta": 42,
+     "yok": 4,
+     "nufus": 93613,
+     "bayt": 17599
+    },
+    {
+     "ad": "Altınekin",
+     "osm_id": 1250963,
+     "birim": 20,
+     "sinir": 0,
+     "nokta": 20,
+     "yok": 0,
+     "nufus": 14374,
+     "bayt": 4343
+    },
+    {
+     "ad": "Beyşehir",
+     "osm_id": 1250954,
+     "birim": 68,
+     "sinir": 2,
+     "nokta": 65,
+     "yok": 1,
+     "nufus": 80353,
+     "bayt": 16336
+    },
+    {
+     "ad": "Bozkır",
+     "osm_id": 1250955,
+     "birim": 52,
+     "sinir": 6,
+     "nokta": 44,
+     "yok": 2,
+     "nufus": 24704,
+     "bayt": 19562
+    },
+    {
+     "ad": "Cihanbeyli",
+     "osm_id": 1250971,
+     "birim": 47,
+     "sinir": 19,
+     "nokta": 20,
+     "yok": 8,
+     "nufus": 49126,
+     "bayt": 100756
+    },
+    {
+     "ad": "Derbent",
+     "osm_id": 1250966,
+     "birim": 13,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 3954,
+     "bayt": 79361
+    },
+    {
+     "ad": "Derebucak",
+     "osm_id": 1250970,
+     "birim": 12,
+     "sinir": 1,
+     "nokta": 10,
+     "yok": 1,
+     "nufus": 5353,
+     "bayt": 6128
+    },
+    {
+     "ad": "Doğanhisar",
+     "osm_id": 1250968,
+     "birim": 24,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 8,
+     "nufus": 14097,
+     "bayt": 4714
+    },
+    {
+     "ad": "Emirgazi",
+     "osm_id": 1250953,
+     "birim": 16,
+     "sinir": 4,
+     "nokta": 12,
+     "yok": 0,
+     "nufus": 7647,
+     "bayt": 5965
+    },
+    {
+     "ad": "Ereğli",
+     "osm_id": 1250945,
+     "birim": 87,
+     "sinir": 63,
+     "nokta": 24,
+     "yok": 0,
+     "nufus": 158010,
+     "bayt": 143370
+    },
+    {
+     "ad": "Güneysınır",
+     "osm_id": 1250948,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 1,
+     "nufus": 9237,
+     "bayt": 3985
+    },
+    {
+     "ad": "Hadim",
+     "osm_id": 1250950,
+     "birim": 32,
+     "sinir": 1,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 10621,
+     "bayt": 6793
+    },
+    {
+     "ad": "Halkapınar",
+     "osm_id": 1250949,
+     "birim": 17,
+     "sinir": 2,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 3947,
+     "bayt": 12697
+    },
+    {
+     "ad": "Hüyük",
+     "osm_id": 1250974,
+     "birim": 23,
+     "sinir": 2,
+     "nokta": 21,
+     "yok": 0,
+     "nufus": 14878,
+     "bayt": 7735
+    },
+    {
+     "ad": "Ilgın",
+     "osm_id": 1250973,
+     "birim": 56,
+     "sinir": 5,
+     "nokta": 50,
+     "yok": 1,
+     "nufus": 53167,
+     "bayt": 15279
+    },
+    {
+     "ad": "Kadınhanı",
+     "osm_id": 1250962,
+     "birim": 53,
+     "sinir": 3,
+     "nokta": 48,
+     "yok": 2,
+     "nufus": 31478,
+     "bayt": 14222
+    },
+    {
+     "ad": "Karapınar",
+     "osm_id": 1250961,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 1,
+     "nufus": 51756,
+     "bayt": 9057
+    },
+    {
+     "ad": "Karatay",
+     "osm_id": 1250951,
+     "birim": 63,
+     "sinir": 63,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 395499,
+     "bayt": 162828
+    },
+    {
+     "ad": "Kulu",
+     "osm_id": 1250969,
+     "birim": 46,
+     "sinir": 43,
+     "nokta": 0,
+     "yok": 3,
+     "nufus": 51732,
+     "bayt": 237144
+    },
+    {
+     "ad": "Meram",
+     "osm_id": 1250958,
+     "birim": 69,
+     "sinir": 40,
+     "nokta": 29,
+     "yok": 0,
+     "nufus": 349685,
+     "bayt": 104095
+    },
+    {
+     "ad": "Sarayönü",
+     "osm_id": 1250960,
+     "birim": 26,
+     "sinir": 5,
+     "nokta": 21,
+     "yok": 0,
+     "nufus": 28401,
+     "bayt": 11884
+    },
+    {
+     "ad": "Selçuklu",
+     "osm_id": 1250972,
+     "birim": 72,
+     "sinir": 46,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 703234,
+     "bayt": 73031
+    },
+    {
+     "ad": "Seydişehir",
+     "osm_id": 1250967,
+     "birim": 55,
+     "sinir": 15,
+     "nokta": 40,
+     "yok": 0,
+     "nufus": 66079,
+     "bayt": 28182
+    },
+    {
+     "ad": "Taşkent",
+     "osm_id": 1250946,
+     "birim": 15,
+     "sinir": 6,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 5669,
+     "bayt": 22490
+    },
+    {
+     "ad": "Tuzlukçu",
+     "osm_id": 1250959,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 10,
+     "yok": 5,
+     "nufus": 6052,
+     "bayt": 2916
+    },
+    {
+     "ad": "Yalıhüyük",
+     "osm_id": 1250952,
+     "birim": 4,
+     "sinir": 4,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 1704,
+     "bayt": 12118
+    },
+    {
+     "ad": "Yunak",
+     "osm_id": 1250947,
+     "birim": 42,
+     "sinir": 5,
+     "nokta": 34,
+     "yok": 3,
+     "nufus": 20259,
+     "bayt": 37259
+    },
+    {
+     "ad": "Çeltik",
+     "osm_id": 1250965,
+     "birim": 14,
+     "sinir": 14,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 9482,
+     "bayt": 75834
+    },
+    {
+     "ad": "Çumra",
+     "osm_id": 280991,
+     "birim": 53,
+     "sinir": 15,
+     "nokta": 35,
+     "yok": 3,
+     "nufus": 68802,
+     "bayt": 49311
+    }
+   ]
+  },
+  {
+   "kod": "43",
+   "ad": "Kütahya",
+   "ilceler": [
+    {
+     "ad": "Altıntaş",
+     "osm_id": 1824948,
+     "birim": 40,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 5,
+     "nufus": 14739,
+     "bayt": 7826
+    },
+    {
+     "ad": "Aslanapa",
+     "osm_id": 1824949,
+     "birim": 35,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 0,
+     "nufus": 7813,
+     "bayt": 7032
+    },
+    {
+     "ad": "Domaniç",
+     "osm_id": 1671338,
+     "birim": 38,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 8,
+     "nufus": 13900,
+     "bayt": 7216
+    },
+    {
+     "ad": "Dumlupınar",
+     "osm_id": 1824950,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 10,
+     "yok": 4,
+     "nufus": 2812,
+     "bayt": 2686
+    },
+    {
+     "ad": "Emet",
+     "osm_id": 1824831,
+     "birim": 45,
+     "sinir": 0,
+     "nokta": 36,
+     "yok": 9,
+     "nufus": 17352,
+     "bayt": 8251
+    },
+    {
+     "ad": "Gediz",
+     "osm_id": 1668902,
+     "birim": 82,
+     "sinir": 67,
+     "nokta": 3,
+     "yok": 12,
+     "nufus": 48537,
+     "bayt": 323376
+    },
+    {
+     "ad": "Hisarcık",
+     "osm_id": 1824832,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 6,
+     "nufus": 10799,
+     "bayt": 5950
+    },
+    {
+     "ad": "Kütahya Merkez",
+     "osm_id": 1824951,
+     "birim": 179,
+     "sinir": 26,
+     "nokta": 128,
+     "yok": 25,
+     "nufus": 276835,
+     "bayt": 55112
+    },
+    {
+     "ad": "Pazarlar",
+     "osm_id": 1669548,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 0,
+     "nufus": 4713,
+     "bayt": 3140
+    },
+    {
+     "ad": "Simav",
+     "osm_id": 1593755,
+     "birim": 119,
+     "sinir": 19,
+     "nokta": 93,
+     "yok": 7,
+     "nufus": 60886,
+     "bayt": 54948
+    },
+    {
+     "ad": "Tavşanlı",
+     "osm_id": 1824952,
+     "birim": 126,
+     "sinir": 0,
+     "nokta": 92,
+     "yok": 34,
+     "nufus": 100882,
+     "bayt": 23904
+    },
+    {
+     "ad": "Çavdarhisar",
+     "osm_id": 1824811,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 1,
+     "nufus": 5503,
+     "bayt": 5488
+    },
+    {
+     "ad": "Şaphane",
+     "osm_id": 1669549,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 0,
+     "nufus": 5540,
+     "bayt": 3923
+    }
+   ]
+  },
+  {
+   "kod": "44",
+   "ad": "Malatya",
+   "ilceler": [
+    {
+     "ad": "Akçadağ",
+     "osm_id": 1826235,
+     "birim": 77,
+     "sinir": 77,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 31479,
+     "bayt": 166396
+    },
+    {
+     "ad": "Arapgir",
+     "osm_id": 1826363,
+     "birim": 63,
+     "sinir": 63,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 9917,
+     "bayt": 103894
+    },
+    {
+     "ad": "Arguvan",
+     "osm_id": 1826364,
+     "birim": 49,
+     "sinir": 5,
+     "nokta": 43,
+     "yok": 1,
+     "nufus": 6859,
+     "bayt": 22746
+    },
+    {
+     "ad": "Battalgazi",
+     "osm_id": 1826542,
+     "birim": 104,
+     "sinir": 102,
+     "nokta": 0,
+     "yok": 2,
+     "nufus": 274563,
+     "bayt": 147637
+    },
+    {
+     "ad": "Darende",
+     "osm_id": 1826260,
+     "birim": 67,
+     "sinir": 66,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 24806,
+     "bayt": 147973
+    },
+    {
+     "ad": "Doğanyol",
+     "osm_id": 1246231,
+     "birim": 16,
+     "sinir": 15,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 4002,
+     "bayt": 24694
+    },
+    {
+     "ad": "Doğanşehir",
+     "osm_id": 1825945,
+     "birim": 39,
+     "sinir": 39,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 36037,
+     "bayt": 87898
+    },
+    {
+     "ad": "Hekimhan",
+     "osm_id": 1826311,
+     "birim": 65,
+     "sinir": 14,
+     "nokta": 50,
+     "yok": 1,
+     "nufus": 17116,
+     "bayt": 41503
+    },
+    {
+     "ad": "Kale",
+     "osm_id": 1826120,
+     "birim": 28,
+     "sinir": 28,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 7462,
+     "bayt": 47714
+    },
+    {
+     "ad": "Kuluncak",
+     "osm_id": 1826312,
+     "birim": 28,
+     "sinir": 6,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 7414,
+     "bayt": 11273
+    },
+    {
+     "ad": "Pütürge",
+     "osm_id": 1246232,
+     "birim": 68,
+     "sinir": 68,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 12372,
+     "bayt": 121417
+    },
+    {
+     "ad": "Yazıhan",
+     "osm_id": 1826497,
+     "birim": 33,
+     "sinir": 33,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 13937,
+     "bayt": 116897
+    },
+    {
+     "ad": "Yeşilyurt",
+     "osm_id": 1826216,
+     "birim": 82,
+     "sinir": 82,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 309470,
+     "bayt": 174495
+    }
+   ]
+  },
+  {
+   "kod": "45",
+   "ad": "Manisa",
+   "ilceler": [
+    {
+     "ad": "Ahmetli",
+     "osm_id": 1761487,
+     "birim": 23,
+     "sinir": 23,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 17612,
+     "bayt": 37400
+    },
+    {
+     "ad": "Akhisar",
+     "osm_id": 1822655,
+     "birim": 109,
+     "sinir": 13,
+     "nokta": 92,
+     "yok": 4,
+     "nufus": 181472,
+     "bayt": 45778
+    },
+    {
+     "ad": "Alaşehir",
+     "osm_id": 1822974,
+     "birim": 87,
+     "sinir": 35,
+     "nokta": 50,
+     "yok": 2,
+     "nufus": 104565,
+     "bayt": 174329
+    },
+    {
+     "ad": "Demirci",
+     "osm_id": 1821131,
+     "birim": 101,
+     "sinir": 0,
+     "nokta": 96,
+     "yok": 5,
+     "nufus": 35629,
+     "bayt": 20969
+    },
+    {
+     "ad": "Gölmarmara",
+     "osm_id": 1822723,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 0,
+     "nufus": 15140,
+     "bayt": 4626
+    },
+    {
+     "ad": "Gördes",
+     "osm_id": 1820450,
+     "birim": 64,
+     "sinir": 0,
+     "nokta": 62,
+     "yok": 2,
+     "nufus": 25456,
+     "bayt": 13351
+    },
+    {
+     "ad": "Kula",
+     "osm_id": 1821205,
+     "birim": 60,
+     "sinir": 59,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 43015,
+     "bayt": 358207
+    },
+    {
+     "ad": "Köprübaşı",
+     "osm_id": 1821042,
+     "birim": 46,
+     "sinir": 0,
+     "nokta": 46,
+     "yok": 0,
+     "nufus": 12217,
+     "bayt": 10202
+    },
+    {
+     "ad": "Kırkağaç",
+     "osm_id": 1758898,
+     "birim": 47,
+     "sinir": 0,
+     "nokta": 44,
+     "yok": 3,
+     "nufus": 37363,
+     "bayt": 10086
+    },
+    {
+     "ad": "Salihli",
+     "osm_id": 1821255,
+     "birim": 103,
+     "sinir": 14,
+     "nokta": 88,
+     "yok": 1,
+     "nufus": 165007,
+     "bayt": 28419
+    },
+    {
+     "ad": "Saruhanlı",
+     "osm_id": 1822901,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 48,
+     "yok": 2,
+     "nufus": 58475,
+     "bayt": 10720
+    },
+    {
+     "ad": "Sarıgöl",
+     "osm_id": 1822975,
+     "birim": 35,
+     "sinir": 35,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 34786,
+     "bayt": 191881
+    },
+    {
+     "ad": "Selendi",
+     "osm_id": 1821206,
+     "birim": 57,
+     "sinir": 0,
+     "nokta": 57,
+     "yok": 0,
+     "nufus": 18568,
+     "bayt": 12009
+    },
+    {
+     "ad": "Soma",
+     "osm_id": 1758899,
+     "birim": 70,
+     "sinir": 0,
+     "nokta": 66,
+     "yok": 4,
+     "nufus": 110178,
+     "bayt": 14044
+    },
+    {
+     "ad": "Turgutlu",
+     "osm_id": 1822902,
+     "birim": 61,
+     "sinir": 15,
+     "nokta": 45,
+     "yok": 1,
+     "nufus": 179285,
+     "bayt": 18016
+    },
+    {
+     "ad": "Yunusemre",
+     "osm_id": 3668268,
+     "birim": 87,
+     "sinir": 35,
+     "nokta": 48,
+     "yok": 4,
+     "nufus": 270290,
+     "bayt": 67742
+    },
+    {
+     "ad": "Şehzadeler",
+     "osm_id": 1822900,
+     "birim": 67,
+     "sinir": 33,
+     "nokta": 34,
+     "yok": 0,
+     "nufus": 168582,
+     "bayt": 36302
+    }
+   ]
+  },
+  {
+   "kod": "46",
+   "ad": "Kahramanmaraş",
+   "ilceler": [
+    {
+     "ad": "Afşin",
+     "osm_id": 1341117,
+     "birim": 66,
+     "sinir": 0,
+     "nokta": 63,
+     "yok": 3,
+     "nufus": 80124,
+     "bayt": 13627
+    },
+    {
+     "ad": "Andırın",
+     "osm_id": 1336189,
+     "birim": 57,
+     "sinir": 2,
+     "nokta": 55,
+     "yok": 0,
+     "nufus": 31609,
+     "bayt": 16181
+    },
+    {
+     "ad": "Dulkadiroğlu",
+     "osm_id": 3671448,
+     "birim": 105,
+     "sinir": 15,
+     "nokta": 83,
+     "yok": 7,
+     "nufus": 213930,
+     "bayt": 30323
+    },
+    {
+     "ad": "Ekinözü",
+     "osm_id": 1341116,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 2,
+     "nufus": 9896,
+     "bayt": 4410
+    },
+    {
+     "ad": "Elbistan",
+     "osm_id": 1341120,
+     "birim": 93,
+     "sinir": 3,
+     "nokta": 89,
+     "yok": 1,
+     "nufus": 132036,
+     "bayt": 22308
+    },
+    {
+     "ad": "Göksun",
+     "osm_id": 1335884,
+     "birim": 75,
+     "sinir": 5,
+     "nokta": 68,
+     "yok": 2,
+     "nufus": 49145,
+     "bayt": 21524
+    },
+    {
+     "ad": "Nurhak",
+     "osm_id": 1340568,
+     "birim": 16,
+     "sinir": 0,
+     "nokta": 15,
+     "yok": 1,
+     "nufus": 11675,
+     "bayt": 3312
+    },
+    {
+     "ad": "Onikişubat",
+     "osm_id": 3671449,
+     "birim": 141,
+     "sinir": 50,
+     "nokta": 91,
+     "yok": 0,
+     "nufus": 447552,
+     "bayt": 70348
+    },
+    {
+     "ad": "Pazarcık",
+     "osm_id": 1341119,
+     "birim": 84,
+     "sinir": 1,
+     "nokta": 82,
+     "yok": 1,
+     "nufus": 66777,
+     "bayt": 19013
+    },
+    {
+     "ad": "Türkoğlu",
+     "osm_id": 1341115,
+     "birim": 44,
+     "sinir": 4,
+     "nokta": 39,
+     "yok": 1,
+     "nufus": 81055,
+     "bayt": 25901
+    },
+    {
+     "ad": "Çağlayancerit",
+     "osm_id": 1340567,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 0,
+     "nufus": 22440,
+     "bayt": 4375
+    }
+   ]
+  },
+  {
+   "kod": "47",
+   "ad": "Mardin",
+   "ilceler": [
+    {
+     "ad": "Artuklu",
+     "osm_id": 1693939,
+     "birim": 91,
+     "sinir": 11,
+     "nokta": 77,
+     "yok": 3,
+     "nufus": 198714,
+     "bayt": 29028
+    },
+    {
+     "ad": "Dargeçit",
+     "osm_id": 1361267,
+     "birim": 40,
+     "sinir": 37,
+     "nokta": 3,
+     "yok": 0,
+     "nufus": 26675,
+     "bayt": 97297
+    },
+    {
+     "ad": "Derik",
+     "osm_id": 1694026,
+     "birim": 80,
+     "sinir": 7,
+     "nokta": 70,
+     "yok": 3,
+     "nufus": 61553,
+     "bayt": 31922
+    },
+    {
+     "ad": "Kızıltepe",
+     "osm_id": 1694027,
+     "birim": 183,
+     "sinir": 16,
+     "nokta": 163,
+     "yok": 4,
+     "nufus": 275187,
+     "bayt": 54860
+    },
+    {
+     "ad": "Mazıdağı",
+     "osm_id": 1693976,
+     "birim": 53,
+     "sinir": 5,
+     "nokta": 48,
+     "yok": 0,
+     "nufus": 37381,
+     "bayt": 15934
+    },
+    {
+     "ad": "Midyat",
+     "osm_id": 1692098,
+     "birim": 72,
+     "sinir": 14,
+     "nokta": 58,
+     "yok": 0,
+     "nufus": 125791,
+     "bayt": 34304
+    },
+    {
+     "ad": "Nusaybin",
+     "osm_id": 1692099,
+     "birim": 82,
+     "sinir": 8,
+     "nokta": 70,
+     "yok": 4,
+     "nufus": 119554,
+     "bayt": 21589
+    },
+    {
+     "ad": "Savur",
+     "osm_id": 1849197,
+     "birim": 41,
+     "sinir": 0,
+     "nokta": 41,
+     "yok": 0,
+     "nufus": 23404,
+     "bayt": 8471
+    },
+    {
+     "ad": "Yeşilli",
+     "osm_id": 1693940,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 21166,
+     "bayt": 3011
+    },
+    {
+     "ad": "Ömerli",
+     "osm_id": 1358708,
+     "birim": 45,
+     "sinir": 3,
+     "nokta": 41,
+     "yok": 1,
+     "nufus": 14112,
+     "bayt": 12438
+    }
+   ]
+  },
+  {
+   "kod": "48",
+   "ad": "Muğla",
+   "ilceler": [
+    {
+     "ad": "Bodrum",
+     "osm_id": 1827275,
+     "birim": 56,
+     "sinir": 4,
+     "nokta": 51,
+     "yok": 1,
+     "nufus": 207196,
+     "bayt": 25933
+    },
+    {
+     "ad": "Dalaman",
+     "osm_id": 1827399,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 0,
+     "nufus": 53327,
+     "bayt": 5276
+    },
+    {
+     "ad": "Datça",
+     "osm_id": 1645432,
+     "birim": 12,
+     "sinir": 0,
+     "nokta": 12,
+     "yok": 0,
+     "nufus": 26067,
+     "bayt": 2527
+    },
+    {
+     "ad": "Fethiye",
+     "osm_id": 1827656,
+     "birim": 41,
+     "sinir": 22,
+     "nokta": 19,
+     "yok": 0,
+     "nufus": 187332,
+     "bayt": 97165
+    },
+    {
+     "ad": "Kavaklıdere",
+     "osm_id": 1624125,
+     "birim": 15,
+     "sinir": 2,
+     "nokta": 12,
+     "yok": 1,
+     "nufus": 10854,
+     "bayt": 9826
+    },
+    {
+     "ad": "Köyceğiz",
+     "osm_id": 1827377,
+     "birim": 25,
+     "sinir": 2,
+     "nokta": 23,
+     "yok": 0,
+     "nufus": 41810,
+     "bayt": 15753
+    },
+    {
+     "ad": "Marmaris",
+     "osm_id": 1827293,
+     "birim": 30,
+     "sinir": 1,
+     "nokta": 29,
+     "yok": 0,
+     "nufus": 97373,
+     "bayt": 7685
+    },
+    {
+     "ad": "Menteşe",
+     "osm_id": 1827294,
+     "birim": 66,
+     "sinir": 9,
+     "nokta": 56,
+     "yok": 1,
+     "nufus": 126288,
+     "bayt": 26366
+    },
+    {
+     "ad": "Milas",
+     "osm_id": 1827276,
+     "birim": 132,
+     "sinir": 1,
+     "nokta": 127,
+     "yok": 4,
+     "nufus": 152275,
+     "bayt": 27556
+    },
+    {
+     "ad": "Ortaca",
+     "osm_id": 1827378,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 0,
+     "nufus": 58704,
+     "bayt": 5677
+    },
+    {
+     "ad": "Seydikemer",
+     "osm_id": 3671798,
+     "birim": 65,
+     "sinir": 0,
+     "nokta": 64,
+     "yok": 1,
+     "nufus": 65648,
+     "bayt": 14027
+    },
+    {
+     "ad": "Ula",
+     "osm_id": 1827295,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 0,
+     "nufus": 27649,
+     "bayt": 6121
+    },
+    {
+     "ad": "Yatağan",
+     "osm_id": 1613889,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 50,
+     "yok": 0,
+     "nufus": 45024,
+     "bayt": 10665
+    }
+   ]
+  },
+  {
+   "kod": "49",
+   "ad": "Muş",
+   "ilceler": [
+    {
+     "ad": "Bulanık",
+     "osm_id": 1831009,
+     "birim": 85,
+     "sinir": 0,
+     "nokta": 60,
+     "yok": 25,
+     "nufus": 68983,
+     "bayt": 15789
+    },
+    {
+     "ad": "Hasköy",
+     "osm_id": 1831010,
+     "birim": 29,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 12,
+     "nufus": 27684,
+     "bayt": 5201
+    },
+    {
+     "ad": "Korkut",
+     "osm_id": 1831011,
+     "birim": 39,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 9,
+     "nufus": 19251,
+     "bayt": 7277
+    },
+    {
+     "ad": "Malazgirt",
+     "osm_id": 1831012,
+     "birim": 90,
+     "sinir": 12,
+     "nokta": 76,
+     "yok": 2,
+     "nufus": 40595,
+     "bayt": 60334
+    },
+    {
+     "ad": "Muş Merkez",
+     "osm_id": 1831013,
+     "birim": 149,
+     "sinir": 11,
+     "nokta": 116,
+     "yok": 22,
+     "nufus": 203806,
+     "bayt": 37524
+    },
+    {
+     "ad": "Varto",
+     "osm_id": 1831014,
+     "birim": 100,
+     "sinir": 0,
+     "nokta": 93,
+     "yok": 7,
+     "nufus": 28804,
+     "bayt": 19216
+    }
+   ]
+  },
+  {
+   "kod": "50",
+   "ad": "Nevşehir",
+   "ilceler": [
+    {
+     "ad": "Acıgöl",
+     "osm_id": 282353,
+     "birim": 18,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 6,
+     "nufus": 19430,
+     "bayt": 29279
+    },
+    {
+     "ad": "Avanos",
+     "osm_id": 281083,
+     "birim": 33,
+     "sinir": 19,
+     "nokta": 2,
+     "yok": 12,
+     "nufus": 32093,
+     "bayt": 85819
+    },
+    {
+     "ad": "Derinkuyu",
+     "osm_id": 281360,
+     "birim": 20,
+     "sinir": 6,
+     "nokta": 8,
+     "yok": 6,
+     "nufus": 21107,
+     "bayt": 15457
+    },
+    {
+     "ad": "Gülşehir",
+     "osm_id": 282354,
+     "birim": 41,
+     "sinir": 33,
+     "nokta": 8,
+     "yok": 0,
+     "nufus": 21173,
+     "bayt": 49265
+    },
+    {
+     "ad": "Hacıbektaş",
+     "osm_id": 281228,
+     "birim": 33,
+     "sinir": 29,
+     "nokta": 0,
+     "yok": 4,
+     "nufus": 10564,
+     "bayt": 45701
+    },
+    {
+     "ad": "Kozaklı",
+     "osm_id": 281080,
+     "birim": 36,
+     "sinir": 26,
+     "nokta": 4,
+     "yok": 6,
+     "nufus": 12678,
+     "bayt": 42236
+    },
+    {
+     "ad": "Nevşehir Merkez",
+     "osm_id": 282342,
+     "birim": 53,
+     "sinir": 18,
+     "nokta": 13,
+     "yok": 22,
+     "nufus": 163126,
+     "bayt": 48583
+    },
+    {
+     "ad": "Ürgüp",
+     "osm_id": 281359,
+     "birim": 42,
+     "sinir": 21,
+     "nokta": 8,
+     "yok": 13,
+     "nufus": 39979,
+     "bayt": 54568
+    }
+   ]
+  },
+  {
+   "kod": "51",
+   "ad": "Niğde",
+   "ilceler": [
+    {
+     "ad": "Altunhisar",
+     "osm_id": 1249729,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 11,
+     "yok": 6,
+     "nufus": 12004,
+     "bayt": 3228
+    },
+    {
+     "ad": "Bor",
+     "osm_id": 1249728,
+     "birim": 45,
+     "sinir": 1,
+     "nokta": 32,
+     "yok": 12,
+     "nufus": 62538,
+     "bayt": 11854
+    },
+    {
+     "ad": "Niğde Merkez",
+     "osm_id": 1249730,
+     "birim": 90,
+     "sinir": 14,
+     "nokta": 38,
+     "yok": 38,
+     "nufus": 244326,
+     "bayt": 43182
+    },
+    {
+     "ad": "Ulukışla",
+     "osm_id": 1249726,
+     "birim": 40,
+     "sinir": 0,
+     "nokta": 37,
+     "yok": 3,
+     "nufus": 18780,
+     "bayt": 7903
+    },
+    {
+     "ad": "Çamardı",
+     "osm_id": 1249727,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 0,
+     "nufus": 11631,
+     "bayt": 4673
+    },
+    {
+     "ad": "Çiftlik",
+     "osm_id": 1249731,
+     "birim": 24,
+     "sinir": 0,
+     "nokta": 10,
+     "yok": 14,
+     "nufus": 25157,
+     "bayt": 4107
+    }
+   ]
+  },
+  {
+   "kod": "52",
+   "ad": "Ordu",
+   "ilceler": [
+    {
+     "ad": "Akkuş",
+     "osm_id": 1839057,
+     "birim": 44,
+     "sinir": 43,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 20465,
+     "bayt": 283661
+    },
+    {
+     "ad": "Altınordu",
+     "osm_id": 1839066,
+     "birim": 92,
+     "sinir": 91,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 239709,
+     "bayt": 430986
+    },
+    {
+     "ad": "Aybastı",
+     "osm_id": 1839058,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 19784,
+     "bayt": 124948
+    },
+    {
+     "ad": "Fatsa",
+     "osm_id": 1839059,
+     "birim": 89,
+     "sinir": 89,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 129844,
+     "bayt": 372901
+    },
+    {
+     "ad": "Gölköy",
+     "osm_id": 1839060,
+     "birim": 30,
+     "sinir": 29,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 24780,
+     "bayt": 230608
+    },
+    {
+     "ad": "Gülyalı",
+     "osm_id": 1839061,
+     "birim": 13,
+     "sinir": 13,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 8881,
+     "bayt": 71496
+    },
+    {
+     "ad": "Gürgentepe",
+     "osm_id": 1839062,
+     "birim": 23,
+     "sinir": 21,
+     "nokta": 1,
+     "yok": 1,
+     "nufus": 12499,
+     "bayt": 132553
+    },
+    {
+     "ad": "Kabadüz",
+     "osm_id": 1806539,
+     "birim": 19,
+     "sinir": 18,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 6794,
+     "bayt": 114686
+    },
+    {
+     "ad": "Kabataş",
+     "osm_id": 1839063,
+     "birim": 18,
+     "sinir": 17,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 9949,
+     "bayt": 102481
+    },
+    {
+     "ad": "Korgan",
+     "osm_id": 1839064,
+     "birim": 29,
+     "sinir": 29,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 26428,
+     "bayt": 177070
+    },
+    {
+     "ad": "Kumru",
+     "osm_id": 1839065,
+     "birim": 40,
+     "sinir": 37,
+     "nokta": 3,
+     "yok": 0,
+     "nufus": 27638,
+     "bayt": 200818
+    },
+    {
+     "ad": "Mesudiye",
+     "osm_id": 1806483,
+     "birim": 70,
+     "sinir": 70,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 11829,
+     "bayt": 294359
+    },
+    {
+     "ad": "Perşembe",
+     "osm_id": 1839067,
+     "birim": 54,
+     "sinir": 54,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 30053,
+     "bayt": 283746
+    },
+    {
+     "ad": "Ulubey",
+     "osm_id": 1839068,
+     "birim": 41,
+     "sinir": 41,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 18027,
+     "bayt": 212167
+    },
+    {
+     "ad": "Çamaş",
+     "osm_id": 1839069,
+     "birim": 23,
+     "sinir": 21,
+     "nokta": 2,
+     "yok": 0,
+     "nufus": 8407,
+     "bayt": 93540
+    },
+    {
+     "ad": "Çatalpınar",
+     "osm_id": 1839070,
+     "birim": 23,
+     "sinir": 22,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 12888,
+     "bayt": 91586
+    },
+    {
+     "ad": "Çaybaşı",
+     "osm_id": 1806052,
+     "birim": 26,
+     "sinir": 26,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 11656,
+     "bayt": 109280
+    },
+    {
+     "ad": "Ünye",
+     "osm_id": 1806116,
+     "birim": 85,
+     "sinir": 84,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 135914,
+     "bayt": 353053
+    },
+    {
+     "ad": "İkizce",
+     "osm_id": 1805920,
+     "birim": 32,
+     "sinir": 32,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 12537,
+     "bayt": 160619
+    }
+   ]
+  },
+  {
+   "kod": "53",
+   "ad": "Rize",
+   "ilceler": [
+    {
+     "ad": "Ardeşen",
+     "osm_id": 1725592,
+     "birim": 71,
+     "sinir": 71,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 43519,
+     "bayt": 255497
+    },
+    {
+     "ad": "Derepazarı",
+     "osm_id": 1838677,
+     "birim": 18,
+     "sinir": 18,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 6772,
+     "bayt": 57046
+    },
+    {
+     "ad": "Fındıklı",
+     "osm_id": 1725593,
+     "birim": 31,
+     "sinir": 31,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 16388,
+     "bayt": 147810
+    },
+    {
+     "ad": "Güneysu",
+     "osm_id": 1838678,
+     "birim": 29,
+     "sinir": 28,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 15013,
+     "bayt": 95805
+    },
+    {
+     "ad": "Hemşin",
+     "osm_id": 1838679,
+     "birim": 12,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 2299,
+     "bayt": 52009
+    },
+    {
+     "ad": "Kalkandere",
+     "osm_id": 1838680,
+     "birim": 34,
+     "sinir": 34,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 13350,
+     "bayt": 130798
+    },
+    {
+     "ad": "Pazar",
+     "osm_id": 1838681,
+     "birim": 60,
+     "sinir": 60,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 32144,
+     "bayt": 228677
+    },
+    {
+     "ad": "Rize Merkez",
+     "osm_id": 1838682,
+     "birim": 126,
+     "sinir": 125,
+     "nokta": 0,
+     "yok": 1,
+     "nufus": 153597,
+     "bayt": 412938
+    },
+    {
+     "ad": "Çamlıhemşin",
+     "osm_id": 1838683,
+     "birim": 36,
+     "sinir": 30,
+     "nokta": 1,
+     "yok": 5,
+     "nufus": 7051,
+     "bayt": 137818
+    },
+    {
+     "ad": "Çayeli",
+     "osm_id": 1838684,
+     "birim": 89,
+     "sinir": 89,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 42032,
+     "bayt": 304058
+    },
+    {
+     "ad": "İkizdere",
+     "osm_id": 1725548,
+     "birim": 36,
+     "sinir": 36,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 6287,
+     "bayt": 183113
+    },
+    {
+     "ad": "İyidere",
+     "osm_id": 1838685,
+     "birim": 16,
+     "sinir": 16,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 8495,
+     "bayt": 52697
+    }
+   ]
+  },
+  {
+   "kod": "54",
+   "ad": "Sakarya",
+   "ilceler": [
+    {
+     "ad": "Adapazarı",
+     "osm_id": 1252526,
+     "birim": 84,
+     "sinir": 43,
+     "nokta": 41,
+     "yok": 0,
+     "nufus": 284006,
+     "bayt": 93932
+    },
+    {
+     "ad": "Akyazı",
+     "osm_id": 1252522,
+     "birim": 76,
+     "sinir": 0,
+     "nokta": 75,
+     "yok": 1,
+     "nufus": 99561,
+     "bayt": 16104
+    },
+    {
+     "ad": "Arifiye",
+     "osm_id": 1775177,
+     "birim": 24,
+     "sinir": 7,
+     "nokta": 17,
+     "yok": 0,
+     "nufus": 55588,
+     "bayt": 18395
+    },
+    {
+     "ad": "Erenler",
+     "osm_id": 1775571,
+     "birim": 33,
+     "sinir": 8,
+     "nokta": 25,
+     "yok": 0,
+     "nufus": 92549,
+     "bayt": 12513
+    },
+    {
+     "ad": "Ferizli",
+     "osm_id": 1252528,
+     "birim": 24,
+     "sinir": 13,
+     "nokta": 11,
+     "yok": 0,
+     "nufus": 36015,
+     "bayt": 45229
+    },
+    {
+     "ad": "Geyve",
+     "osm_id": 1252524,
+     "birim": 73,
+     "sinir": 0,
+     "nokta": 73,
+     "yok": 0,
+     "nufus": 51708,
+     "bayt": 15113
+    },
+    {
+     "ad": "Hendek",
+     "osm_id": 1252530,
+     "birim": 92,
+     "sinir": 11,
+     "nokta": 81,
+     "yok": 0,
+     "nufus": 93917,
+     "bayt": 31292
+    },
+    {
+     "ad": "Karapürçek",
+     "osm_id": 1252531,
+     "birim": 14,
+     "sinir": 3,
+     "nokta": 11,
+     "yok": 0,
+     "nufus": 13734,
+     "bayt": 11764
+    },
+    {
+     "ad": "Karasu",
+     "osm_id": 4161128,
+     "birim": 40,
+     "sinir": 39,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 75887,
+     "bayt": 200782
+    },
+    {
+     "ad": "Kaynarca",
+     "osm_id": 1252521,
+     "birim": 45,
+     "sinir": 5,
+     "nokta": 38,
+     "yok": 2,
+     "nufus": 25440,
+     "bayt": 18726
+    },
+    {
+     "ad": "Kocaali",
+     "osm_id": 1252532,
+     "birim": 36,
+     "sinir": 36,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 24966,
+     "bayt": 186723
+    },
+    {
+     "ad": "Pamukova",
+     "osm_id": 1775627,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 32,
+     "yok": 1,
+     "nufus": 31536,
+     "bayt": 6986
+    },
+    {
+     "ad": "Sapanca",
+     "osm_id": 1775628,
+     "birim": 29,
+     "sinir": 1,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 47505,
+     "bayt": 6595
+    },
+    {
+     "ad": "Serdivan",
+     "osm_id": 6989045,
+     "birim": 24,
+     "sinir": 24,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 168855,
+     "bayt": 70006
+    },
+    {
+     "ad": "Söğütlü",
+     "osm_id": 1252523,
+     "birim": 23,
+     "sinir": 5,
+     "nokta": 18,
+     "yok": 0,
+     "nufus": 15288,
+     "bayt": 19893
+    },
+    {
+     "ad": "Taraklı",
+     "osm_id": 1252527,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 7064,
+     "bayt": 4677
+    }
+   ]
+  },
+  {
+   "kod": "55",
+   "ad": "Samsun",
+   "ilceler": [
+    {
+     "ad": "19 Mayıs",
+     "osm_id": 1837369,
+     "birim": 38,
+     "sinir": 22,
+     "nokta": 16,
+     "yok": 0,
+     "nufus": 28658,
+     "bayt": 37918
+    },
+    {
+     "ad": "Alaçam",
+     "osm_id": 1837360,
+     "birim": 65,
+     "sinir": 5,
+     "nokta": 59,
+     "yok": 1,
+     "nufus": 24560,
+     "bayt": 19076
+    },
+    {
+     "ad": "Asarcık",
+     "osm_id": 1837361,
+     "birim": 32,
+     "sinir": 1,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 15673,
+     "bayt": 10456
+    },
+    {
+     "ad": "Atakum",
+     "osm_id": 1837362,
+     "birim": 57,
+     "sinir": 18,
+     "nokta": 37,
+     "yok": 2,
+     "nufus": 261809,
+     "bayt": 38298
+    },
+    {
+     "ad": "Ayvacık",
+     "osm_id": 1837363,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 43,
+     "yok": 0,
+     "nufus": 18557,
+     "bayt": 9196
+    },
+    {
+     "ad": "Bafra",
+     "osm_id": 1837364,
+     "birim": 139,
+     "sinir": 21,
+     "nokta": 117,
+     "yok": 1,
+     "nufus": 143387,
+     "bayt": 41803
+    },
+    {
+     "ad": "Canik",
+     "osm_id": 1837365,
+     "birim": 52,
+     "sinir": 3,
+     "nokta": 49,
+     "yok": 0,
+     "nufus": 100247,
+     "bayt": 14937
+    },
+    {
+     "ad": "Havza",
+     "osm_id": 1837366,
+     "birim": 97,
+     "sinir": 5,
+     "nokta": 91,
+     "yok": 1,
+     "nufus": 38093,
+     "bayt": 37507
+    },
+    {
+     "ad": "Kavak",
+     "osm_id": 1837367,
+     "birim": 91,
+     "sinir": 0,
+     "nokta": 84,
+     "yok": 7,
+     "nufus": 25368,
+     "bayt": 18309
+    },
+    {
+     "ad": "Ladik",
+     "osm_id": 1837368,
+     "birim": 67,
+     "sinir": 2,
+     "nokta": 63,
+     "yok": 2,
+     "nufus": 15942,
+     "bayt": 17286
+    },
+    {
+     "ad": "Salıpazarı",
+     "osm_id": 1837370,
+     "birim": 44,
+     "sinir": 2,
+     "nokta": 40,
+     "yok": 2,
+     "nufus": 19406,
+     "bayt": 12807
+    },
+    {
+     "ad": "Tekkeköy",
+     "osm_id": 1837371,
+     "birim": 63,
+     "sinir": 8,
+     "nokta": 55,
+     "yok": 0,
+     "nufus": 59341,
+     "bayt": 21005
+    },
+    {
+     "ad": "Terme",
+     "osm_id": 1837372,
+     "birim": 82,
+     "sinir": 15,
+     "nokta": 65,
+     "yok": 2,
+     "nufus": 71348,
+     "bayt": 53245
+    },
+    {
+     "ad": "Vezirköprü",
+     "osm_id": 1722709,
+     "birim": 160,
+     "sinir": 1,
+     "nokta": 154,
+     "yok": 5,
+     "nufus": 87567,
+     "bayt": 39251
+    },
+    {
+     "ad": "Yakakent",
+     "osm_id": 1837373,
+     "birim": 17,
+     "sinir": 3,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 8916,
+     "bayt": 18181
+    },
+    {
+     "ad": "Çarşamba",
+     "osm_id": 1837374,
+     "birim": 143,
+     "sinir": 6,
+     "nokta": 133,
+     "yok": 4,
+     "nufus": 143206,
+     "bayt": 37457
+    },
+    {
+     "ad": "İlkadım",
+     "osm_id": 1837375,
+     "birim": 61,
+     "sinir": 39,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 330290,
+     "bayt": 45401
+    }
+   ]
+  },
+  {
+   "kod": "56",
+   "ad": "Siirt",
+   "ilceler": [
+    {
+     "ad": "Baykan",
+     "osm_id": 1246478,
+     "birim": 39,
+     "sinir": 0,
+     "nokta": 33,
+     "yok": 6,
+     "nufus": 23219,
+     "bayt": 7485
+    },
+    {
+     "ad": "Eruh",
+     "osm_id": 1246475,
+     "birim": 62,
+     "sinir": 0,
+     "nokta": 59,
+     "yok": 3,
+     "nufus": 18339,
+     "bayt": 11995
+    },
+    {
+     "ad": "Kurtalan",
+     "osm_id": 1246476,
+     "birim": 71,
+     "sinir": 3,
+     "nokta": 65,
+     "yok": 3,
+     "nufus": 60674,
+     "bayt": 17303
+    },
+    {
+     "ad": "Pervari",
+     "osm_id": 1246474,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 38,
+     "yok": 4,
+     "nufus": 26437,
+     "bayt": 8211
+    },
+    {
+     "ad": "Siirt Merkez",
+     "osm_id": 1246473,
+     "birim": 58,
+     "sinir": 9,
+     "nokta": 48,
+     "yok": 1,
+     "nufus": 180837,
+     "bayt": 16981
+    },
+    {
+     "ad": "Tillo",
+     "osm_id": 1246477,
+     "birim": 9,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 4090,
+     "bayt": 1832
+    },
+    {
+     "ad": "Şirvan",
+     "osm_id": 1246472,
+     "birim": 63,
+     "sinir": 1,
+     "nokta": 62,
+     "yok": 0,
+     "nufus": 18773,
+     "bayt": 13164
+    }
+   ]
+  },
+  {
+   "kod": "57",
+   "ad": "Sinop",
+   "ilceler": [
+    {
+     "ad": "Ayancık",
+     "osm_id": 1428702,
+     "birim": 76,
+     "sinir": 0,
+     "nokta": 74,
+     "yok": 2,
+     "nufus": 23818,
+     "bayt": 15104
+    },
+    {
+     "ad": "Boyabat",
+     "osm_id": 1428709,
+     "birim": 116,
+     "sinir": 1,
+     "nokta": 111,
+     "yok": 4,
+     "nufus": 44901,
+     "bayt": 23316
+    },
+    {
+     "ad": "Dikmen",
+     "osm_id": 1428710,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 4810,
+     "bayt": 6190
+    },
+    {
+     "ad": "Durağan",
+     "osm_id": 1428706,
+     "birim": 75,
+     "sinir": 0,
+     "nokta": 75,
+     "yok": 0,
+     "nufus": 16788,
+     "bayt": 15088
+    },
+    {
+     "ad": "Erfelek",
+     "osm_id": 1428707,
+     "birim": 49,
+     "sinir": 3,
+     "nokta": 45,
+     "yok": 1,
+     "nufus": 12565,
+     "bayt": 16836
+    },
+    {
+     "ad": "Gerze",
+     "osm_id": 1428705,
+     "birim": 47,
+     "sinir": 0,
+     "nokta": 47,
+     "yok": 0,
+     "nufus": 30701,
+     "bayt": 9321
+    },
+    {
+     "ad": "Saraydüzü",
+     "osm_id": 1428708,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 2,
+     "nufus": 5656,
+     "bayt": 6250
+    },
+    {
+     "ad": "Sinop Merkez",
+     "osm_id": 1428703,
+     "birim": 54,
+     "sinir": 17,
+     "nokta": 37,
+     "yok": 0,
+     "nufus": 70311,
+     "bayt": 77601
+    },
+    {
+     "ad": "Türkeli",
+     "osm_id": 1427183,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 37,
+     "yok": 0,
+     "nufus": 16298,
+     "bayt": 7454
+    }
+   ]
+  },
+  {
+   "kod": "58",
+   "ad": "Sivas",
+   "ilceler": [
+    {
+     "ad": "Akıncılar",
+     "osm_id": 1507008,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 6,
+     "nufus": 4641,
+     "bayt": 7219
+    },
+    {
+     "ad": "Altınyayla",
+     "osm_id": 1742197,
+     "birim": 22,
+     "sinir": 6,
+     "nokta": 15,
+     "yok": 1,
+     "nufus": 8245,
+     "bayt": 32211
+    },
+    {
+     "ad": "Divriği",
+     "osm_id": 1483861,
+     "birim": 133,
+     "sinir": 27,
+     "nokta": 103,
+     "yok": 3,
+     "nufus": 15657,
+     "bayt": 57673
+    },
+    {
+     "ad": "Doğanşar",
+     "osm_id": 1843703,
+     "birim": 33,
+     "sinir": 1,
+     "nokta": 25,
+     "yok": 7,
+     "nufus": 2770,
+     "bayt": 7564
+    },
+    {
+     "ad": "Gemerek",
+     "osm_id": 1335056,
+     "birim": 53,
+     "sinir": 5,
+     "nokta": 42,
+     "yok": 6,
+     "nufus": 21342,
+     "bayt": 29827
+    },
+    {
+     "ad": "Gölova",
+     "osm_id": 1507010,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 4,
+     "nufus": 2998,
+     "bayt": 6345
+    },
+    {
+     "ad": "Gürün",
+     "osm_id": 1731766,
+     "birim": 79,
+     "sinir": 19,
+     "nokta": 57,
+     "yok": 3,
+     "nufus": 17062,
+     "bayt": 54267
+    },
+    {
+     "ad": "Hafik",
+     "osm_id": 1742198,
+     "birim": 79,
+     "sinir": 0,
+     "nokta": 72,
+     "yok": 7,
+     "nufus": 8950,
+     "bayt": 15060
+    },
+    {
+     "ad": "Kangal",
+     "osm_id": 1482222,
+     "birim": 120,
+     "sinir": 0,
+     "nokta": 99,
+     "yok": 21,
+     "nufus": 19406,
+     "bayt": 22418
+    },
+    {
+     "ad": "Koyulhisar",
+     "osm_id": 1493876,
+     "birim": 51,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 2,
+     "nufus": 11782,
+     "bayt": 10265
+    },
+    {
+     "ad": "Sivas Merkez",
+     "osm_id": 1440079,
+     "birim": 224,
+     "sinir": 78,
+     "nokta": 143,
+     "yok": 3,
+     "nufus": 393909,
+     "bayt": 143274
+    },
+    {
+     "ad": "Suşehri",
+     "osm_id": 1502459,
+     "birim": 84,
+     "sinir": 0,
+     "nokta": 71,
+     "yok": 13,
+     "nufus": 25056,
+     "bayt": 16125
+    },
+    {
+     "ad": "Ulaş",
+     "osm_id": 1742199,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 40,
+     "yok": 2,
+     "nufus": 7603,
+     "bayt": 8207
+    },
+    {
+     "ad": "Yıldızeli",
+     "osm_id": 1438944,
+     "birim": 135,
+     "sinir": 0,
+     "nokta": 121,
+     "yok": 14,
+     "nufus": 26567,
+     "bayt": 26694
+    },
+    {
+     "ad": "Zara",
+     "osm_id": 1493364,
+     "birim": 146,
+     "sinir": 4,
+     "nokta": 129,
+     "yok": 13,
+     "nufus": 21340,
+     "bayt": 47502
+    },
+    {
+     "ad": "İmranlı",
+     "osm_id": 1503860,
+     "birim": 109,
+     "sinir": 0,
+     "nokta": 99,
+     "yok": 10,
+     "nufus": 6788,
+     "bayt": 21268
+    },
+    {
+     "ad": "Şarkışla",
+     "osm_id": 1335055,
+     "birim": 113,
+     "sinir": 12,
+     "nokta": 90,
+     "yok": 11,
+     "nufus": 37282,
+     "bayt": 32042
+    }
+   ]
+  },
+  {
+   "kod": "59",
+   "ad": "Tekirdağ",
+   "ilceler": [
+    {
+     "ad": "Ergene",
+     "osm_id": 3525530,
+     "birim": 17,
+     "sinir": 17,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 68362,
+     "bayt": 93551
+    },
+    {
+     "ad": "Hayrabolu",
+     "osm_id": 1771120,
+     "birim": 52,
+     "sinir": 7,
+     "nokta": 44,
+     "yok": 1,
+     "nufus": 29705,
+     "bayt": 66042
+    },
+    {
+     "ad": "Kapaklı",
+     "osm_id": 3527588,
+     "birim": 21,
+     "sinir": 21,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 152495,
+     "bayt": 67885
+    },
+    {
+     "ad": "Malkara",
+     "osm_id": 1771121,
+     "birim": 77,
+     "sinir": 13,
+     "nokta": 63,
+     "yok": 1,
+     "nufus": 50123,
+     "bayt": 93173
+    },
+    {
+     "ad": "Marmaraereğlisi",
+     "osm_id": 1771122,
+     "birim": 10,
+     "sinir": 10,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 33623,
+     "bayt": 40580
+    },
+    {
+     "ad": "Muratlı",
+     "osm_id": 1771123,
+     "birim": 20,
+     "sinir": 20,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 30409,
+     "bayt": 116701
+    },
+    {
+     "ad": "Saray",
+     "osm_id": 1771124,
+     "birim": 29,
+     "sinir": 29,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 51468,
+     "bayt": 191735
+    },
+    {
+     "ad": "Süleymanpaşa",
+     "osm_id": 1771125,
+     "birim": 78,
+     "sinir": 42,
+     "nokta": 36,
+     "yok": 0,
+     "nufus": 226582,
+     "bayt": 195950
+    },
+    {
+     "ad": "Çerkezköy",
+     "osm_id": 1771126,
+     "birim": 12,
+     "sinir": 12,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 223847,
+     "bayt": 34772
+    },
+    {
+     "ad": "Çorlu",
+     "osm_id": 1771127,
+     "birim": 26,
+     "sinir": 26,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 306921,
+     "bayt": 80157
+    },
+    {
+     "ad": "Şarköy",
+     "osm_id": 1771128,
+     "birim": 31,
+     "sinir": 8,
+     "nokta": 23,
+     "yok": 0,
+     "nufus": 34458,
+     "bayt": 64884
+    }
+   ]
+  },
+  {
+   "kod": "60",
+   "ad": "Tokat",
+   "ilceler": [
+    {
+     "ad": "Almus",
+     "osm_id": 1804073,
+     "birim": 68,
+     "sinir": 3,
+     "nokta": 50,
+     "yok": 15,
+     "nufus": 28135,
+     "bayt": 27528
+    },
+    {
+     "ad": "Artova",
+     "osm_id": 1804176,
+     "birim": 33,
+     "sinir": 2,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 7589,
+     "bayt": 12674
+    },
+    {
+     "ad": "Başçiftlik",
+     "osm_id": 1802583,
+     "birim": 15,
+     "sinir": 0,
+     "nokta": 9,
+     "yok": 6,
+     "nufus": 8445,
+     "bayt": 2883
+    },
+    {
+     "ad": "Erbaa",
+     "osm_id": 1802575,
+     "birim": 118,
+     "sinir": 29,
+     "nokta": 82,
+     "yok": 7,
+     "nufus": 103406,
+     "bayt": 64623
+    },
+    {
+     "ad": "Niksar",
+     "osm_id": 1804071,
+     "birim": 130,
+     "sinir": 5,
+     "nokta": 106,
+     "yok": 19,
+     "nufus": 63594,
+     "bayt": 30827
+    },
+    {
+     "ad": "Pazar",
+     "osm_id": 1804177,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 4,
+     "nufus": 12875,
+     "bayt": 5429
+    },
+    {
+     "ad": "Reşadiye",
+     "osm_id": 1802584,
+     "birim": 119,
+     "sinir": 32,
+     "nokta": 84,
+     "yok": 3,
+     "nufus": 43108,
+     "bayt": 160495
+    },
+    {
+     "ad": "Sulusaray",
+     "osm_id": 1804160,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 0,
+     "nufus": 6536,
+     "bayt": 3707
+    },
+    {
+     "ad": "Tokat Merkez",
+     "osm_id": 1804178,
+     "birim": 166,
+     "sinir": 16,
+     "nokta": 141,
+     "yok": 9,
+     "nufus": 201960,
+     "bayt": 46991
+    },
+    {
+     "ad": "Turhal",
+     "osm_id": 1804179,
+     "birim": 87,
+     "sinir": 0,
+     "nokta": 86,
+     "yok": 1,
+     "nufus": 77707,
+     "bayt": 17491
+    },
+    {
+     "ad": "Yeşilyurt",
+     "osm_id": 1804161,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 8045,
+     "bayt": 4561
+    },
+    {
+     "ad": "Zile",
+     "osm_id": 1804180,
+     "birim": 134,
+     "sinir": 0,
+     "nokta": 115,
+     "yok": 19,
+     "nufus": 52729,
+     "bayt": 25257
+    }
+   ]
+  },
+  {
+   "kod": "61",
+   "ad": "Trabzon",
+   "ilceler": [
+    {
+     "ad": "Akçaabat",
+     "osm_id": 1236156,
+     "birim": 78,
+     "sinir": 2,
+     "nokta": 76,
+     "yok": 0,
+     "nufus": 131160,
+     "bayt": 29732
+    },
+    {
+     "ad": "Araklı",
+     "osm_id": 1236151,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 50,
+     "yok": 0,
+     "nufus": 49230,
+     "bayt": 10522
+    },
+    {
+     "ad": "Arsin",
+     "osm_id": 1236155,
+     "birim": 36,
+     "sinir": 0,
+     "nokta": 36,
+     "yok": 0,
+     "nufus": 31493,
+     "bayt": 7409
+    },
+    {
+     "ad": "Beşikdüzü",
+     "osm_id": 1236144,
+     "birim": 34,
+     "sinir": 0,
+     "nokta": 34,
+     "yok": 0,
+     "nufus": 23246,
+     "bayt": 7491
+    },
+    {
+     "ad": "Dernekpazarı",
+     "osm_id": 1236146,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 14,
+     "yok": 0,
+     "nufus": 3717,
+     "bayt": 3144
+    },
+    {
+     "ad": "Düzköy",
+     "osm_id": 1236145,
+     "birim": 22,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 0,
+     "nufus": 13105,
+     "bayt": 4782
+    },
+    {
+     "ad": "Hayrat",
+     "osm_id": 1236143,
+     "birim": 35,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 0,
+     "nufus": 7410,
+     "bayt": 7329
+    },
+    {
+     "ad": "Köprübaşı",
+     "osm_id": 1236149,
+     "birim": 10,
+     "sinir": 0,
+     "nokta": 10,
+     "yok": 0,
+     "nufus": 4271,
+     "bayt": 2272
+    },
+    {
+     "ad": "Maçka",
+     "osm_id": 1236152,
+     "birim": 67,
+     "sinir": 0,
+     "nokta": 65,
+     "yok": 2,
+     "nufus": 24931,
+     "bayt": 13840
+    },
+    {
+     "ad": "Of",
+     "osm_id": 1236154,
+     "birim": 68,
+     "sinir": 0,
+     "nokta": 68,
+     "yok": 0,
+     "nufus": 43591,
+     "bayt": 13677
+    },
+    {
+     "ad": "Ortahisar",
+     "osm_id": 1236157,
+     "birim": 87,
+     "sinir": 48,
+     "nokta": 39,
+     "yok": 0,
+     "nufus": 335116,
+     "bayt": 118905
+    },
+    {
+     "ad": "Sürmene",
+     "osm_id": 1236153,
+     "birim": 37,
+     "sinir": 0,
+     "nokta": 36,
+     "yok": 1,
+     "nufus": 25281,
+     "bayt": 7812
+    },
+    {
+     "ad": "Tonya",
+     "osm_id": 1236148,
+     "birim": 22,
+     "sinir": 9,
+     "nokta": 13,
+     "yok": 0,
+     "nufus": 13332,
+     "bayt": 35854
+    },
+    {
+     "ad": "Vakfıkebir",
+     "osm_id": 1236150,
+     "birim": 46,
+     "sinir": 1,
+     "nokta": 45,
+     "yok": 0,
+     "nufus": 27278,
+     "bayt": 10805
+    },
+    {
+     "ad": "Yomra",
+     "osm_id": 1236147,
+     "birim": 25,
+     "sinir": 0,
+     "nokta": 25,
+     "yok": 0,
+     "nufus": 51660,
+     "bayt": 5185
+    },
+    {
+     "ad": "Çarşıbaşı",
+     "osm_id": 1236159,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 1,
+     "nufus": 15004,
+     "bayt": 5120
+    },
+    {
+     "ad": "Çaykara",
+     "osm_id": 1236158,
+     "birim": 32,
+     "sinir": 0,
+     "nokta": 32,
+     "yok": 0,
+     "nufus": 12921,
+     "bayt": 6845
+    },
+    {
+     "ad": "Şalpazarı",
+     "osm_id": 1236160,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 1,
+     "nufus": 10575,
+     "bayt": 6513
+    }
+   ]
+  },
+  {
+   "kod": "62",
+   "ad": "Tunceli",
+   "ilceler": [
+    {
+     "ad": "Hozat",
+     "osm_id": 1829324,
+     "birim": 34,
+     "sinir": 0,
+     "nokta": 34,
+     "yok": 0,
+     "nufus": 5332,
+     "bayt": 6770
+    },
+    {
+     "ad": "Mazgirt",
+     "osm_id": 1829325,
+     "birim": 78,
+     "sinir": 0,
+     "nokta": 76,
+     "yok": 2,
+     "nufus": 7257,
+     "bayt": 15444
+    },
+    {
+     "ad": "Nazımiye",
+     "osm_id": 1829326,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 3095,
+     "bayt": 5255
+    },
+    {
+     "ad": "Ovacık",
+     "osm_id": 1829327,
+     "birim": 65,
+     "sinir": 0,
+     "nokta": 62,
+     "yok": 3,
+     "nufus": 6700,
+     "bayt": 12778
+    },
+    {
+     "ad": "Pertek",
+     "osm_id": 1829328,
+     "birim": 50,
+     "sinir": 5,
+     "nokta": 44,
+     "yok": 1,
+     "nufus": 10569,
+     "bayt": 21741
+    },
+    {
+     "ad": "Pülümür",
+     "osm_id": 1829329,
+     "birim": 54,
+     "sinir": 0,
+     "nokta": 49,
+     "yok": 5,
+     "nufus": 3580,
+     "bayt": 10643
+    },
+    {
+     "ad": "Tunceli Merkez",
+     "osm_id": 1829330,
+     "birim": 61,
+     "sinir": 3,
+     "nokta": 58,
+     "yok": 0,
+     "nufus": 41041,
+     "bayt": 16141
+    },
+    {
+     "ad": "Çemişgezek",
+     "osm_id": 1829331,
+     "birim": 41,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 6,
+     "nufus": 7505,
+     "bayt": 8070
+    }
+   ]
+  },
+  {
+   "kod": "63",
+   "ad": "Şanlıurfa",
+   "ilceler": [
+    {
+     "ad": "Akçakale",
+     "osm_id": 1747576,
+     "birim": 125,
+     "sinir": 41,
+     "nokta": 84,
+     "yok": 0,
+     "nufus": 131351,
+     "bayt": 65974
+    },
+    {
+     "ad": "Birecik",
+     "osm_id": 1747577,
+     "birim": 83,
+     "sinir": 83,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 91837,
+     "bayt": 203248
+    },
+    {
+     "ad": "Bozova",
+     "osm_id": 1747578,
+     "birim": 88,
+     "sinir": 85,
+     "nokta": 2,
+     "yok": 1,
+     "nufus": 50534,
+     "bayt": 241979
+    },
+    {
+     "ad": "Ceylanpınar",
+     "osm_id": 1747579,
+     "birim": 52,
+     "sinir": 14,
+     "nokta": 38,
+     "yok": 0,
+     "nufus": 93105,
+     "bayt": 18258
+    },
+    {
+     "ad": "Eyyübiye",
+     "osm_id": 3677452,
+     "birim": 163,
+     "sinir": 42,
+     "nokta": 118,
+     "yok": 3,
+     "nufus": 414516,
+     "bayt": 74668
+    },
+    {
+     "ad": "Halfeti",
+     "osm_id": 1747580,
+     "birim": 49,
+     "sinir": 49,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 41624,
+     "bayt": 143353
+    },
+    {
+     "ad": "Haliliye",
+     "osm_id": 1747584,
+     "birim": 170,
+     "sinir": 56,
+     "nokta": 113,
+     "yok": 1,
+     "nufus": 395975,
+     "bayt": 90804
+    },
+    {
+     "ad": "Harran",
+     "osm_id": 1747581,
+     "birim": 141,
+     "sinir": 7,
+     "nokta": 134,
+     "yok": 0,
+     "nufus": 101710,
+     "bayt": 34090
+    },
+    {
+     "ad": "Hilvan",
+     "osm_id": 1747582,
+     "birim": 70,
+     "sinir": 4,
+     "nokta": 66,
+     "yok": 0,
+     "nufus": 41969,
+     "bayt": 17322
+    },
+    {
+     "ad": "Karaköprü",
+     "osm_id": 3677455,
+     "birim": 100,
+     "sinir": 51,
+     "nokta": 49,
+     "yok": 0,
+     "nufus": 312031,
+     "bayt": 141591
+    },
+    {
+     "ad": "Siverek",
+     "osm_id": 1596129,
+     "birim": 182,
+     "sinir": 23,
+     "nokta": 158,
+     "yok": 1,
+     "nufus": 277399,
+     "bayt": 53858
+    },
+    {
+     "ad": "Suruç",
+     "osm_id": 1747583,
+     "birim": 95,
+     "sinir": 95,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 98022,
+     "bayt": 185228
+    },
+    {
+     "ad": "Viranşehir",
+     "osm_id": 1694298,
+     "birim": 149,
+     "sinir": 30,
+     "nokta": 117,
+     "yok": 2,
+     "nufus": 215727,
+     "bayt": 70813
+    }
+   ]
+  },
+  {
+   "kod": "64",
+   "ad": "Uşak",
+   "ilceler": [
+    {
+     "ad": "Banaz",
+     "osm_id": 1609673,
+     "birim": 55,
+     "sinir": 1,
+     "nokta": 43,
+     "yok": 11,
+     "nufus": 34624,
+     "bayt": 11852
+    },
+    {
+     "ad": "Eşme",
+     "osm_id": 1609670,
+     "birim": 69,
+     "sinir": 0,
+     "nokta": 64,
+     "yok": 5,
+     "nufus": 34444,
+     "bayt": 13377
+    },
+    {
+     "ad": "Karahallı",
+     "osm_id": 1609674,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 0,
+     "nufus": 9402,
+     "bayt": 3929
+    },
+    {
+     "ad": "Sivaslı",
+     "osm_id": 1609671,
+     "birim": 30,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 12,
+     "nufus": 19193,
+     "bayt": 5396
+    },
+    {
+     "ad": "Ulubey",
+     "osm_id": 1609672,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 33,
+     "yok": 0,
+     "nufus": 11365,
+     "bayt": 6623
+    },
+    {
+     "ad": "Uşak Merkez",
+     "osm_id": 1609669,
+     "birim": 112,
+     "sinir": 21,
+     "nokta": 90,
+     "yok": 1,
+     "nufus": 265360,
+     "bayt": 48439
+    }
+   ]
+  },
+  {
+   "kod": "65",
+   "ad": "Van",
+   "ilceler": [
+    {
+     "ad": "Bahçesaray",
+     "osm_id": 1778676,
+     "birim": 20,
+     "sinir": 0,
+     "nokta": 20,
+     "yok": 0,
+     "nufus": 11438,
+     "bayt": 4426
+    },
+    {
+     "ad": "Başkale",
+     "osm_id": 1778014,
+     "birim": 69,
+     "sinir": 0,
+     "nokta": 66,
+     "yok": 3,
+     "nufus": 37568,
+     "bayt": 14487
+    },
+    {
+     "ad": "Edremit",
+     "osm_id": 1778677,
+     "birim": 30,
+     "sinir": 5,
+     "nokta": 24,
+     "yok": 1,
+     "nufus": 132309,
+     "bayt": 17623
+    },
+    {
+     "ad": "Erciş",
+     "osm_id": 1779032,
+     "birim": 102,
+     "sinir": 3,
+     "nokta": 99,
+     "yok": 0,
+     "nufus": 169040,
+     "bayt": 31662
+    },
+    {
+     "ad": "Gevaş",
+     "osm_id": 1778678,
+     "birim": 41,
+     "sinir": 2,
+     "nokta": 38,
+     "yok": 1,
+     "nufus": 26253,
+     "bayt": 33227
+    },
+    {
+     "ad": "Gürpınar",
+     "osm_id": 1778557,
+     "birim": 79,
+     "sinir": 0,
+     "nokta": 78,
+     "yok": 1,
+     "nufus": 28505,
+     "bayt": 17082
+    },
+    {
+     "ad": "Muradiye",
+     "osm_id": 1779033,
+     "birim": 48,
+     "sinir": 0,
+     "nokta": 47,
+     "yok": 1,
+     "nufus": 41402,
+     "bayt": 10189
+    },
+    {
+     "ad": "Saray",
+     "osm_id": 1779034,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 3,
+     "nufus": 17036,
+     "bayt": 5428
+    },
+    {
+     "ad": "Tuşba",
+     "osm_id": 1778550,
+     "birim": 67,
+     "sinir": 10,
+     "nokta": 56,
+     "yok": 1,
+     "nufus": 167758,
+     "bayt": 35221
+    },
+    {
+     "ad": "Çaldıran",
+     "osm_id": 1779035,
+     "birim": 70,
+     "sinir": 0,
+     "nokta": 68,
+     "yok": 2,
+     "nufus": 50170,
+     "bayt": 15212
+    },
+    {
+     "ad": "Çatak",
+     "osm_id": 1778679,
+     "birim": 33,
+     "sinir": 1,
+     "nokta": 32,
+     "yok": 0,
+     "nufus": 16361,
+     "bayt": 7110
+    },
+    {
+     "ad": "Özalp",
+     "osm_id": 1779036,
+     "birim": 58,
+     "sinir": 0,
+     "nokta": 57,
+     "yok": 1,
+     "nufus": 51357,
+     "bayt": 12147
+    },
+    {
+     "ad": "İpekyolu",
+     "osm_id": 3678626,
+     "birim": 52,
+     "sinir": 25,
+     "nokta": 26,
+     "yok": 1,
+     "nufus": 362816,
+     "bayt": 46535
+    }
+   ]
+  },
+  {
+   "kod": "66",
+   "ad": "Yozgat",
+   "ilceler": [
+    {
+     "ad": "Akdağmadeni",
+     "osm_id": 1559325,
+     "birim": 97,
+     "sinir": 1,
+     "nokta": 91,
+     "yok": 5,
+     "nufus": 39642,
+     "bayt": 25018
+    },
+    {
+     "ad": "Aydıncık",
+     "osm_id": 1561852,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 3,
+     "nufus": 9317,
+     "bayt": 5387
+    },
+    {
+     "ad": "Boğazlıyan",
+     "osm_id": 1561855,
+     "birim": 53,
+     "sinir": 9,
+     "nokta": 32,
+     "yok": 12,
+     "nufus": 35316,
+     "bayt": 30639
+    },
+    {
+     "ad": "Kadışehri",
+     "osm_id": 1561845,
+     "birim": 34,
+     "sinir": 0,
+     "nokta": 32,
+     "yok": 2,
+     "nufus": 9854,
+     "bayt": 7040
+    },
+    {
+     "ad": "Saraykent",
+     "osm_id": 1561846,
+     "birim": 26,
+     "sinir": 6,
+     "nokta": 17,
+     "yok": 3,
+     "nufus": 12605,
+     "bayt": 19064
+    },
+    {
+     "ad": "Sarıkaya",
+     "osm_id": 1561850,
+     "birim": 75,
+     "sinir": 16,
+     "nokta": 56,
+     "yok": 3,
+     "nufus": 30785,
+     "bayt": 34439
+    },
+    {
+     "ad": "Sorgun",
+     "osm_id": 1561856,
+     "birim": 123,
+     "sinir": 0,
+     "nokta": 110,
+     "yok": 13,
+     "nufus": 80068,
+     "bayt": 24176
+    },
+    {
+     "ad": "Yenifakılı",
+     "osm_id": 1561847,
+     "birim": 12,
+     "sinir": 5,
+     "nokta": 7,
+     "yok": 0,
+     "nufus": 5008,
+     "bayt": 21987
+    },
+    {
+     "ad": "Yerköy",
+     "osm_id": 1240430,
+     "birim": 74,
+     "sinir": 0,
+     "nokta": 61,
+     "yok": 13,
+     "nufus": 33000,
+     "bayt": 14062
+    },
+    {
+     "ad": "Yozgat Merkez",
+     "osm_id": 1561849,
+     "birim": 123,
+     "sinir": 10,
+     "nokta": 112,
+     "yok": 1,
+     "nufus": 109042,
+     "bayt": 40778
+    },
+    {
+     "ad": "Çandır",
+     "osm_id": 1561848,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 12,
+     "yok": 2,
+     "nufus": 4360,
+     "bayt": 2851
+    },
+    {
+     "ad": "Çayıralan",
+     "osm_id": 1561853,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 3,
+     "nufus": 11777,
+     "bayt": 6697
+    },
+    {
+     "ad": "Çekerek",
+     "osm_id": 1561851,
+     "birim": 49,
+     "sinir": 0,
+     "nokta": 46,
+     "yok": 3,
+     "nufus": 18426,
+     "bayt": 9729
+    },
+    {
+     "ad": "Şefaatli",
+     "osm_id": 1561854,
+     "birim": 52,
+     "sinir": 10,
+     "nokta": 39,
+     "yok": 3,
+     "nufus": 14008,
+     "bayt": 25431
+    }
+   ]
+  },
+  {
+   "kod": "67",
+   "ad": "Zonguldak",
+   "ilceler": [
+    {
+     "ad": "Alaplı",
+     "osm_id": 1793737,
+     "birim": 66,
+     "sinir": 0,
+     "nokta": 60,
+     "yok": 6,
+     "nufus": 43217,
+     "bayt": 12889
+    },
+    {
+     "ad": "Devrek",
+     "osm_id": 1840248,
+     "birim": 94,
+     "sinir": 0,
+     "nokta": 89,
+     "yok": 5,
+     "nufus": 56900,
+     "bayt": 18482
+    },
+    {
+     "ad": "Ereğli",
+     "osm_id": 1840250,
+     "birim": 140,
+     "sinir": 28,
+     "nokta": 108,
+     "yok": 4,
+     "nufus": 173884,
+     "bayt": 89733
+    },
+    {
+     "ad": "Gökçebey",
+     "osm_id": 1840249,
+     "birim": 29,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 6,
+     "nufus": 21070,
+     "bayt": 5656
+    },
+    {
+     "ad": "Kilimli",
+     "osm_id": 3680552,
+     "birim": 28,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 32441,
+     "bayt": 5879
+    },
+    {
+     "ad": "Kozlu",
+     "osm_id": 3680519,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 33,
+     "yok": 0,
+     "nufus": 50616,
+     "bayt": 6568
+    },
+    {
+     "ad": "Zonguldak Merkez",
+     "osm_id": 1840251,
+     "birim": 61,
+     "sinir": 16,
+     "nokta": 45,
+     "yok": 0,
+     "nufus": 115279,
+     "bayt": 48150
+    },
+    {
+     "ad": "Çaycuma",
+     "osm_id": 1830383,
+     "birim": 117,
+     "sinir": 0,
+     "nokta": 116,
+     "yok": 1,
+     "nufus": 91796,
+     "bayt": 23815
+    }
+   ]
+  },
+  {
+   "kod": "68",
+   "ad": "Aksaray",
+   "ilceler": [
+    {
+     "ad": "Aksaray Merkez",
+     "osm_id": 1717633,
+     "birim": 159,
+     "sinir": 18,
+     "nokta": 113,
+     "yok": 28,
+     "nufus": 327569,
+     "bayt": 38368
+    },
+    {
+     "ad": "Ağaçören",
+     "osm_id": 1717634,
+     "birim": 33,
+     "sinir": 0,
+     "nokta": 27,
+     "yok": 6,
+     "nufus": 7480,
+     "bayt": 6465
+    },
+    {
+     "ad": "Eskil",
+     "osm_id": 1714007,
+     "birim": 29,
+     "sinir": 0,
+     "nokta": 29,
+     "yok": 0,
+     "nufus": 27946,
+     "bayt": 5945
+    },
+    {
+     "ad": "Gülağaç",
+     "osm_id": 1717635,
+     "birim": 29,
+     "sinir": 1,
+     "nokta": 11,
+     "yok": 17,
+     "nufus": 19099,
+     "bayt": 5884
+    },
+    {
+     "ad": "Güzelyurt",
+     "osm_id": 1717636,
+     "birim": 19,
+     "sinir": 0,
+     "nokta": 10,
+     "yok": 9,
+     "nufus": 10419,
+     "bayt": 3422
+    },
+    {
+     "ad": "Ortaköy",
+     "osm_id": 1246396,
+     "birim": 42,
+     "sinir": 0,
+     "nokta": 30,
+     "yok": 12,
+     "nufus": 31089,
+     "bayt": 7816
+    },
+    {
+     "ad": "Sarıyahşi",
+     "osm_id": 1713915,
+     "birim": 14,
+     "sinir": 0,
+     "nokta": 6,
+     "yok": 8,
+     "nufus": 4717,
+     "bayt": 2503
+    },
+    {
+     "ad": "Sultanhanı",
+     "osm_id": 8100757,
+     "birim": 8,
+     "sinir": 0,
+     "nokta": 7,
+     "yok": 1,
+     "nufus": 12811,
+     "bayt": 1711
+    }
+   ]
+  },
+  {
+   "kod": "69",
+   "ad": "Bayburt",
+   "ilceler": [
+    {
+     "ad": "Aydıntepe",
+     "osm_id": 1596964,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 4,
+     "nufus": 5982,
+     "bayt": 5279
+    },
+    {
+     "ad": "Bayburt Merkez",
+     "osm_id": 1596962,
+     "birim": 138,
+     "sinir": 14,
+     "nokta": 121,
+     "yok": 3,
+     "nufus": 68715,
+     "bayt": 57710
+    },
+    {
+     "ad": "Demirözü",
+     "osm_id": 1596963,
+     "birim": 33,
+     "sinir": 1,
+     "nokta": 27,
+     "yok": 5,
+     "nufus": 8139,
+     "bayt": 7324
+    }
+   ]
+  },
+  {
+   "kod": "70",
+   "ad": "Karaman",
+   "ilceler": [
+    {
+     "ad": "Ayrancı",
+     "osm_id": 1477818,
+     "birim": 26,
+     "sinir": 13,
+     "nokta": 12,
+     "yok": 1,
+     "nufus": 7127,
+     "bayt": 54054
+    },
+    {
+     "ad": "Başyayla",
+     "osm_id": 1446934,
+     "birim": 9,
+     "sinir": 9,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 3353,
+     "bayt": 35176
+    },
+    {
+     "ad": "Ermenek",
+     "osm_id": 1446437,
+     "birim": 58,
+     "sinir": 30,
+     "nokta": 28,
+     "yok": 0,
+     "nufus": 27629,
+     "bayt": 96916
+    },
+    {
+     "ad": "Karaman Merkez",
+     "osm_id": 1477819,
+     "birim": 157,
+     "sinir": 55,
+     "nokta": 96,
+     "yok": 6,
+     "nufus": 207521,
+     "bayt": 121716
+    },
+    {
+     "ad": "Kazımkarabekir",
+     "osm_id": 1477820,
+     "birim": 14,
+     "sinir": 6,
+     "nokta": 8,
+     "yok": 0,
+     "nufus": 4679,
+     "bayt": 30413
+    },
+    {
+     "ad": "Sarıveliler",
+     "osm_id": 1446935,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 21,
+     "yok": 5,
+     "nufus": 11594,
+     "bayt": 5285
+    }
+   ]
+  },
+  {
+   "kod": "71",
+   "ad": "Kırıkkale",
+   "ilceler": [
+    {
+     "ad": "Bahşılı",
+     "osm_id": 1251200,
+     "birim": 10,
+     "sinir": 5,
+     "nokta": 5,
+     "yok": 0,
+     "nufus": 7353,
+     "bayt": 12944
+    },
+    {
+     "ad": "Balışeyh",
+     "osm_id": 1251198,
+     "birim": 32,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 4,
+     "nufus": 5888,
+     "bayt": 6306
+    },
+    {
+     "ad": "Delice",
+     "osm_id": 1251197,
+     "birim": 50,
+     "sinir": 4,
+     "nokta": 39,
+     "yok": 7,
+     "nufus": 10577,
+     "bayt": 20528
+    },
+    {
+     "ad": "Karakeçili",
+     "osm_id": 1251090,
+     "birim": 10,
+     "sinir": 10,
+     "nokta": 0,
+     "yok": 0,
+     "nufus": 3062,
+     "bayt": 45871
+    },
+    {
+     "ad": "Keskin",
+     "osm_id": 1251131,
+     "birim": 61,
+     "sinir": 5,
+     "nokta": 55,
+     "yok": 1,
+     "nufus": 15841,
+     "bayt": 25024
+    },
+    {
+     "ad": "Kırıkkale Merkez",
+     "osm_id": 1251199,
+     "birim": 40,
+     "sinir": 28,
+     "nokta": 9,
+     "yok": 3,
+     "nufus": 192821,
+     "bayt": 30021
+    },
+    {
+     "ad": "Sulakyurt",
+     "osm_id": 1251201,
+     "birim": 33,
+     "sinir": 1,
+     "nokta": 25,
+     "yok": 7,
+     "nufus": 5564,
+     "bayt": 8386
+    },
+    {
+     "ad": "Yahşihan",
+     "osm_id": 1251196,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 0,
+     "nufus": 39137,
+     "bayt": 3592
+    },
+    {
+     "ad": "Çelebi",
+     "osm_id": 1251085,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 17,
+     "yok": 0,
+     "nufus": 2587,
+     "bayt": 3460
+    }
+   ]
+  },
+  {
+   "kod": "72",
+   "ad": "Batman",
+   "ilceler": [
+    {
+     "ad": "Batman Merkez",
+     "osm_id": 1842145,
+     "birim": 82,
+     "sinir": 56,
+     "nokta": 25,
+     "yok": 1,
+     "nufus": 517785,
+     "bayt": 63133
+    },
+    {
+     "ad": "Beşiri",
+     "osm_id": 1842146,
+     "birim": 62,
+     "sinir": 8,
+     "nokta": 49,
+     "yok": 5,
+     "nufus": 31864,
+     "bayt": 21218
+    },
+    {
+     "ad": "Gercüş",
+     "osm_id": 1842147,
+     "birim": 64,
+     "sinir": 3,
+     "nokta": 60,
+     "yok": 1,
+     "nufus": 18894,
+     "bayt": 18759
+    },
+    {
+     "ad": "Hasankeyf",
+     "osm_id": 1361162,
+     "birim": 26,
+     "sinir": 4,
+     "nokta": 21,
+     "yok": 1,
+     "nufus": 7148,
+     "bayt": 7991
+    },
+    {
+     "ad": "Kozluk",
+     "osm_id": 1842148,
+     "birim": 103,
+     "sinir": 9,
+     "nokta": 93,
+     "yok": 1,
+     "nufus": 58781,
+     "bayt": 33553
+    },
+    {
+     "ad": "Sason",
+     "osm_id": 1842149,
+     "birim": 93,
+     "sinir": 0,
+     "nokta": 92,
+     "yok": 1,
+     "nufus": 28150,
+     "bayt": 18600
+    }
+   ]
+  },
+  {
+   "kod": "73",
+   "ad": "Şırnak",
+   "ilceler": [
+    {
+     "ad": "Beytüşşebap",
+     "osm_id": 1751837,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 31,
+     "yok": 0,
+     "nufus": 13971,
+     "bayt": 6471
+    },
+    {
+     "ad": "Cizre",
+     "osm_id": 1751838,
+     "birim": 48,
+     "sinir": 14,
+     "nokta": 34,
+     "yok": 0,
+     "nufus": 166290,
+     "bayt": 22577
+    },
+    {
+     "ad": "Güçlükonak",
+     "osm_id": 1751839,
+     "birim": 24,
+     "sinir": 8,
+     "nokta": 13,
+     "yok": 3,
+     "nufus": 12562,
+     "bayt": 18266
+    },
+    {
+     "ad": "Silopi",
+     "osm_id": 1751840,
+     "birim": 48,
+     "sinir": 11,
+     "nokta": 30,
+     "yok": 7,
+     "nufus": 152610,
+     "bayt": 20209
+    },
+    {
+     "ad": "Uludere",
+     "osm_id": 1751841,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 20,
+     "yok": 11,
+     "nufus": 45988,
+     "bayt": 5714
+    },
+    {
+     "ad": "İdil",
+     "osm_id": 1751842,
+     "birim": 72,
+     "sinir": 5,
+     "nokta": 64,
+     "yok": 3,
+     "nufus": 76548,
+     "bayt": 22158
+    },
+    {
+     "ad": "Şırnak Merkez",
+     "osm_id": 1751843,
+     "birim": 45,
+     "sinir": 3,
+     "nokta": 28,
+     "yok": 14,
+     "nufus": 105697,
+     "bayt": 11300
+    }
+   ]
+  },
+  {
+   "kod": "74",
+   "ad": "Bartın",
+   "ilceler": [
+    {
+     "ad": "Amasra",
+     "osm_id": 1423095,
+     "birim": 35,
+     "sinir": 34,
+     "nokta": 1,
+     "yok": 0,
+     "nufus": 13705,
+     "bayt": 110537
+    },
+    {
+     "ad": "Bartın Merkez",
+     "osm_id": 1423097,
+     "birim": 165,
+     "sinir": 44,
+     "nokta": 120,
+     "yok": 1,
+     "nufus": 163766,
+     "bayt": 190248
+    },
+    {
+     "ad": "Kurucaşile",
+     "osm_id": 1423096,
+     "birim": 32,
+     "sinir": 24,
+     "nokta": 1,
+     "yok": 7,
+     "nufus": 6316,
+     "bayt": 67040
+    },
+    {
+     "ad": "Ulus",
+     "osm_id": 1423094,
+     "birim": 81,
+     "sinir": 0,
+     "nokta": 77,
+     "yok": 4,
+     "nufus": 22876,
+     "bayt": 15757
+    }
+   ]
+  },
+  {
+   "kod": "75",
+   "ad": "Ardahan",
+   "ilceler": [
+    {
+     "ad": "Ardahan Merkez",
+     "osm_id": 1651536,
+     "birim": 69,
+     "sinir": 1,
+     "nokta": 67,
+     "yok": 1,
+     "nufus": 42136,
+     "bayt": 15027
+    },
+    {
+     "ad": "Damal",
+     "osm_id": 1651535,
+     "birim": 15,
+     "sinir": 6,
+     "nokta": 9,
+     "yok": 0,
+     "nufus": 4526,
+     "bayt": 36349
+    },
+    {
+     "ad": "Göle",
+     "osm_id": 1651532,
+     "birim": 57,
+     "sinir": 0,
+     "nokta": 53,
+     "yok": 4,
+     "nufus": 22038,
+     "bayt": 11154
+    },
+    {
+     "ad": "Hanak",
+     "osm_id": 1651533,
+     "birim": 32,
+     "sinir": 0,
+     "nokta": 28,
+     "yok": 4,
+     "nufus": 7668,
+     "bayt": 6163
+    },
+    {
+     "ad": "Posof",
+     "osm_id": 1651534,
+     "birim": 50,
+     "sinir": 0,
+     "nokta": 47,
+     "yok": 3,
+     "nufus": 5976,
+     "bayt": 9703
+    },
+    {
+     "ad": "Çıldır",
+     "osm_id": 1649770,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 35,
+     "yok": 8,
+     "nufus": 8048,
+     "bayt": 8299
+    }
+   ]
+  },
+  {
+   "kod": "76",
+   "ad": "Iğdır",
+   "ilceler": [
+    {
+     "ad": "Aralık",
+     "osm_id": 1251329,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 4,
+     "nufus": 18477,
+     "bayt": 5254
+    },
+    {
+     "ad": "Iğdır Merkez",
+     "osm_id": 1251330,
+     "birim": 66,
+     "sinir": 6,
+     "nokta": 49,
+     "yok": 11,
+     "nufus": 152455,
+     "bayt": 19196
+    },
+    {
+     "ad": "Karakoyunlu",
+     "osm_id": 1251331,
+     "birim": 21,
+     "sinir": 0,
+     "nokta": 19,
+     "yok": 2,
+     "nufus": 12614,
+     "bayt": 4240
+    },
+    {
+     "ad": "Tuzluca",
+     "osm_id": 1251328,
+     "birim": 86,
+     "sinir": 0,
+     "nokta": 85,
+     "yok": 1,
+     "nufus": 21525,
+     "bayt": 17039
+    }
+   ]
+  },
+  {
+   "kod": "77",
+   "ad": "Yalova",
+   "ilceler": [
+    {
+     "ad": "Altınova",
+     "osm_id": 1840930,
+     "birim": 21,
+     "sinir": 1,
+     "nokta": 14,
+     "yok": 6,
+     "nufus": 35490,
+     "bayt": 9022
+    },
+    {
+     "ad": "Armutlu",
+     "osm_id": 1840931,
+     "birim": 8,
+     "sinir": 6,
+     "nokta": 1,
+     "yok": 1,
+     "nufus": 11984,
+     "bayt": 9624
+    },
+    {
+     "ad": "Termal",
+     "osm_id": 1840932,
+     "birim": 4,
+     "sinir": 1,
+     "nokta": 3,
+     "yok": 0,
+     "nufus": 7497,
+     "bayt": 4988
+    },
+    {
+     "ad": "Yalova Merkez",
+     "osm_id": 1840933,
+     "birim": 27,
+     "sinir": 25,
+     "nokta": 0,
+     "yok": 2,
+     "nufus": 157901,
+     "bayt": 66209
+    },
+    {
+     "ad": "Çiftlikköy",
+     "osm_id": 1840934,
+     "birim": 17,
+     "sinir": 0,
+     "nokta": 16,
+     "yok": 1,
+     "nufus": 58589,
+     "bayt": 3581
+    },
+    {
+     "ad": "Çınarcık",
+     "osm_id": 1840935,
+     "birim": 17,
+     "sinir": 6,
+     "nokta": 1,
+     "yok": 10,
+     "nufus": 40174,
+     "bayt": 17192
+    }
+   ]
+  },
+  {
+   "kod": "78",
+   "ad": "Karabük",
+   "ilceler": [
+    {
+     "ad": "Eflani",
+     "osm_id": 1245156,
+     "birim": 60,
+     "sinir": 0,
+     "nokta": 59,
+     "yok": 1,
+     "nufus": 8663,
+     "bayt": 11825
+    },
+    {
+     "ad": "Eskipazar",
+     "osm_id": 1245155,
+     "birim": 57,
+     "sinir": 32,
+     "nokta": 25,
+     "yok": 0,
+     "nufus": 12570,
+     "bayt": 105124
+    },
+    {
+     "ad": "Karabük Merkez",
+     "osm_id": 1245154,
+     "birim": 66,
+     "sinir": 19,
+     "nokta": 46,
+     "yok": 1,
+     "nufus": 135819,
+     "bayt": 35302
+    },
+    {
+     "ad": "Ovacık",
+     "osm_id": 1245157,
+     "birim": 43,
+     "sinir": 1,
+     "nokta": 42,
+     "yok": 0,
+     "nufus": 3986,
+     "bayt": 10314
+    },
+    {
+     "ad": "Safranbolu",
+     "osm_id": 1245158,
+     "birim": 81,
+     "sinir": 0,
+     "nokta": 77,
+     "yok": 4,
+     "nufus": 69592,
+     "bayt": 16452
+    },
+    {
+     "ad": "Yenice",
+     "osm_id": 1245153,
+     "birim": 51,
+     "sinir": 0,
+     "nokta": 51,
+     "yok": 0,
+     "nufus": 18984,
+     "bayt": 10286
+    }
+   ]
+  },
+  {
+   "kod": "79",
+   "ad": "Kilis",
+   "ilceler": [
+    {
+     "ad": "Elbeyli",
+     "osm_id": 1240869,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 23,
+     "yok": 4,
+     "nufus": 5273,
+     "bayt": 5213
+    },
+    {
+     "ad": "Kilis Merkez",
+     "osm_id": 1240868,
+     "birim": 130,
+     "sinir": 78,
+     "nokta": 48,
+     "yok": 4,
+     "nufus": 135373,
+     "bayt": 93213
+    },
+    {
+     "ad": "Musabeyli",
+     "osm_id": 1240870,
+     "birim": 49,
+     "sinir": 0,
+     "nokta": 45,
+     "yok": 4,
+     "nufus": 11692,
+     "bayt": 9664
+    },
+    {
+     "ad": "Polateli",
+     "osm_id": 1240867,
+     "birim": 23,
+     "sinir": 0,
+     "nokta": 20,
+     "yok": 3,
+     "nufus": 4968,
+     "bayt": 4541
+    }
+   ]
+  },
+  {
+   "kod": "80",
+   "ad": "Osmaniye",
+   "ilceler": [
+    {
+     "ad": "Bahçe",
+     "osm_id": 1248429,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 0,
+     "nufus": 22989,
+     "bayt": 5312
+    },
+    {
+     "ad": "Düziçi",
+     "osm_id": 1248436,
+     "birim": 67,
+     "sinir": 2,
+     "nokta": 35,
+     "yok": 30,
+     "nufus": 88274,
+     "bayt": 14263
+    },
+    {
+     "ad": "Hasanbeyli",
+     "osm_id": 1248432,
+     "birim": 10,
+     "sinir": 0,
+     "nokta": 7,
+     "yok": 3,
+     "nufus": 4914,
+     "bayt": 1923
+    },
+    {
+     "ad": "Kadirli",
+     "osm_id": 1248435,
+     "birim": 80,
+     "sinir": 39,
+     "nokta": 40,
+     "yok": 1,
+     "nufus": 127644,
+     "bayt": 161724
+    },
+    {
+     "ad": "Osmaniye Merkez",
+     "osm_id": 1248433,
+     "birim": 79,
+     "sinir": 8,
+     "nokta": 66,
+     "yok": 5,
+     "nufus": 284895,
+     "bayt": 20237
+    },
+    {
+     "ad": "Sumbas",
+     "osm_id": 1248434,
+     "birim": 18,
+     "sinir": 0,
+     "nokta": 18,
+     "yok": 0,
+     "nufus": 13049,
+     "bayt": 3660
+    },
+    {
+     "ad": "Toprakkale",
+     "osm_id": 1248430,
+     "birim": 15,
+     "sinir": 4,
+     "nokta": 9,
+     "yok": 2,
+     "nufus": 22358,
+     "bayt": 6815
+    }
+   ]
+  },
+  {
+   "kod": "81",
+   "ad": "Düzce",
+   "ilceler": [
+    {
+     "ad": "Akçakoca",
+     "osm_id": 1393955,
+     "birim": 51,
+     "sinir": 1,
+     "nokta": 43,
+     "yok": 7,
+     "nufus": 41134,
+     "bayt": 10208
+    },
+    {
+     "ad": "Cumayeri",
+     "osm_id": 1393949,
+     "birim": 26,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 4,
+     "nufus": 16162,
+     "bayt": 5041
+    },
+    {
+     "ad": "Düzce Merkez",
+     "osm_id": 1393953,
+     "birim": 164,
+     "sinir": 20,
+     "nokta": 140,
+     "yok": 4,
+     "nufus": 267231,
+     "bayt": 49467
+    },
+    {
+     "ad": "Gölyaka",
+     "osm_id": 1393951,
+     "birim": 31,
+     "sinir": 0,
+     "nokta": 26,
+     "yok": 5,
+     "nufus": 20840,
+     "bayt": 6070
+    },
+    {
+     "ad": "Gümüşova",
+     "osm_id": 1393956,
+     "birim": 24,
+     "sinir": 2,
+     "nokta": 16,
+     "yok": 6,
+     "nufus": 17344,
+     "bayt": 18887
+    },
+    {
+     "ad": "Kaynaşlı",
+     "osm_id": 1393952,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 22,
+     "yok": 5,
+     "nufus": 20379,
+     "bayt": 5311
+    },
+    {
+     "ad": "Yığılca",
+     "osm_id": 1393954,
+     "birim": 43,
+     "sinir": 0,
+     "nokta": 43,
+     "yok": 0,
+     "nufus": 13492,
+     "bayt": 8722
+    },
+    {
+     "ad": "Çilimli",
+     "osm_id": 1393950,
+     "birim": 27,
+     "sinir": 0,
+     "nokta": 24,
+     "yok": 3,
+     "nufus": 19022,
+     "bayt": 5358
+    }
+   ]
+  }
+ ]
+}
