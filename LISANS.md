@@ -15,6 +15,10 @@ Ticari kullanım serbesttir. Ayrıntılar: https://www.openstreetmap.org/copyrig
 
 Kara poligonları (kıyıdan kırpma için): [osmdata.openstreetmap.de](https://osmdata.openstreetmap.de/data/land-polygons.html), © OpenStreetMap katkıcıları, ODbL 1.0.
 
+### Nüfus verisi (`nufus/`)
+
+`nufus/` altındaki nüfus göstergeleri TÜİK Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) sonuçlarından türetilmiştir. **Kaynak: TÜİK, Adrese Dayalı Nüfus Kayıt Sistemi Sonuçları, 2025.** TÜİK verileri, kaynak gösterilerek kullanılabilir ([TÜİK Veri Portalı, Yasal Uyarı](https://veriportali.tuik.gov.tr/)). Türetilmiş oranlar (yoğunluk, yaş grupları, cinsiyet oranı, artış hızı) bize aittir ve TÜİK'in resmî istatistiği değildir; yoğunlukta kullanılan alan OSM sınırından hesaplanır (ODbL). TÜİK verisi ODbL kapsamında değildir; kullanırken TÜİK'i kaynak gösterin.
+
 ## Kod
 
 `scripts/` ve `.github/` altındaki betikler MIT lisanslıdır.
